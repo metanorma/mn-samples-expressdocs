@@ -36,3 +36,9 @@ metanorma/suma change breaks real-world collection rendering, it
 breaks here first, on a 3-minute build instead of a 2-hour one.
 `expressir validate remarks` gates the source: a block anchor
 (`[[name]]`) may be defined in only one remark scope per schema.
+
+## Credits
+
+The corpus model, generators, and redaction discipline were created by
+Thomas Thurman (EXPRESS Language Foundation) — TCSC410303-2745.
+Licensed BSD 3-Clause; see [LICENSE](LICENSE).
