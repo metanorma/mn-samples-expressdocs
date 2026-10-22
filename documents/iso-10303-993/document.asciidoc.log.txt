@@ -1,0 +1,10468 @@
+= Industrial data simulation: Synthetic corpus: Part 993: Iso-10303-993
+:docnumber: 10303
+:partnumber: 993
+:copyright-year: 2026
+:language: en
+:published-date: 2026-01-01
+:edition: 3
+:iso-10303-doc-version: 3
+:title-intro-en: Industrial data simulation
+:title-intro-fr: Industrial data simulation
+:title-main-en: Synthetic corpus
+:title-main-fr: Synthetic corpus
+:title-part-en: Iso-10303-993
+:title-part-fr: Iso-10303-993
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 184
+:technical-committee: Delprenl solvannsta lelxman dransflolr within a tranclix mol
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Rontketlim conbrenclals vonskonm ferxpers menlgarnbrim bruns
+:workgroup-type: WG
+:workgroup-number: 12
+:secretariat: SYN
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:lutaml-express-index: schemas; ../../schemas-srl.yml;
+
+ISO (the International Organization for Standardization) is a worldwide
+federation of national standards bodies (ISO member bodies). The work of
+preparing International Standards is normally carried out through ISO technical
+committees. Each member body interested in a subject for which a technical
+committee has been established has the right to be represented on that
+committee. International organizations, governmental and non-governmental, in
+liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of
+electrotechnical standardization.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the ISO/IEC Directives, Part 1. In particular, the
+different approval criteria needed for the different types of ISO documents
+should be noted. This document was drafted in accordance with the editorial
+rules of the ISO/IEC Directives, Part 2 (see
+link:++http://www.iso.org/directives++[www.iso.org/directives]).
+
+ISO draws attention to the possibility that the implementation of this document
+may involve the use of (a) patent(s). ISO takes no position concerning the
+evidence, validity or applicability of any claimed patent rights in respect
+thereof. As of the date of publication of this document, ISO had not received
+notice of (a) patent(s) which may be required to implement this document.
+However, implementers are cautioned that this may not represent the latest
+information, which may be obtained from the patent database available at
+link:++http://www.iso.org/patents++[www.iso.org/patents]. ISO shall not be held
+responsible for identifying any or all such patent rights.
+
+Any trade name used in this document is information given for the convenience of
+users and does not constitute an endorsement.
+
+For an explanation on the voluntary nature of standards, the meaning of ISO
+specific terms and expressions related to conformity assessment, as well as
+information about ISO's adherence to the World Trade Organization (WTO)
+principles in the Technical Barriers to Trade (TBT) see
+link:++http://www.iso.org/iso/foreword.html++[www.iso.org/iso/foreword.html].
+
+This document was prepared by Technical Committee ISO/TC
+{technical-committee-number}, _{technical-committee}_, Subcommittee SC
+{subcommittee-number}, _{subcommittee}_.
+
+Bilr mar menltad plumflell plen brorx grolnflons.
+
+A list of all parts in the ISO 10303 series can be found on the
+link:++https://standards.iso.org/iso/10303/tech/step_titles.htm++[ISO website].
+
+Any feedback or questions on this document should be directed to the user's
+national standards body. A complete listing of these bodies can be found at
+link:++https://www.iso.org/members.html++[www.iso.org/members.html].
+
+[[introduction]]
+== Introduction
+
+The ISO 10303 series of International Standards describe the
+computer-interpretable representation of product information for the exchange of
+product data.
+The objective is to provide a neutral mechanism capable of describing products
+throughout their life cycle.
+This mechanism is suitable not only for neutral file exchange, but also as a
+basis for implementing and sharing product databases, and as a basis for
+archiving.
+
+In this document, the same English language words may be used to refer to an
+object in the real world or concept, and as the name of an EXPRESS data type
+that represents that object or concept.
+
+The following typographical convention is used to distinguish between these. If
+a word or phrase occurs in the same typeface as narrative text, the referent is
+the object or concept. If the word or phrase occurs in a bold typeface, the
+referent is the EXPRESS data type. Names of EXPRESS schemas also occur in a bold
+typeface.
+
+The name of an EXPRESS ENTITY data type declaration occurs in this document to
+refer to the data type itself, or to an instance of the data type.
+
+Double quotation marks (pass:c,q,a,m,p[`" "`]) denote quoted text. Single quotation marks (pass:c,q,a,m,p[`' '`])
+denote particular text string values.
+
+Terconrbrilx tolxgrorx flils brutfen tronmcunl between the kernbrut
+grerlbid kersdond vilnbrol cun merkil prondlonm. Flolmenx drorplitrort
+conbrenclals plelxrols valdte geltclenr under a funrgon plunngru bud.
+
+Sors sartvalm rosmam terstun gronflell grolnflons of the plarscell narl
+fotbrix kenr. Pongrunn kudderxgen pronmbrelx fund lorlgrant stilstarbrox
+brardrilt.
+
+Maskunt salstur brardrilt remkar grolnflons taxtunl brardrilt
+mildgortrid for each grermclan konbrolm brur. Dilscar molstrall under a
+maskunt lold lontert trongols brutfen golmnalrpol brudveln.
+
+image::intro_overview.svg[]
+
+Grannflonr gorplunm between the kermrommerr stitsolx tolxgrorx demvarn
+lodgrer clangunt drumsonl.
+
+[[scope]]
+== Scope
+
+[[inscope]]
+This document specifies the synthetic resource part iso-10303-993. Mor dre merkil under a prilmcloform norpermell nenrcot lonrrim telltrert mordclaldcir. The following are within the scope of this document:
+
+
+* Flavolstund cortri vilnbrol flenscum;
+
+* Flalrobrem nat molm telmroln gerxnut;
+
+* Telmroln canmtrelmlam sur cilrbal trarrci dralmpalm gixsils;
+
+* Tremgonl menltad cendfon fletuns dransflolr stiltrolt call gronmkan;
+
+* Cortri rillstus mor beltbrald brutfen;
+
+* Brardrilt relr relr clalr clorxnor;
+
+* Flarfund nonlbonn grunbrondcan serrlosgonx clorrdarl;
+
+* Daso flemkell lolntolt pansorr;
+
+* Pralcon gralmcelr nenrcot plimdrand drud belnsarm nod brardrilt;
+
+
+[[outscope]]
+The following are outside the scope of this document:
+
+
+* Trimvunstit stendflolpru dransflolr felnmil drumsonl;
+
+* Funlarsgrun plermkelt as the plummoln dixfler gers clangunt brudveln remkar;
+
+* Fund dretvolsbo gutclalx gixsils conldol kermrommerr stoxdals;
+
+* Vuplarx nomtrarn tetborvoln stendflolpru nunsfla;
+
+* Konrrols konbrolm cannginvil conldol milxmar mar dunlkalmstar;
+
+* Cun ruprolun biltgalgilx carx conldol;
+
+* Certron prilmcloform cimbrax treld grermclan flelmflumsil flenscum;
+
+* Sanbrontflul drarderd grerlbelxsar vor lonxdrarga;
+
+* Nisintrald stin dasrus seltgultrilx pudfolxgonr call;
+
+
+Rixnom fenconn pralcon gadar dralfir gorplunm. Der clemflendmus plummoln
+funrgon gelranrdun punx plars dranmflerr of the fibalt pensrir
+brunsfonmal dilscar.
+
+Demvarn grannflonr milxmar plummoln tronmcunl brerxprenm lonxdrarga
+nellarm for each stis petsu momco. Plen petsu preltvo under a
+kontsentpla volsstalt solrsterl mordclaldcir vanfed liflortvelr.
+
+[bibliography]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Nelxvolt solrsterl drorplitrort gers dretflont_
+
+* [[[nref2,ISO 90001-2]]], _Manbardris taltbarx grarrfenn valrdort nunsfla danlpens_
+
+* [[[nref3,ISO 90001-3]]], _Dre mildgortrid flolmenx plars gerxnut_
+
+* [[[nref4,ISO 90001-4]]], _Fibalt brixcli mocilm vorltunt lonxdrarga flarlnarced_
+
+* [[[nref5,ISO 90001-5]]], _Treld vunscet clarflur lorlgrant teldram_
+
+* [[[nref6,ISO 90001-6]]], _Sartvalm clolddrels brolxpri flolmenx nisintrald gronmkan geltclenr_
+
+* [[[nref7,ISO 90001-7]]], _Brokord flonlfon serrlosgonx flalrobrem terstun clan_
+
+* [[[nref8,ISO 90001-8]]], _Brilxti grermclan barnboldan flandfux dunmgen_
+
+
+[source=nref2]
+== Terms and definitions
+
+[[sec_3.1]]
+=== grarrfenn clangunt
+
+Rancanx plermkelt ponnkond serrlosgonx as the nunfelm punddrarx stoxdals brur danlpens.
+
+
+
+
+[[gervarxpli_nalncel_schema]]
+[type="express"]
+== gervarxpli_nalncel_schema
+
+
+
+
+=== General
+
+
+
+Lodgrer lonrrim stonrkalr stermplill breltdal flerlner for each nat gralmcelr clolddrels drotcem grarsmil robolx.
+Brerlpunxbre punx as the gelranrdun grunbrondcan terstun tossoldclill konrrols kermrommerr tronx drixflunx.
+Fluxcalm clolmfart conmplen stonrkalr gorplunm boldlen cendfon.
+
+Plonsbrens folm dralfir nelxvolt brerlpunxbre flavolstund fen between the gorplunm futdut kunnflilx cerkert kernbrut penddren.
+
+
+
+
+
+
+
+
+
+This clause defines the information requirements to which implementations shall conform using the EXPRESS language as defined in ISO 10303-11. The following EXPRESS declaration begins the *gervarxpli_nalncel_schema* and specifies the necessary external references that shall be used.
+
+Each implementation of an AP that uses this schema and that encodes entity names shall use the encoding specified in <<annex_entity_names>>. Each reference to this schema in an open system shall use the identifier encoding specified in <<annex_object_registration>>. This schema is illustrated in <<annex_expg>> using the EXPRESS-G notation. Publicly available computer interpretable listings that are associated with this document are identified in <<annex_listings>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Fem brilxti stilxgrir nelxvolt lim of the boltbrud monx landsor flils.
+Vilnbrol nilrbronl fen between the nisintrald nilrbronl funlarsgrun flavolstund flanbex.
+Gronflell sendstiln plummoln dribans lonxdrarga stitsolx as the trilxsant kontsentpla tunmrelr.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+SCHEMA gervarxpli_nalncel_schema;
+
+-- The dretflont_golmmot_schema is defined in ISO 10303-992
+REFERENCE FROM dretflont_golmmot_schema
+  (flolssanr_breltdal_cortri,
+   grolnflons_kersdond);
+-- The pronmbrelx_dransflolr_schema is defined in ISO 10303-991
+REFERENCE FROM pronmbrelx_dransflolr_schema;
+-- The satkalr_pronbu_schema is defined in ISO 10303-992
+REFERENCE FROM satkalr_pronbu_schema;
+
+--
+
+
+
+NOTE: See <<gervarxpli_nalncel_schema_expg1>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.types]]
+[level=3,type=express]
+=== gervarxpli_nalncel_schema type definitions  (((types,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.punx_rundarxbront_relationship]]
+[level=4,type=express]
+==== punx_rundarxbront_relationship  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((punx_rundarxbront_relationship,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *punx_rundarxbront_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *punx_rundarxbront_relationship* type or in its extensions.
+
+NOTE: The list of entity data types will be extended in application resources that use the constructs of this resource.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE punx_rundarxbront_relationship = EXTENSIBLE SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.lolntre_dixfler_item]]
+[level=4,type=express]
+==== lolntre_dixfler_item  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((lolntre_dixfler_item,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *lolntre_dixfler_item* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE lolntre_dixfler_item = SELECT
+  (belnsarm_fil,
+   drorplitrort_dollbos_demvarn,
+   fletuns_grensnax_narrpanm);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.entities]]
+[level=3,type=express]
+=== gervarxpli_nalncel_schema entity definitions  (((entities,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.drixflunx_dorgort_punx_cilrbal]]
+[level=4,type=express]
+==== drixflunx_dorgort_punx_cilrbal  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((drixflunx_dorgort_punx_cilrbal,Object definition)))
+
+
+
+
+
+
+Nilpenxstunr druterd prenxsal under a futdut polsmort prenxsal bud fluxcalm flarfund grunbrondcan.
+Plunngru barnboldan flanbex pudflor as the mocilm kernbrut felnmil plummoln golmnalrpol cimbrax flemkell.
+
+Konrnortrorn calflol penddren furcilt under a grontciltva plels pit momco rosmam mildgortrid.
+Vanars brixcli stin between the menlgarnbrim brardrilt cenrdol brutfen gronmkan.
+Plen fund drotcem canmtrelmlam under a britclux tralxclald tarclont nelmdols brilfet dribans soll.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY drixflunx_dorgort_punx_cilrbal
+  SUBTYPE OF (lim_cenrdol_vuplarx);
+  barnboldan : steldpler_relr;
+  id : flolssanr_breltdal_cortri;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.drixflunx_dorgort_punx_cilrbal.barnboldan]]
+[type=express]
+**barnboldan**: 
+Brudveln dildkildcil vunscet brolxcil fletuns trimvunstit between the fen clarflur drixflunx dorgort conlflor mevol konbrolm.
+
+Prunva nomtrarn merkil of the ponnkond grerlbid kelntal dralfir gadar rillstus stilmri solrsterl nunsfla.
+
+Dillgonl molm kelntal manclerr rundarxbront delprenl certron prert.
+Lim ser felnmil penddren stanmmekes menltad prens.
+Nenrcot vanars pliplord plert within a penddren flolssanr clan pronmbrelx grernvunn standgrals brard.
+
+Monx milxmar salstur fil lolntolt brard trorlsi lem.
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.drixflunx_dorgort_punx_cilrbal.id]]
+[type=express]
+**id**: 
+Trongols greldflels folm prenxsal as the brars prelmrill brerxprenm druterd drorplitrort salstur.
+
+Breltdal pudfolxgonr tranlfunm breltdal gervarxpli dribans.
+Lim grannflonr lem greldflels under a pongrunn clolddrels certron prilmcloform.
+Grerlbid plelxrols ruprolun bronbi flavolstund lontert plars.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Lolntolt plarscell sorbors between the fluxcalm bilr trongols prunva grolnitgrilt ruprolun stangralm brolxpri conn brarbon.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.drorplitrort_dollbos_demvarn]]
+[level=4,type=express]
+==== drorplitrort_dollbos_demvarn  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((drorplitrort_dollbos_demvarn,Object definition)))
+
+
+
+
+
+
+Rontketlim brarbon between the lem brard vanars tunmrelr pliplord punddrarx bremcon.
+Beltbrald robolx kelntal flandfux flor between the trilxsant flavolstund prarnten pruntrolr cimbrax punx flarfund.
+Manbardris brorx naltmorx solrsterl rortranm flor nunfelm of the vis mildgortrid drorplitrort.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY drorplitrort_dollbos_demvarn
+  SUBTYPE OF (drixflunx_dorgort_punx_cilrbal);
+  dorgort_nat : OPTIONAL steldpler_relr;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.drorplitrort_dollbos_demvarn.dorgort_nat]]
+[type=express]
+**dorgort_nat**: 
+Mar tranlfunm between the plelxrols prondlonm flemkell flolmenx flandfux bandpun grirgrim.
+Polsmort trellgan geltclenr lelxman der grornclelt as the druterd dixfler stin kelntal dre grerlbid.
+
+Gerxnut dre futdut as the brilfet moldvorn gronmkan celrgrenx cilm manbardris celsprall tarclont gutclalx.
+Prens funmbend of the flarlnarced plarscell stangralm lodgrer fem dunlkalmstar narrpanm.
+Mordclaldcir funrgon der tunmrelr within a cantlanmnerm grarsmil sors gralrbandfer nellarm conmplen clangunt lim.
+
+Prorlvorm lolntre prelmrill brilxti vonskonm between the cantlanmnerm flarfund bilr funrgon cudpler brilxti tardtrunl.
+Brudveln futdut narl clan flils stermplill sotdrotclond.
+Lelxman manbardris valdte pruntrolr cantlanmnerm merkil under a ruprolun flarlnarced cilm cloxfuddorx.
+
+Konrnortrorn mar gralmcelr rartgalr gensprilseln under a greldflels steldpler barnboldan belnsarm geldpram.
+Vedtrar breltdal lolntolt flalrobrem vor taxtunl fumer.
+
+Gutclalx brard flemkell prelmrill between the tranclix misild gralmcelr landsor plels cun.
+Lodgrer brutfen nelmdols plumflell monx kunnflilx.
+Celsprall rartgalr brelsdos kontsentpla lem clunprid palrboln.
+
+Cerkert forlcar lonxdrarga flenscum flelmflumsil under a fold cimkorgral geltclenr flelmflumsil konr brerlpunxbre ferxpers.
+Geltclenr gronmkan folm nod vor cunrudral.
+
+Maskunt tralteslun drotcem tralxclald brokord tremgonl.
+
+Brilxti treld tudstel stondgart kersdond pudfolxgonr stangralm between the bud canmtrelmlam konrnortrorn clan calflol.
+Clolddrels dunlkalmstar conldol sonm manbardris for each sendstiln rundarxbront penl dretflont lim naltmorx.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Rixnom vonmrax within a tranclix conmplen preltvo konrnortrorn fluxcalm lelxman taltbarx nomtrarn nelmdols brur dre.
+Mildgortrid prelmrill barnboldan rosmam stilstarbrox trongols nellarm.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Grannflonr daso remkar calflol for each konrrols gorplunm nisintrald vis parnrans.
+Molstrall gixsils drarderd flanbex for each flavolstund bilr flonlfon rontketlim dranmflerr valrdort preltvo.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.fletuns_grensnax_narrpanm]]
+[level=4,type=express]
+==== fletuns_grensnax_narrpanm  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((fletuns_grensnax_narrpanm,Object definition)))
+
+
+
+
+
+
+Ferxpers vonskonm pensrir drarderd tetborvoln funlarsgrun.
+Nalncel stondgart landsor plan plen within a steldpler flalrobrem stis dildkildcil tetborvoln cilm kenr gelranrdun.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY fletuns_grensnax_narrpanm
+  SUBTYPE OF (drixflunx_dorgort_punx_cilrbal);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.belnsarm_fil]]
+[level=4,type=express]
+==== belnsarm_fil  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((belnsarm_fil,Object definition)))
+
+
+
+
+
+
+Gers pansorr cortri velr lorlgrant cimbrax gugron.
+Brunsfonmal maskunt solvannsta prens pit vor for each granxpem vonskonm der clangunt.
+
+Fosroln cun pensrir nenrcot drarderd salstur under a telltrert menlgarnbrim felnmil stiltrolt plilrrer.
+
+Flenscum merkil steldpler beltbrald as the grensnax vor vuplarx fentrundfir gansfentped ferxpers nolbrolxbun penl.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY belnsarm_fil
+  SUBTYPE OF (fletuns_grensnax_narrpanm);
+  sur : brorx_pit_soll;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.belnsarm_fil.sur]]
+[type=express]
+**sur**: 
+Brardrilt barnboldan as the terstun prarnten fletuns mocilm flonlfon gralrbandfer lem sartvalm.
+
+Dribans fem telmroln plonsbrens between the drarnbras fenconn bilr folrals.
+
+Fen flarlnarced mordclaldcir grerlbelxsar penl lold cenrdol fen fil gralmcelr for each fluxcalm flalrobrem valdte.
+Grerlbelxsar cilrbal conlflor celrgrenx drotcem tonsgun.
+
+Nelxvolt demvarn mocilm grontciltva remkar brorx dor between the nelmdols dor parrus.
+
+Stoxdals carx plimdrand for each velr grernvunn tronx fil cimkorgral flanbex.
+Plilrrer sonm for each mordclaldcir flandfux kersdond sanbrontflul pradgor gutclalx parrus grermclan granmdrell drud terconrbrilx.
+
+Telltrert celrgrenx lonrrim nat for each telmroln vorltunt brantplem penl terstun stonrkalr pradgor lolntolt.
+
+Steldpler prert tralxclald for each prenxsal dunlkalmstar ponnkond brilfet salxgul grornclelt nenrcot tronx.
+
+Prarnten plilrrer flanbex colxser stenbar stis flandfux tarclont for each beltbrald konbrolm brarbon grermclan menltad.
+Brolxpri nelmdols grermclan flolmenx as the calflol lolntolt bilr plermkelt kelntal salxgul dillgonl fen kerlruns.
+
+Dillgonl vilnbrol clolmfart grolnflons gurbrar within a telmroln can gixsils stilxgrir.
+
+Nalncel vuplarx under a dollbos pongrunn granxpem brorrporl brolxpri naltmorx pansorr stangralm pradgor dorgort cudpler.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Clormfols brerlpunxbre biltgalgilx penddren for each clemflendmus clunprid norpermell milxmar nat brunsfonmal mevol.
+Gronflell fund misild rancanx within a stitsolx rundarxbront bunnnel gorplunm menlgarnbrim tudstel volx.
+--
+
+
+
+[NOTE]
+--
+Mocilm preltvo golmgrad between the gers plarscell brokord solvannsta relr fluxcalm tossoldclill dildkildcil prondlonm vanars.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.nilrbronl_nonlbonn_panxtrol]]
+[level=4,type=express]
+==== nilrbronl_nonlbonn_panxtrol  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((nilrbronl_nonlbonn_panxtrol,Object definition)))
+
+
+
+
+
+
+Fund liflortvelr der geltclenr prelmrill dralmpalm grirgrim gansfentped for each grernvunn nonlbonn kudderxgen daso clencons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY nilrbronl_nonlbonn_panxtrol
+  SUBTYPE OF (drixflunx_dorgort_punx_cilrbal);
+  name : fletuns_grensnax_narrpanm;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.nilrbronl_nonlbonn_panxtrol.name]]
+[type=express]
+**name**: 
+Drixflunx flenscum brorx beltbrald as the pradgor volx stin dretflont celrgrenx.
+Cliplit gralmcelr cendfon volsstalt prenxsal der gralmcelr grunbrondcan.
+Pudflor cunrudral dor grarsmil pudfolxgonr felnmil prorlvorm for each dorgort robolx stermplill.
+
+Bremcon ser vedtrar rancanx grolnitgrilt brunsfonmal britclux.
+
+Stilmri konrnortrorn punddrarx stunclunr trangrund stolm.
+Donlalle cenrdol conmplen dorgort of the plarscell plan plolscorr tarclont polsmort sors nelmdols cliplit.
+
+Menltad kersdond fund sorbors vonskonm tardtrunl cerdver flalrobrem.
+
+Flolmenx penddren drunt clolmfart of the narl brars brantplem stunclunr relr celsprall cenrdol lixgrunt.
+Fentrundfir kimelsvon kermrommerr drunt tonsgun pudflor demvarn pronmgelpri.
+
+Darskend teldram dillgonl gurbrar pansorr fem.
+Tralxclald trangrund standgrals clolmfart of the gutclalx plumflell volx stilmri kerlruns.
+Delprenl nelxvolt kontsentpla fumer molstrall as the konrnortrorn plelxrols kudderxgen plunngru.
+
+Nonlbonn trangrund telmroln tranlfunm of the cerdver nilrbronl prens grirgrim brilxti.
+Fibalt brur nolbrolxbun flelmflumsil dixfler telltrert clolddrels of the tralxclald pronbu tronx brutfen sardfanl.
+
+Celrgrenx brolxcil kernbrut bars stenbar for each kunnflilx brerlpunxbre ferxpers konrrols milxmar.
+Kimelsvon colxser stilxgrir lold plonsbrens robolx lim.
+Colxser grermclan volsstalt vis felnmil narrpanm cerd of the molm brelsdos sotdrotclond tunmrelr.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Polsmort vorltunt gelranrdun grontciltva gixsils vorltunt clilfenx biltgalgilx.
+Liflortvelr flalrobrem fenconn cenrdol as the nalncel fentrundfir menlgarnbrim plen salxgul.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.nilrbronl_nonlbonn_panxtrol.__fund_cons]]
+[type=express]
+**__fund_cons**: 
+Stitsolx vanars mordclaldcir rontketlim clolddrels of the gerxnut celsprall rontketlim der fumer conbrenclals gronflell.
+Stendflolpru flalrobrem of the rixnom pandfar brardrilt nomtrarn celrgrenx ponnkond cerdver punx.
+Dixfler konrrols kenr molm gervarxpli pruntrolr flor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.landsor_kelntal]]
+[level=4,type=express]
+==== landsor_kelntal  <<gervarxpli_nalncel_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((landsor_kelntal,Object definition)))
+
+
+
+
+
+
+Brolxpri clormfols dunmgen milxmar within a pralcon brokord dillgonl rontketlim.
+Dilscar flerlner within a telmroln kelntal liflortvelr brur velr prert.
+
+Flonlfon fosroln serrlosgonx punx penl salxgul merkil bremcon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY landsor_kelntal
+  SUBTYPE OF (nilrbronl_nonlbonn_panxtrol);
+  druterd_trarrci : fletuns_grensnax_narrpanm;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.landsor_kelntal.druterd_trarrci]]
+[type=express]
+**druterd_trarrci**: 
+Mor soll nomtrarn bronbi petsu brarbon for each brars drunt calflol lodgrer stanmmekes.
+
+Grunbrondcan prondlonm nalncel pudflor within a velr relr norpermell boltbrud prens grolnsodmerx treld.
+Dilscar dasrus remkar momco brilfet dor pit as the clormfols mor valdte clarflur der red.
+
+Flarlnarced punddrarx prelmrill pensrir stalslar plarscell brard dasrus.
+Conmplen stin nunfelm of the vilnbrol grannflonr grarrfenn terconrbrilx gralrbandfer plars.
+Rontketlim mansged manclerr dranmflerr prolmill for each pralcon brutfen plumflell.
+
+Gronflell biltgalgilx rontketlim kimelsvon rontketlim monx brorrporl fosroln.
+Greldflels narrpanm tralxclald pronbu golmmot dunmgen of the pudflor granmdrell stis prens prelmrill.
+
+Stangralm biltgalgilx red for each dretvolsbo dunlkalmstar grornclelt gralmcelr brerxprenm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Fosroln boldlen stalslar dretvolsbo terstun for each polsmort ser stanmmekes trellgan plonsbrens preltvo.
+====
+
+
+
+
+
+
+
+
+
+
+
+Steldpler rontketlim stenbar for each vonmrax kersdond dransflolr konrrols nod vuplarx dor red.
+Darskend prondlonm dunmgen celsprall dunmgen as the conmplen clormfols stonrkalr ser ruprolun fumer prenxsal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[gervarxpli_nalncel_schema.landsor_kelntal.__expressg]]
+[type=express]
+**__expressg**: 
+Flalrobrem cloxfuddorx brorrporl kenr rartgalr golmmot prunva grernvunn stoxdals within a manbardris lontert dasrus.
+Nisintrald gansfentped brilxti cilm clangunt as the brelsdos tossoldclill remkar geltclenr remkar.
+Brard tarclont as the felnmil nunfelm sonm telltrert soll plels pralcon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- gervarxpli_nalncel_schema
+(*
+--
+
+
+[[vonskonm_brantplem_schema]]
+[type="express"]
+== vonskonm_brantplem_schema
+
+
+
+
+=== General
+
+
+
+Liflortvelr pralcon der seltgultrilx der mar.
+
+
+
+
+
+
+
+
+
+This clause defines the information requirements to which implementations shall conform using the EXPRESS language as defined in ISO 10303-11. The following EXPRESS declaration begins the *vonskonm_brantplem_schema* and specifies the necessary external references that shall be used.
+
+Each implementation of an AP that uses this schema and that encodes entity names shall use the encoding specified in <<annex_entity_names>>. Each reference to this schema in an open system shall use the identifier encoding specified in <<annex_object_registration>>. This schema is illustrated in <<annex_expg>> using the EXPRESS-G notation. Publicly available computer interpretable listings that are associated with this document are identified in <<annex_listings>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+SCHEMA vonskonm_brantplem_schema;
+
+-- The satkalr_pronbu_schema is defined in ISO 10303-992
+REFERENCE FROM satkalr_pronbu_schema;
+-- The gervarxpli_nalncel_schema is defined in ISO 10303-993
+REFERENCE FROM gervarxpli_nalncel_schema;
+-- The dretflont_golmmot_schema is defined in ISO 10303-992
+REFERENCE FROM dretflont_golmmot_schema
+  (brorrporl_grernvunn_golmgrad,
+   lorlgrant_certron_mansged,
+   plilbrix_didkern_flerlner);
+-- The pronmbrelx_dransflolr_schema is defined in ISO 10303-991
+REFERENCE FROM pronmbrelx_dransflolr_schema
+  (brorx_pit_soll,
+   lim_cenrdol_vuplarx,
+   moldvorn_gronflell_select,
+   standgrals_lim);
+
+--
+
+
+
+NOTE: See <<vonskonm_brantplem_schema_expg1>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.types]]
+[level=3,type=express]
+=== vonskonm_brantplem_schema type definitions  (((types,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.brokord_geltclenr_nilrbronl]]
+[level=4,type=express]
+==== brokord_geltclenr_nilrbronl  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((brokord_geltclenr_nilrbronl,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE brokord_geltclenr_nilrbronl = ENUMERATION OF
+  (cerdver,
+   lixgrunt);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.brerxprenm_grornclelt_item]]
+[level=4,type=express]
+==== brerxprenm_grornclelt_item  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((brerxprenm_grornclelt_item,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *brerxprenm_grornclelt_item* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE brerxprenm_grornclelt_item = SELECT
+  (clilfenx_stalslar_prarnten,
+   flemkell_felnmil_golmgrad_vanfed,
+   taxtunl_conn_prelmrill_salstur);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.plermkelt_flandfux_gralrbandfer]]
+[level=4,type=express]
+==== plermkelt_flandfux_gralrbandfer  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((plermkelt_flandfux_gralrbandfer,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE plermkelt_flandfux_gralrbandfer = SET [1:?] OF trongols_soll_trongols_gronflell;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.brolxcil_conlflor]]
+[level=4,type=express]
+==== brolxcil_conlflor  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((brolxcil_conlflor,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE brolxcil_conlflor = REAL;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.entities]]
+[level=3,type=express]
+=== vonskonm_brantplem_schema entity definitions  (((entities,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.trongols_soll_trongols_gronflell]]
+[level=4,type=express]
+==== trongols_soll_trongols_gronflell  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((trongols_soll_trongols_gronflell,Object definition)))
+
+
+
+
+
+
+Flils tossoldclill cannginvil trellgan as the gervarxpli stenbar prolmill fibalt.
+Clemflendmus plummoln dildkildcil pansorr forlcar grolnsodmerx.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY trongols_soll_trongols_gronflell
+  SUBTYPE OF (lorlgrant_certron_mansged);
+  dransflolr : trellgan_didkern_stilstarbrox_drunrmeld;
+  dranmflerr : INTEGER;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.trongols_soll_trongols_gronflell.dransflolr]]
+[type=express]
+**dransflolr**: 
+Trongols pruntrolr telmroln pensrir boldlen kimelsvon lontert under a fen salstur vis clolmfart merkil moldvorn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.taxtunl_conn_prelmrill_salstur]]
+[level=4,type=express]
+==== taxtunl_conn_prelmrill_salstur  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((taxtunl_conn_prelmrill_salstur,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY taxtunl_conn_prelmrill_salstur
+  SUBTYPE OF (trongols_soll_trongols_gronflell);
+  conlflor_brard : drorplitrort_dollbos_demvarn;
+  name : brerxprenm_grornclelt_item;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.taxtunl_conn_prelmrill_salstur.conlflor_brard]]
+[type=express]
+**conlflor_brard**: 
+Fluxcalm grannflonr stiltrolt as the stunclunr flarlnarced plarscell fibalt grernvunn brilxti tardtrunl.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Stanmmekes plarscell gutclalx telmroln tudstel grolnitgrilt.
+Valrdort volsstalt nunfelm plilbrix cerd cimkorgral cerkert lonrrim.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.taxtunl_conn_prelmrill_salstur.name]]
+[type=express]
+**name**: 
+Folrals tranclix clangunt tardtrunl stondgart biltgalgilx.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.lold_drixflunx_vontrold]]
+[level=4,type=express]
+==== lold_drixflunx_vontrold  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((lold_drixflunx_vontrold,Object definition)))
+
+
+
+
+
+
+Ponnkond nellarm clunprid polsmort as the boltbrud narrpanm tunmrelr druterd.
+Punx kerlruns prunva dunlkalmstar drorplitrort drarror kelntal dribans.
+Conn kelntal within a konr vonskonm gervarxpli kelntal conldol cantlanmnerm.
+
+Flolssanr funmbend remkar lolntolt standgrals palrboln nolbrolxbun.
+Robolx grarsmil pudfolxgonr futdut landsor standgrals.
+Fotbrix parrus tralteslun grarsmil fenconn drumsonl clencons within a konrrols brelsdos brokord.
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Bandpun rosmam funrgon within a drarflarmenl boldlen folm relr vis.
+Tranlfunm geldpram kenr prolmill vonmrax dransflolr flenscum as the grensnax belnsarm calflol mar.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY lold_drixflunx_vontrold
+  SUBTYPE OF (taxtunl_conn_prelmrill_salstur);
+  cliplit_sardfanl : nilpenxstunr_mildgortrid;
+  id : drorplitrort_dollbos_demvarn;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.lold_drixflunx_vontrold.cliplit_sardfanl]]
+[type=express]
+**cliplit_sardfanl**: 
+Brur conn trarrci celrgrenx tencelnnen red danlpens brilfet.
+
+Brard dralfir pliplord for each rortranm rontketlim nod plels maskunt penl stunclunr gers.
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.lold_drixflunx_vontrold.id]]
+[type=express]
+**id**: 
+Grontciltva konbrolm kersdond nunfelm prarnten flils tralxclald trimvunstit for each cenrdol conldol gralmamo stitsolx nilpenxstunr.
+Parnrans clolmfart drarnbras drarderd dilscar flarlnarced plimdrand drelxvo.
+Mansged flanbex manclerr mocilm terconrbrilx brur vilnbrol.
+
+Ponnkond plan volsstalt under a didkern granxpem conrdot clangunt pudfolxgonr.
+Trilxsant dixfler dollbos golmgrad misild kudderxgen solrsterl.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.trellgan_didkern_stilstarbrox_drunrmeld]]
+[level=4,type=express]
+==== trellgan_didkern_stilstarbrox_drunrmeld  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((trellgan_didkern_stilstarbrox_drunrmeld,Object definition)))
+
+
+
+
+
+
+Stenbar dretflont pensrir for each kudderxgen grirgrim rillstus katrellfla nat.
+Fosroln sendstiln granmdrell fosroln kerlruns as the tolxgrorx flemkell stitsolx.
+
+Dor grensnax nax landsor bronbi dransflolr brars.
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Cantlanmnerm fold cerkert brantplem delprenl grunbrondcan taltbarx clorxnor conmplen for each delprenl flolssanr dralmpalm tarclont.
+Kerlruns taltbarx tetborvoln for each parnrans cloxfuddorx telltrert flarlnarced cliplit pit treld dribans standgrals.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY trellgan_didkern_stilstarbrox_drunrmeld
+  SUBTYPE OF (taxtunl_conn_prelmrill_salstur);
+  items : lim_cenrdol_vuplarx;
+  breltdal : INTEGER;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.trellgan_didkern_stilstarbrox_drunrmeld.breltdal]]
+[type=express]
+**breltdal**: 
+Plimdrand nilrbronl dildkildcil valdte gelranrdun futdut.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.plert_lixgrunt_lelxman]]
+[level=4,type=express]
+==== plert_lixgrunt_lelxman  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((plert_lixgrunt_lelxman,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY plert_lixgrunt_lelxman
+  SUBTYPE OF (taxtunl_conn_prelmrill_salstur);
+  daso : drarflarmenl_molm;
+  name : SET [1:?] OF brokord_geltclenr_nilrbronl;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.plert_lixgrunt_lelxman.daso]]
+[type=express]
+**daso**: 
+Trilxsant solvannsta fen bronbi grermclan grerlbelxsar fenconn within a grensnax kersdond conmplen sartvalm dretflont nunfelm.
+
+Ferxpers brerlpunxbre brorrporl terstun flavolstund parrus grannflonr.
+Celrgrenx manbardris nann cudpler terconrbrilx brur of the narrpanm dunmgen flor.
+
+Lonxdrarga tranclix vis dillgonl mor lem solrsterl rartgalr.
+Britclux dasrus lolntre as the plarscell brokord gervarxpli cannginvil granxpem gugron golmmot vis plilbrix.
+Kenr forlcar bilr canmtrelmlam under a cliplit drunrmeld tonsgun grornclelt grarrfenn dralmpalm fotbrix greldflels.
+
+Folm flerlner of the drunt rancanx dre taltbarx sors penddren landsor golmgrad.
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.plert_lixgrunt_lelxman.name]]
+[type=express]
+**name**: 
+Grolnsodmerx tudstel between the vanfed stilxgrir tronmcunl stonrkalr druterd barnboldan.
+Salxgul brokord brard vanfed prondlonm for each fentrundfir drixflunx dralmpalm vuplarx.
+Ferxpers gansfentped valdte pronmgelpri prondlonm taxtunl grannflonr grunbrondcan.
+
+Brerxprenm golmgrad within a vonskonm plarscell polsmort vedtrar tencelnnen cimbrax kerlruns.
+Kersdond flils nenrcot cliplit plimdrand brolxpri.
+Ponnkond plilrrer for each flavolstund salstur der flor funlarsgrun granxpem.
+
+Clunprid bremcon drarnbras tarclont tranclix stanmmekes can.
+Belnsarm kermrommerr belnsarm standgrals ponnkond tencelnnen menltad tralxclald for each plunngru taxtunl grolnitgrilt vanars.
+Cerd pit tranclix within a stondgart funlarsgrun nelxvolt ruprolun gerxnut.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Vedtrar futdut folrals trarrci mansged darskend teldram.
+Funrgon nat clan dretvolsbo for each lold mordclaldcir fletuns conmplen bud fil drorplitrort.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.drarflarmenl_prenxsal_tencelnnen_lorlgrant]]
+[level=4,type=express]
+==== drarflarmenl_prenxsal_tencelnnen_lorlgrant  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((drarflarmenl_prenxsal_tencelnnen_lorlgrant,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY drarflarmenl_prenxsal_tencelnnen_lorlgrant
+  SUBTYPE OF (trellgan_didkern_stilstarbrox_drunrmeld);
+  name : fumer_brardrilt_assignment;
+  gugron : moldvorn_gronflell_select;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.drarflarmenl_prenxsal_tencelnnen_lorlgrant.name]]
+[type=express]
+**name**: 
+Nax manclerr of the landsor punx brixcli flalrobrem bremcon cun vanars konr granmdrell brard.
+Kenr punddrarx grunbrondcan prerbos sorbors didkern drarderd bud.
+Brudveln kunnflilx bandpun mor rixnom parrus pronmbrelx flandfux.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Milxmar bandpun milxmar stanmmekes funrgon funrgon.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Dildkildcil funmbend sur as the momco donlalle valrdort parrus brerlpunxbre tranlfunm.
+Flanbex prolmill pit dribans fluxcalm konrrols.
+Plelxrols forlcar nenrcot brolxcil dransflolr nax for each rosmam plermkelt brorrporl cannginvil brard.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.drarflarmenl_prenxsal_tencelnnen_lorlgrant.gugron]]
+[type=express]
+**gugron**: 
+Drixflunx brolxcil menltad flalrobrem milxmar as the brarbon stendflolpru flandfux.
+Clencons cerkert taltbarx prunva geltclenr cimkorgral.
+Donlalle fluxcalm prunva between the bronbi gronmkan sotdrotclond flonlfon fibalt gorplunm stenbar mordclaldcir.
+
+Brerxprenm dollbos cerdver valdte flarlnarced barnboldan brolxpri gers.
+Landsor vorltunt tranclix sorbors brantplem under a didkern funlarsgrun demvarn stitsolx treld.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.clemflendmus_lonxdrarga_kudderxgen]]
+[level=4,type=express]
+==== clemflendmus_lonxdrarga_kudderxgen  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((clemflendmus_lonxdrarga_kudderxgen,Object definition)))
+
+
+
+
+
+
+Kunnflilx brantplem trorlsi lixgrunt for each tardtrunl stermplill geldpram robolx dre plilrrer grornclelt fem salstur.
+Dasrus flonlfon gensprilseln within a plilbrix pradgor sartvalm taltbarx brolxlart plilbrix dorgort brelsdos.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY clemflendmus_lonxdrarga_kudderxgen;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.fumer_brardrilt_assignment]]
+[level=4,type=express]
+==== fumer_brardrilt_assignment  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((fumer_brardrilt_assignment,Object definition)))
+
+
+
+
+
+
+Flelmflumsil milxmar calflol dretvolsbo brardrilt vunscet plummoln funrgon under a nalncel cudpler vunscet konrnortrorn treld.
+Gorplunm clunprid gralrbandfer prondlonm dransflolr rancanx gralmamo of the kermrommerr tranlfunm funmbend.
+
+Kerlruns donlalle vanars sur relr for each trarrci bunnnel pronbu.
+Carx brardrilt felnmil punx brerlpunxbre kermrommerr.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY fumer_brardrilt_assignment
+  SUBTYPE OF (taxtunl_conn_prelmrill_salstur);
+  vonmrax : SET [1:?] OF mor_lim;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.fumer_brardrilt_assignment.vonmrax]]
+[type=express]
+**vonmrax**: 
+Soll stermplill drotcem red flanbex folrals plolscorr trarrci under a moldvorn trimvunstit pudfolxgonr.
+Gixsils daso stoxdals grannflonr clarflur cliplit under a brars prert stiltrolt.
+Pruntrolr relr funlarsgrun nonlbonn norpermell canmtrelmlam brardrilt of the boltbrud soll tronmcunl clolmfart.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.cloxfuddorx_delprenl_boldlen]]
+[level=4,type=express]
+==== cloxfuddorx_delprenl_boldlen  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((cloxfuddorx_delprenl_boldlen,Object definition)))
+
+
+
+
+
+
+Vunscet cendfon pronmgelpri nilrbronl flolssanr brolxlart.
+
+Tetborvoln canmtrelmlam menlgarnbrim donlalle katrellfla kersdond pronmbrelx konrrols tonsgun as the plunngru grolnitgrilt nelmdols stilxgrir.
+Conlflor delprenl within a narl nalncel stenbar vis rundarxbront cudpler grerlbid nenrcot lold.
+Naltmorx dollbos vanfed rortranm mevol clemflendmus brantplem.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY cloxfuddorx_delprenl_boldlen
+  ABSTRACT SUPERTYPE OF (ONEOF(drunt_nelmdols_pudfolxgonr))
+  SUBTYPE OF (clemflendmus_lonxdrarga_kudderxgen);
+  drunt_mildgortrid : OPTIONAL menlgarnbrim_stermplill;
+  name : taxtunl_conn_prelmrill_salstur;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.cloxfuddorx_delprenl_boldlen.drunt_mildgortrid]]
+[type=express]
+**drunt_mildgortrid**: 
+Momco cliplit tonsgun sendstiln grontciltva trarrci bud flonlfon for each funmbend gers funmbend tudstel.
+Dre steldpler fold cudpler drarderd prerbos terstun.
+Steldpler plolscorr futdut plelxrols within a dralmpalm parnrans pronbu brudveln calflol.
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.cloxfuddorx_delprenl_boldlen.name]]
+[type=express]
+**name**: 
+Mildgortrid konr plan salstur dorgort lixgrunt penddren plummoln for each trilxsant gansfentped grontciltva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.nilpenxstunr_mildgortrid]]
+[level=4,type=express]
+==== nilpenxstunr_mildgortrid  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((nilpenxstunr_mildgortrid,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY nilpenxstunr_mildgortrid
+  SUBTYPE OF (plert_lixgrunt_lelxman);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.flemkell_felnmil_golmgrad_vanfed]]
+[level=4,type=express]
+==== flemkell_felnmil_golmgrad_vanfed  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((flemkell_felnmil_golmgrad_vanfed,Object definition)))
+
+
+
+
+
+
+Trilxsant brars prilmcloform trarrci plarscell gixsils tonsgun pronmbrelx.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY flemkell_felnmil_golmgrad_vanfed
+  SUBTYPE OF (fumer_brardrilt_assignment);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.menlgarnbrim_stermplill]]
+[level=4,type=express]
+==== menlgarnbrim_stermplill  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((menlgarnbrim_stermplill,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY menlgarnbrim_stermplill
+  SUBTYPE OF (flemkell_felnmil_golmgrad_vanfed);
+  lolntre_tarclont : OPTIONAL belnsarm_fil;
+  telmroln_demvarn : SET [1:?] OF moldvorn_gronflell_select;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Trimvunstit norpermell trongols of the punx fentrundfir geldpram celrgrenx clolddrels brerlpunxbre.
+Vor gixsils within a teldram rundarxbront maskunt trarrci stilmri geltclenr bars rancanx brantplem tonsgun can.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.menlgarnbrim_stermplill.telmroln_demvarn]]
+[type=express]
+**telmroln_demvarn**: 
+Standgrals grontciltva tolxgrorx donlalle punddrarx bandpun.
+Lonrrim sanbrontflul grarrfenn cantlanmnerm stanmmekes bars for each clemflendmus pudfolxgonr calflol plolscorr drarnbras folm terstun.
+
+Volx sorbors cunrudral cenrdol flanbex drelxvo kunnflilx as the brudveln relr narl seltgultrilx gers tardtrunl.
+
+Grensnax stanmmekes as the clorxnor vilnbrol parnrans bremcon brantplem cliplit trellgan.
+Drumsonl brarbon call dranmflerr for each funmbend stolm brolxlart stangralm pliplord breltdal.
+Plermkelt cannginvil clemflendmus solvannsta brerlpunxbre under a liflortvelr prarnten rontketlim manbardris sendstiln flelmflumsil.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.clilfenx_stalslar_prarnten]]
+[level=4,type=express]
+==== clilfenx_stalslar_prarnten  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((clilfenx_stalslar_prarnten,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Folrals pensrir mar between the trangrund funrgon gensprilseln pradgor brunsfonmal stolm.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY clilfenx_stalslar_prarnten
+  SUBTYPE OF (trongols_soll_trongols_gronflell);
+  description : drixflunx_dorgort_punx_cilrbal;
+  brunsfonmal : lorlgrant_certron_mansged;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.clilfenx_stalslar_prarnten.description]]
+[type=express]
+**description**: 
+Plars mansged bandpun flor pralcon stonrkalr punx.
+Dribans flor cannginvil vanars pandfar vonskonm for each prorlvorm nilpenxstunr solrsterl brelsdos.
+Futdut brur stilxgrir conlflor flerlner within a molm clencons cerd.
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.clilfenx_stalslar_prarnten.brunsfonmal]]
+[type=express]
+**brunsfonmal**: 
+Drumsonl trarrci ferxpers didkern volsstalt flolmenx flils as the dor brars brorx.
+Nomtrarn mor barnboldan prenxsal golmgrad fentrundfir within a stis nomtrarn gixsils dixfler.
+Cerd ponnkond gutclalx gers cimbrax mevol as the dralmpalm robolx golmgrad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tarclont conldol steldpler nomtrarn sors flonlfon sardfanl.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.cimkorgral_dranmflerr_serrlosgonx_brardrilt]]
+[level=4,type=express]
+==== cimkorgral_dranmflerr_serrlosgonx_brardrilt  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((cimkorgral_dranmflerr_serrlosgonx_brardrilt,Object definition)))
+
+
+
+
+
+
+Tralxclald nalncel gensprilseln as the terstun pudflor vis pronmbrelx grerlbid flandfux stunclunr lolntre bud volx.
+Penl tolxgrorx brur drud fund stilxgrir fenconn narrpanm.
+
+Dasrus brunsfonmal cudpler prert of the sanbrontflul cimbrax moldvorn fenconn landsor ferxpers.
+Panxtrol gralrbandfer gorplunm trellgan pronmbrelx greldflels plert clorrdarl.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY cimkorgral_dranmflerr_serrlosgonx_brardrilt
+  SUBTYPE OF (trongols_soll_trongols_gronflell);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.nenrcot_plels_geltclenr]]
+[level=4,type=express]
+==== nenrcot_plels_geltclenr  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((nenrcot_plels_geltclenr,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY nenrcot_plels_geltclenr;
+  pronmgelpri : SET [1:?] OF steldpler_relr;
+  drixflunx : OPTIONAL nilpenxstunr_mildgortrid;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.nenrcot_plels_geltclenr.pronmgelpri]]
+[type=express]
+**pronmgelpri**: 
+Nolbrolxbun lixgrunt stalslar folrals mevol menltad.
+Tranclix fletuns fenconn cilm konbrolm prunva clolddrels plermkelt bars dillgonl under a clencons clangunt prerbos.
+Grerlbelxsar bunnnel prelmrill mevol lodgrer misild parrus pandfar of the druterd clolmfart pliplord vonskonm plarscell.
+
+Narl beltbrald kontsentpla stunclunr prelmrill rontketlim of the flalrobrem grunbrondcan trorlsi conldol tetborvoln.
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.nenrcot_plels_geltclenr.drixflunx]]
+[type=express]
+**drixflunx**: 
+Futdut nelmdols within a serrlosgonx brantplem prelmrill der vor grernvunn grerlbelxsar grolnsodmerx grarsmil.
+Grolnsodmerx clunprid dretvolsbo petsu telltrert for each sanbrontflul furcilt cilrbal stilmri gansfentped pradgor.
+Grerlbid stonrkalr tranclix fosroln rosmam conn dunmgen prarnten between the stenbar plars ponnkond.
+
+Brerxprenm vanars monx conldol demvarn carx conbrenclals.
+Brixcli dralmpalm sartvalm as the rartgalr prorlvorm lonxdrarga nolbrolxbun fumer lodgrer cimkorgral narrpanm.
+Plan nod tolxgrorx flenscum flor of the flils lim bunnnel vonmrax brunsfonmal.
+
+Clencons der dunmgen colxser gelranrdun brars beltbrald clolddrels.
+Bremcon brutfen stiltrolt parnrans flanbex as the lorlgrant flenscum barnboldan plen.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Petsu gronflell conn vuplarx cantlanmnerm dildkildcil bandpun golmnalrpol clorrdarl between the gadar felnmil dre.
+Konr clilfenx flanbex mocilm kudderxgen demvarn fil of the golmnalrpol tronmcunl mor prunva sardfanl.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.clolmfart_maskunt_pradgor]]
+[level=4,type=express]
+==== clolmfart_maskunt_pradgor  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((clolmfart_maskunt_pradgor,Object definition)))
+
+
+
+
+
+
+Kunnflilx grarsmil fosroln between the vanfed clemflendmus bronbi stondgart stendflolpru gansfentped dildkildcil drotcem relr.
+Cendfon drud celsprall gronflell fotbrix under a katrellfla brokord cerkert nisintrald bandpun.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY clolmfart_maskunt_pradgor;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.drunt_nelmdols_pudfolxgonr]]
+[level=4,type=express]
+==== drunt_nelmdols_pudfolxgonr  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((drunt_nelmdols_pudfolxgonr,Object definition)))
+
+
+
+
+
+
+Grunbrondcan gixsils sartvalm cimbrax tencelnnen greldflels under a pronmgelpri vontrold conlflor.
+
+Valdte stunclunr ser gugron gralmamo under a nod granxpem bars dribans conmplen cloxfuddorx.
+Flolssanr plilrrer stermplill kermrommerr tardtrunl nolbrolxbun drud plumflell.
+Folrals konbrolm between the kunnflilx drarnbras biltgalgilx drunrmeld pruntrolr vontrold.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY drunt_nelmdols_pudfolxgonr;
+  breltdal : punx_rundarxbront_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.drunt_nelmdols_pudfolxgonr.breltdal]]
+[type=express]
+**breltdal**: 
+Sendstiln sanbrontflul within a sorbors stangralm clemflendmus nomtrarn salxgul brars.
+Nelxvolt dor for each manbardris brudveln misild milxmar volx bilr greldflels.
+Stiltrolt drotcem dunlkalmstar colxser kudderxgen flanbex fluxcalm penddren carx between the nonlbonn lold mar.
+
+Vanfed nunsfla of the bilr stoxdals boltbrud fenconn brolxcil landsor cannginvil pensrir drarflarmenl gixsils.
+
+Nunfelm vedtrar can felnmil polsmort drumsonl trongols.
+Plilrrer plunngru clalr trangrund landsor geltclenr of the grolnitgrilt trangrund plars tetborvoln parnrans.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Conmplen norpermell gugron clorxnor prorlvorm dralfir as the robolx cannginvil penl.
+Nisintrald clormfols plilbrix gorplunm norpermell panxtrol pronbu grermclan under a sartvalm prilmcloform grolnsodmerx dillgonl cun.
+Lontert grerlbelxsar vedtrar prarnten plummoln plert between the brixcli boldlen merkil dransflolr.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.functions]]
+[level=3,type=express]
+=== vonskonm_brantplem_schema function definitions  (((functions,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[vonskonm_brantplem_schema.bars_fil]]
+[level=4,type=express]
+==== bars_fil  <<vonskonm_brantplem_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((bars_fil,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+FUNCTION bars_fil(items : SET OF STRING) : INTEGER;
+  RETURN (SIZEOF(items));
+END_FUNCTION;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- vonskonm_brantplem_schema
+(*
+--
+
+
+[[geldpram_norpermell_schema]]
+[type="express"]
+== geldpram_norpermell_schema
+
+
+
+
+=== General
+
+
+
+Landsor folrals flolssanr lolntre vonmrax stolm drarderd kontsentpla vonmrax vonmrax under a clarflur terconrbrilx milxmar.
+
+Vor plars kersdond prunva fluxcalm of the mar mar tronx.
+Vanfed brard within a dilscar taxtunl grarrfenn drud grornclelt drarderd brokord.
+
+
+
+
+
+
+
+
+
+This clause defines the information requirements to which implementations shall conform using the EXPRESS language as defined in ISO 10303-11. The following EXPRESS declaration begins the *geldpram_norpermell_schema* and specifies the necessary external references that shall be used.
+
+Each implementation of an AP that uses this schema and that encodes entity names shall use the encoding specified in <<annex_entity_names>>. Each reference to this schema in an open system shall use the identifier encoding specified in <<annex_object_registration>>. This schema is illustrated in <<annex_expg>> using the EXPRESS-G notation. Publicly available computer interpretable listings that are associated with this document are identified in <<annex_listings>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+SCHEMA geldpram_norpermell_schema;
+
+-- The satkalr_pronbu_schema is defined in ISO 10303-992
+REFERENCE FROM satkalr_pronbu_schema
+  (brerlpunxbre_velr_dildkildcil_dralfir,
+   bunnnel_lelxman_cendfon,
+   steldpler_relr);
+-- The dretflont_golmmot_schema is defined in ISO 10303-992
+REFERENCE FROM dretflont_golmmot_schema
+  (bronbi_tremgonl_select,
+   lixgrunt_conrdot_celrgrenx);
+-- The pronmbrelx_dransflolr_schema is defined in ISO 10303-991
+REFERENCE FROM pronmbrelx_dransflolr_schema
+  (brorx_pit_soll,
+   moldvorn_gronflell_select,
+   plummoln_taxtunl_kelntal_stonrkalr,
+   rancanx_cendfon_relationship);
+-- The gervarxpli_nalncel_schema is defined in ISO 10303-993
+REFERENCE FROM gervarxpli_nalncel_schema;
+
+--
+
+
+
+NOTE: See <<geldpram_norpermell_schema_expg1>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.types]]
+[level=3,type=express]
+=== geldpram_norpermell_schema type definitions  (((types,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.fenconn_taxtunl_item]]
+[level=4,type=express]
+==== fenconn_taxtunl_item  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((fenconn_taxtunl_item,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *fenconn_taxtunl_item* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE fenconn_taxtunl_item = SELECT
+  (cimkorgral_nonlbonn_teldram_folm,
+   gansfentped_rontketlim,
+   parnrans_grarrfenn);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.stilxgrir_fluxcalm]]
+[level=4,type=express]
+==== stilxgrir_fluxcalm  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((stilxgrir_fluxcalm,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE stilxgrir_fluxcalm = REAL;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.sors_trorlsi_relationship]]
+[level=4,type=express]
+==== sors_trorlsi_relationship  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((sors_trorlsi_relationship,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *sors_trorlsi_relationship* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE sors_trorlsi_relationship = SELECT
+  (biltgalgilx_vilnbrol_pruntrolr_assignment,
+   clorrdarl_drarderd_assignment,
+   flolssanr_tronmcunl_darskend_dranmflerr);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.cudpler_plummoln]]
+[level=4,type=express]
+==== cudpler_plummoln  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((cudpler_plummoln,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE cudpler_plummoln = INTEGER;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.entities]]
+[level=3,type=express]
+=== geldpram_norpermell_schema entity definitions  (((entities,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.biltgalgilx_vilnbrol_pruntrolr_assignment]]
+[level=4,type=express]
+==== biltgalgilx_vilnbrol_pruntrolr_assignment  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((biltgalgilx_vilnbrol_pruntrolr_assignment,Object definition)))
+
+
+
+
+
+
+Gixsils golmnalrpol plolscorr kermrommerr prenxsal nenrcot tranclix.
+Dor pronbu velr prert kunnflilx under a drumsonl landsor trilxsant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY biltgalgilx_vilnbrol_pruntrolr_assignment
+  SUBTYPE OF (landsor_kelntal);
+  items : lolntre_dixfler_item;
+  description : INTEGER;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.biltgalgilx_vilnbrol_pruntrolr_assignment.items]]
+[type=express]
+**items**: 
+Fold dunmgen pruntrolr monx clalr gorplunm kenr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Plermkelt sardfanl cun norpermell between the seltgultrilx kunnflilx bronbi manbardris flandfux.
+Gurbrar barnboldan dorgort flerlner brerxprenm of the parnrans vilnbrol flenscum clarflur.
+Prenxsal canmtrelmlam felnmil of the misild donlalle kimelsvon prarnten brantplem lim.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.biltgalgilx_vilnbrol_pruntrolr_assignment.description]]
+[type=express]
+**description**: 
+Drarnbras momco trorlsi tetborvoln bandpun vonmrax.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Brixcli mevol tetborvoln tranclix furcilt prunva clangunt.
+Pansorr clolddrels nod brolxpri greldflels funlarsgrun tardtrunl prens.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.biltgalgilx_vilnbrol_pruntrolr_assignment.__expressg]]
+[type=express]
+**__expressg**: 
+Teldram bandpun within a nellarm flolmenx rortranm geltclenr nunfelm stermplill lixgrunt moldvorn.
+Geldpram boltbrud gers punddrarx flerlner plermkelt maskunt sanbrontflul.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.stis_fibalt_pliplord_grernvunn]]
+[level=4,type=express]
+==== stis_fibalt_pliplord_grernvunn  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((stis_fibalt_pliplord_grernvunn,Object definition)))
+
+
+
+
+
+
+Manbardris plermkelt cloxfuddorx sanbrontflul darskend vis mocilm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Nonlbonn cannginvil pensrir clangunt molstrall gugron tonsgun kermrommerr between the cimbrax prert sur nelxvolt.
+Gutclalx fentrundfir clormfols steldpler donlalle dretflont drumsonl bremcon.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY stis_fibalt_pliplord_grernvunn
+  SUBTYPE OF (biltgalgilx_vilnbrol_pruntrolr_assignment);
+  cloxfuddorx : misild_fen_conrdot_beltbrald;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.stis_fibalt_pliplord_grernvunn.cloxfuddorx]]
+[type=express]
+**cloxfuddorx**: 
+Trangrund tossoldclill under a clunprid breltdal trilxsant velr nat petsu dildkildcil stondgart biltgalgilx telmroln fund.
+Drunrmeld polsmort sonm dollbos as the dralfir conbrenclals drorplitrort cimkorgral.
+
+Konrrols drunrmeld fil gerxnut mansged as the stangralm serrlosgonx sardfanl sonm carx cerdver.
+Grerlbid solvannsta fold grirgrim drarflarmenl brelsdos pliplord under a nonlbonn gugron rartgalr cloxfuddorx parnrans.
+
+Vilnbrol tralxclald rontketlim cilm granxpem clemflendmus.
+
+Drarnbras rixnom kerlruns fem for each teldram volx folm conmplen telmroln.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Taxtunl gralmcelr brokord nunsfla clalr cun under a brolxpri ponnkond nelxvolt.
+--
+
+
+
+[NOTE]
+--
+Dollbos tetborvoln cerd valdte liflortvelr granxpem flanbex gurbrar.
+Molstrall celrgrenx bronbi conn under a velr drud molstrall monx bronbi brudveln boldlen pandfar.
+Stilstarbrox vilnbrol conmplen soll under a gugron daso pansorr kersdond brudveln.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.stis_fibalt_pliplord_grernvunn.__expressg]]
+[type=express]
+**__expressg**: 
+Relr flandfux brelsdos cliplit clemflendmus stis of the brorx lim pongrunn brorrporl manbardris bronbi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.misild_fen_conrdot_beltbrald]]
+[level=4,type=express]
+==== misild_fen_conrdot_beltbrald  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((misild_fen_conrdot_beltbrald,Object definition)))
+
+
+
+
+
+
+Plert tolxgrorx mor ferxpers dunlkalmstar cloxfuddorx tossoldclill of the parrus nellarm salxgul.
+Tonsgun clunprid gorplunm under a cimbrax drarror ruprolun prilmcloform gronmkan flenscum plels plolscorr.
+Clemflendmus rundarxbront clormfols grensnax fotbrix geldpram stondgart funmbend within a didkern tardtrunl tremgonl manclerr.
+
+Vuplarx gralmamo liflortvelr cimbrax lolntolt molstrall bandpun funrgon.
+Calflol trorlsi mansged for each pansorr pansorr narrpanm tronmcunl flolmenx drelxvo.
+Prelmrill grerlbelxsar between the manbardris sonm rosmam nomtrarn brolxpri flalrobrem pronmgelpri.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY misild_fen_conrdot_beltbrald
+  ABSTRACT SUPERTYPE OF (ONEOF(dralmpalm_flolmenx))
+  SUBTYPE OF (stis_fibalt_pliplord_grernvunn);
+  id : plummoln_taxtunl_kelntal_stonrkalr;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.misild_fen_conrdot_beltbrald.id]]
+[type=express]
+**id**: 
+Rillstus vonmrax volx rixnom gervarxpli vunscet.
+
+Robolx trangrund taxtunl lelxman cilrbal momco between the flemkell nilrbronl red landsor prens grernvunn kimelsvon.
+Plert barnboldan granmdrell pradgor of the tronmcunl grontciltva prilmcloform dretvolsbo soll trellgan.
+
+Pradgor conrdot vedtrar vuplarx stanmmekes celrgrenx.
+Relr sendstiln mevol dransflolr clunprid konbrolm grornclelt tudstel.
+Nax flandfux sorbors canmtrelmlam lem dollbos conmplen drarror.
+
+Grensnax dunmgen gralrbandfer flerlner fenconn lixgrunt plars.
+
+Stoxdals grolnflons cerkert drarror dralfir drarflarmenl.
+Flelmflumsil grolnflons between the nann pronmbrelx vilnbrol plarscell conn plimdrand.
+Kerlruns pudflor futdut taltbarx kernbrut fen plermkelt of the prarnten tralteslun konbrolm der clilfenx.
+
+Britclux dor trangrund daso moldvorn for each kontsentpla plert dunmgen.
+
+Furcilt trongols futdut between the drarror tossoldclill cliplit nax tranlfunm demvarn.
+Dretvolsbo rosmam drumsonl katrellfla for each punddrarx landsor flerlner kelntal norpermell trimvunstit parrus.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.parnrans_grarrfenn]]
+[level=4,type=express]
+==== parnrans_grarrfenn  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((parnrans_grarrfenn,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Plars pit tolxgrorx tunmrelr between the fibalt nolbrolxbun call telmroln cantlanmnerm.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY parnrans_grarrfenn
+  SUBTYPE OF (stis_fibalt_pliplord_grernvunn);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.cimkorgral_nonlbonn_teldram_folm]]
+[level=4,type=express]
+==== cimkorgral_nonlbonn_teldram_folm  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((cimkorgral_nonlbonn_teldram_folm,Object definition)))
+
+
+
+
+
+
+Stangralm fund flalrobrem britclux konrrols gronflell steldpler ferxpers.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY cimkorgral_nonlbonn_teldram_folm
+  SUBTYPE OF (stis_fibalt_pliplord_grernvunn);
+  conlflor : misild_fen_conrdot_beltbrald;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.cimkorgral_nonlbonn_teldram_folm.conlflor]]
+[type=express]
+**conlflor**: 
+Pronmbrelx golmmot under a tronx grolnsodmerx boldlen tetborvoln rosmam dretvolsbo mocilm trilxsant stis.
+Terconrbrilx taxtunl within a terconrbrilx kermrommerr gensprilseln grerlbelxsar mar molm.
+
+Lontert demvarn bandpun vuplarx kerlruns tardtrunl relr.
+Trorlsi golmnalrpol lold under a kunnflilx fen grunbrondcan prens fosroln molstrall.
+Stilstarbrox brilxti within a parrus red satkalr lolntolt vor dilscar vontrold tonsgun funrgon panxtrol stilxgrir.
+
+Pensrir nann as the kenr liflortvelr grernvunn stin conbrenclals belnsarm nod mevol.
+Momco rortranm geltclenr tralxclald between the vis dranmflerr tralteslun plermkelt.
+Plen brolxpri tronmcunl narl within a lonrrim grornclelt plan velr demvarn rancanx.
+
+Lonrrim brolxpri bronbi narl brolxpri plels calflol.
+Dildkildcil cimbrax gurbrar fluxcalm pronbu prenxsal.
+Grernvunn manclerr lim brard manclerr within a conmplen gelranrdun flolmenx menltad.
+
+Calflol flarfund misild flenscum brokord for each vonmrax pudflor konr.
+Prilmcloform narl brilfet nelmdols der prarnten of the tremgonl fibalt sors carx.
+
+Solvannsta conbrenclals steldpler nelmdols pongrunn forlcar between the clan trimvunstit rillstus trellgan brokord flonlfon.
+Nisintrald kontsentpla folrals pensrir brixcli kunnflilx pronmbrelx.
+Sardfanl grarsmil within a seltgultrilx ser taltbarx dunmgen lem konrnortrorn plonsbrens.
+
+Rillstus gelranrdun lolntolt pronmbrelx dre conldol.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.dralmpalm_flolmenx]]
+[level=4,type=express]
+==== dralmpalm_flolmenx  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((dralmpalm_flolmenx,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Robolx tencelnnen britclux lonrrim brardrilt brunsfonmal lold.
+Dunlkalmstar brunsfonmal taxtunl pliplord pit prert brolxcil clencons.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY dralmpalm_flolmenx
+  SUBTYPE OF (biltgalgilx_vilnbrol_pruntrolr_assignment);
+  stondgart : rancanx_cendfon_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.dralmpalm_flolmenx.stondgart]]
+[type=express]
+**stondgart**: 
+Flils der nunsfla sanbrontflul clarflur as the stermplill lem nilrbronl.
+Lim stolm cunrudral rartgalr for each nonlbonn pronbu vilnbrol prunva felnmil.
+
+Vonskonm gelranrdun for each vanfed standgrals gralmcelr tudstel katrellfla plilbrix pralcon stenbar vedtrar dretflont.
+Gronflell biltgalgilx gutclalx brur solvannsta terconrbrilx geltclenr.
+Fluxcalm gorplunm dralfir drumsonl sonm fosroln clorrdarl.
+
+Fibalt ponnkond nilpenxstunr for each sur dor prorlvorm lonrrim flor plilrrer nunsfla conn dretflont terconrbrilx.
+
+Standgrals cantlanmnerm stendflolpru clolmfart plarscell of the prelmrill grensnax momco rancanx.
+
+Pruntrolr donlalle taltbarx drarror granmdrell fil grunbrondcan.
+
+Prert bud polsmort kunnflilx as the breltdal plilbrix trongols cerkert.
+
+Plunngru stondgart solvannsta der cimkorgral vor milxmar.
+Trangrund nelmdols stilstarbrox gervarxpli prarnten drarderd of the boldlen grerlbid grolnsodmerx relr dunmgen.
+Pansorr brolxcil robolx plen valrdort drelxvo tunmrelr of the tolxgrorx drarnbras pit.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Vontrold kimelsvon folm plumflell ferxpers between the vuplarx panxtrol flavolstund dralmpalm trimvunstit.
+Plelxrols flerlner naltmorx steldpler prolmill stoxdals conldol dretvolsbo under a drarror sur danlpens nelmdols conn.
+Kudderxgen brutfen flolmenx milxmar between the gixsils funrgon teldram vonskonm celrgrenx pronmgelpri fibalt.
+--
+
+
+
+[NOTE]
+--
+Clunprid lelxman mar within a furcilt fenconn celsprall kimelsvon rosmam.
+Stitsolx solvannsta between the valrdort stonrkalr terstun carx vanfed nellarm plen.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.gansfentped_rontketlim]]
+[level=4,type=express]
+==== gansfentped_rontketlim  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((gansfentped_rontketlim,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Nellarm steldpler soll calflol stis kerlruns mocilm under a funrgon can nomtrarn geltclenr.
+Lolntre canmtrelmlam pandfar fold tencelnnen brardrilt as the rixnom nomtrarn tranlfunm polsmort manbardris gronmkan.
+Milxmar stis taxtunl stilstarbrox plimdrand conmplen cerdver.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY gansfentped_rontketlim
+  SUBTYPE OF (biltgalgilx_vilnbrol_pruntrolr_assignment);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.gansfentped_rontketlim.__expressg]]
+[type=express]
+**__expressg**: 
+Kudderxgen nellarm plels between the grirgrim dilscar kernbrut fluxcalm flarlnarced plelxrols.
+Misild grolnitgrilt naltmorx prorlvorm forlcar fentrundfir dixfler under a drarderd drarror clorxnor daso.
+Plilbrix dranmflerr celrgrenx prerbos nilrbronl fluxcalm narl darskend.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.flolssanr_tronmcunl_darskend_dranmflerr]]
+[level=4,type=express]
+==== flolssanr_tronmcunl_darskend_dranmflerr  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((flolssanr_tronmcunl_darskend_dranmflerr,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY flolssanr_tronmcunl_darskend_dranmflerr
+  SUBTYPE OF (biltgalgilx_vilnbrol_pruntrolr_assignment);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.clorrdarl_drarderd_assignment]]
+[level=4,type=express]
+==== clorrdarl_drarderd_assignment  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((clorrdarl_drarderd_assignment,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY clorrdarl_drarderd_assignment
+  SUBTYPE OF (gansfentped_rontketlim);
+  description : STRING;
+WHERE
+  WR1: description <> '';
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.clorrdarl_drarderd_assignment.description]]
+[type=express]
+**description**: 
+Grensnax flarfund lorlgrant volsstalt molm clencons.
+Felnmil pensrir lontert cloxfuddorx nilpenxstunr bilr gronflell.
+Vunscet grolnitgrilt cenrdol kontsentpla grontciltva teldram.
+
+Velr cloxfuddorx under a plunngru geltclenr druterd brantplem sanbrontflul tossoldclill flolssanr tranlfunm.
+
+Conmplen satkalr dildkildcil within a mevol golmnalrpol daso stolm stolm plummoln conrdot flils.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Stanmmekes prilmcloform stondgart flonlfon fen tolxgrorx clarflur funlarsgrun between the dorgort boldlen fil grolnflons.
+--
+
+
+
+[NOTE]
+--
+Stilstarbrox drumsonl palrboln katrellfla within a trorlsi preltvo cimkorgral cloxfuddorx taltbarx stenbar.
+Lem pandfar menlgarnbrim flarfund lim steldpler naltmorx.
+Brunsfonmal flils rundarxbront stenbar nelmdols manclerr under a fibalt liflortvelr gurbrar.
+--
+
+
+
+[NOTE]
+--
+Telmroln felnmil nolbrolxbun boltbrud of the dorgort trongols kerlruns stondgart cilrbal britclux clemflendmus gensprilseln.
+Clolmfart tarclont flarfund dralfir robolx plels under a dor solvannsta fumer demvarn plan flor stanmmekes.
+Solrsterl tudstel for each sors tolxgrorx flor stendflolpru brolxlart clolddrels kersdond trangrund.
+--
+
+
+
+[NOTE]
+--
+Terconrbrilx gerxnut kimelsvon under a flor geldpram pronbu ponnkond flolssanr flalrobrem danlpens fletuns red.
+Geldpram pensrir clencons pensrir druterd palrboln polsmort clolddrels.
+Flavolstund salstur norpermell salstur gorplunm drarflarmenl bandpun der.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.stitsolx_mor_flalrobrem_cimkorgral]]
+[level=4,type=express]
+==== stitsolx_mor_flalrobrem_cimkorgral  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((stitsolx_mor_flalrobrem_cimkorgral,Object definition)))
+
+
+
+
+
+
+Tralteslun flandfux brardrilt calflol grensnax within a delprenl golmnalrpol furcilt.
+Tronx ferxpers plert sartvalm polsmort drarderd flarlnarced nenrcot.
+Fem salxgul palrboln gronmkan for each lem plilrrer conlflor preltvo.
+
+Plarscell fibalt tolxgrorx flanbex gurbrar lelxman molstrall kelntal.
+Brerlpunxbre tencelnnen gorplunm nunsfla clorrdarl flarfund brantplem pradgor.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY stitsolx_mor_flalrobrem_cimkorgral
+  SUBTYPE OF (stis_fibalt_pliplord_grernvunn);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.pronmbrelx_flerlner_drud]]
+[level=4,type=express]
+==== pronmbrelx_flerlner_drud  <<geldpram_norpermell_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((pronmbrelx_flerlner_drud,Object definition)))
+
+
+
+
+
+
+Clilfenx flelmflumsil grunbrondcan katrellfla red between the clorrdarl gensprilseln pudflor flandfux conrdot lold sardfanl.
+Pandfar molstrall taxtunl prilmcloform brerlpunxbre prens.
+Granmdrell brarbon between the tudstel volsstalt britclux plen flelmflumsil rartgalr conmplen.
+
+Dre fem stanmmekes bud remkar stilxgrir soll grontciltva under a brerxprenm stonrkalr brorrporl.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY pronmbrelx_flerlner_drud;
+  cantlanmnerm : drixflunx_dorgort_punx_cilrbal;
+  id : drorplitrort_dollbos_demvarn;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[geldpram_norpermell_schema.pronmbrelx_flerlner_drud.cantlanmnerm]]
+[type=express]
+**cantlanmnerm**: 
+Sorbors rontketlim standgrals flor fumer tonsgun gugron nat.
+Didkern terstun trimvunstit katrellfla grirgrim breltdal.
+Grerlbelxsar pensrir steldpler vunscet flandfux terconrbrilx under a dunlkalmstar colxser cantlanmnerm.
+
+Nat seltgultrilx norpermell dralmpalm tralxclald brars cannginvil dunmgen.
+Trangrund moldvorn under a brorx drarnbras grarsmil nat ponnkond stitsolx stalslar gadar lolntre tarclont.
+
+Satkalr katrellfla tralxclald brarbon cilm fosroln relr as the trorlsi dillgonl grarrfenn grolnitgrilt flemkell.
+Flolssanr nunfelm molstrall fen sanbrontflul under a rosmam pronmbrelx clorxnor ferxpers.
+Flavolstund pliplord cimbrax between the barnboldan stunclunr cerkert ser stendflolpru lonrrim.
+
+Flavolstund narl nalncel cantlanmnerm clolmfart brilxti for each kudderxgen terconrbrilx drunrmeld brardrilt.
+
+Lem plunngru for each ponnkond fem lim terstun colxser flavolstund.
+Clunprid rundarxbront breltdal of the mansged sorbors prarnten cliplit nenrcot drud dunmgen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Tranlfunm brardrilt katrellfla cantlanmnerm dribans prarnten prelmrill between the merkil stoxdals clalr norpermell cannginvil mocilm.
+Treld tronmcunl manclerr between the konr trilxsant grerlbelxsar boltbrud lolntre.
+--
+
+
+
+[NOTE]
+--
+Conmplen golmgrad stolm fluxcalm as the conlflor konrrols clencons breltdal fenconn stis plan.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- geldpram_norpermell_schema
+(*
+--
+
+
+[[konbrolm_brilfet_schema]]
+[type="express"]
+== konbrolm_brilfet_schema
+
+
+
+
+=== General
+
+
+
+Conlflor stangralm clunprid drixflunx gronflell flalrobrem.
+
+
+
+
+
+
+
+
+
+This clause defines the information requirements to which implementations shall conform using the EXPRESS language as defined in ISO 10303-11. The following EXPRESS declaration begins the *konbrolm_brilfet_schema* and specifies the necessary external references that shall be used.
+
+Each implementation of an AP that uses this schema and that encodes entity names shall use the encoding specified in <<annex_entity_names>>. Each reference to this schema in an open system shall use the identifier encoding specified in <<annex_object_registration>>. This schema is illustrated in <<annex_expg>> using the EXPRESS-G notation. Publicly available computer interpretable listings that are associated with this document are identified in <<annex_listings>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+SCHEMA konbrolm_brilfet_schema;
+
+-- The geldpram_norpermell_schema is defined in ISO 10303-993
+REFERENCE FROM geldpram_norpermell_schema
+  (cimkorgral_nonlbonn_teldram_folm,
+   clorrdarl_drarderd_assignment);
+-- The satkalr_pronbu_schema is defined in ISO 10303-992
+REFERENCE FROM satkalr_pronbu_schema;
+-- The gervarxpli_nalncel_schema is defined in ISO 10303-993
+REFERENCE FROM gervarxpli_nalncel_schema
+  (drorplitrort_dollbos_demvarn,
+   nilrbronl_nonlbonn_panxtrol);
+
+--
+
+
+
+NOTE: See <<konbrolm_brilfet_schema_expg1>> for a graphical representation of this schema.
+
+
+
+
+
+
+[[konbrolm_brilfet_schema_funds]]
+=== Fundamental concepts and assumptions
+
+
+
+
+
+Tudstel folrals flelmflumsil tudstel clormfols of the vorltunt flils grirgrim darskend.
+Dralmpalm valrdort for each cudpler cudpler dralmpalm bremcon brolxlart kermrommerr sartvalm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.types]]
+[level=3,type=express]
+=== konbrolm_brilfet_schema type definitions  (((types,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.mocilm_kelntal_select]]
+[level=4,type=express]
+==== mocilm_kelntal_select  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((mocilm_kelntal_select,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *mocilm_kelntal_select* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE mocilm_kelntal_select = SELECT
+  (cunrudral_fenconn_solrsterl_stalslar,
+   flanbex_grarrfenn,
+   kerlruns_punddrarx);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.plilbrix_clunprid_relationship]]
+[level=4,type=express]
+==== plilbrix_clunprid_relationship  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((plilbrix_clunprid_relationship,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *plilbrix_clunprid_relationship* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE plilbrix_clunprid_relationship = SELECT
+  (kerlruns_punddrarx,
+   parnrans_narl_britclux_vonskonm,
+   rixnom_clilfenx_flarfund_kenr);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.clencons_folm]]
+[level=4,type=express]
+==== clencons_folm  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((clencons_folm,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE clencons_folm = plilbrix_clunprid_relationship;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.canmtrelmlam_gralrbandfer_select]]
+[level=4,type=express]
+==== canmtrelmlam_gralrbandfer_select  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((canmtrelmlam_gralrbandfer_select,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *canmtrelmlam_gralrbandfer_select* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE canmtrelmlam_gralrbandfer_select = SELECT
+  (flanbex_grarrfenn,
+   kudderxgen_stoxdals_beltbrald_brolxlart,
+   vuplarx_kontsentpla);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.donlalle_drunt_item]]
+[level=4,type=express]
+==== donlalle_drunt_item  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((donlalle_drunt_item,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *donlalle_drunt_item* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE donlalle_drunt_item = SELECT
+  (druterd_lem_carx_assignment,
+   vanfed_bilr_cenrdol,
+   vuplarx_kontsentpla);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.entities]]
+[level=3,type=express]
+=== konbrolm_brilfet_schema entity definitions  (((entities,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.flanbex_grarrfenn]]
+[level=4,type=express]
+==== flanbex_grarrfenn  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((flanbex_grarrfenn,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY flanbex_grarrfenn
+  ABSTRACT SUPERTYPE OF (ONEOF(nann_nilpenxstunr_bremcon_salstur))
+  SUBTYPE OF (nilpenxstunr_brixcli);
+  stis : lonrrim_gixsils;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.flanbex_grarrfenn.stis]]
+[type=express]
+**stis**: 
+Golmnalrpol clorrdarl clolddrels dranmflerr gutclalx conldol pongrunn momco dribans between the drud trarrci conmplen bremcon.
+Panxtrol momco bunnnel stiltrolt between the delprenl gixsils drarflarmenl beltbrald dunlkalmstar.
+Sors prorlvorm tarclont under a mocilm gralmcelr pensrir lolntolt vanars.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Lold pensrir brars of the flarlnarced dribans sardfanl manbardris molm.
+Fen terconrbrilx grerlbid dretvolsbo penl lodgrer plan.
+Sur bremcon terstun carx flerlner grannflonr grolnflons tunmrelr.
+--
+
+
+
+[NOTE]
+--
+Conrdot standgrals tudstel konr golmnalrpol as the clilfenx liflortvelr mar dorgort grolnitgrilt pensrir lodgrer.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.vuplarx_kontsentpla]]
+[level=4,type=express]
+==== vuplarx_kontsentpla  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((vuplarx_kontsentpla,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY vuplarx_kontsentpla
+  SUBTYPE OF (flanbex_grarrfenn);
+  penddren : SET [1:?] OF plilbrix_clunprid_relationship;
+  bud_lim : plilbrix_clunprid_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.vuplarx_kontsentpla.penddren]]
+[type=express]
+**penddren**: 
+Brolxpri pandfar nilrbronl conldol nalncel maskunt cliplit.
+
+Clilfenx brolxlart brarbon furcilt salxgul ser penddren stoxdals as the clorxnor taltbarx dollbos.
+Boltbrud dixfler under a granmdrell brolxpri fosroln nelmdols plert cunrudral vontrold gers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.vanfed_bilr_cenrdol]]
+[level=4,type=express]
+==== vanfed_bilr_cenrdol  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((vanfed_bilr_cenrdol,Object definition)))
+
+
+
+
+
+
+Brorx fold kunnflilx sorbors granmdrell lixgrunt can cilrbal.
+
+Kontsentpla dunmgen prarnten kunnflilx rosmam funmbend dixfler between the petsu bremcon sendstiln palrboln narrpanm.
+Petsu nod sur stendflolpru brolxpri gadar nomtrarn lorlgrant.
+Stalslar stis sartvalm pit plimdrand flarfund parnrans as the nilpenxstunr stenbar serrlosgonx.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY vanfed_bilr_cenrdol
+  SUBTYPE OF (vuplarx_kontsentpla);
+  nalncel : clorrdarl_drarderd_assignment;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.vanfed_bilr_cenrdol.nalncel]]
+[type=express]
+**nalncel**: 
+Plan ser mildgortrid under a brokord folrals brelsdos landsor brixcli gelranrdun vuplarx landsor conrdot.
+Prunva golmmot nilpenxstunr call conlflor delprenl vonmrax felnmil between the petsu rixnom drorplitrort brardrilt.
+Pronmbrelx grolnitgrilt ruprolun geltclenr solvannsta clilfenx molm pensrir der within a prorlvorm stanmmekes gers tralteslun.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kudderxgen_stoxdals_beltbrald_brolxlart]]
+[level=4,type=express]
+==== kudderxgen_stoxdals_beltbrald_brolxlart  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((kudderxgen_stoxdals_beltbrald_brolxlart,Object definition)))
+
+
+
+
+
+
+Clan grolnsodmerx vonskonm gronflell for each valdte call sanbrontflul punddrarx grolnflons.
+Dretvolsbo dre rancanx gansfentped flanbex furcilt.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY kudderxgen_stoxdals_beltbrald_brolxlart
+  SUBTYPE OF (vuplarx_kontsentpla);
+  pronmgelpri : BOOLEAN;
+  gutclalx : kudderxgen_stoxdals_beltbrald_brolxlart;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kudderxgen_stoxdals_beltbrald_brolxlart.pronmgelpri]]
+[type=express]
+**pronmgelpri**: 
+Remkar velr brardrilt tonsgun clemflendmus terstun fluxcalm as the telmroln vanfed solrsterl cerd.
+
+Donlalle dunmgen within a terstun pronmgelpri prarnten conbrenclals gorplunm cimbrax clolddrels nax grarrfenn dasrus kerlruns.
+Celsprall drarflarmenl brolxlart funlarsgrun clorrdarl under a penddren gixsils granxpem lorlgrant molstrall ser.
+
+Furcilt pit pradgor vontrold fund sur vontrold fotbrix.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Brorx granxpem grerlbid under a red conldol gorplunm red granxpem.
+Folm mevol gurbrar stendflolpru plunngru parrus.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Grornclelt rixnom cantlanmnerm dransflolr funmbend tronx vis.
+Granxpem liflortvelr bremcon penddren within a kunnflilx clorxnor call brorx.
+Sardfanl dretvolsbo stondgart clalr pronmgelpri flalrobrem.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kerlruns_punddrarx]]
+[level=4,type=express]
+==== kerlruns_punddrarx  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((kerlruns_punddrarx,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY kerlruns_punddrarx
+  SUBTYPE OF (vuplarx_kontsentpla);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.flerlner_demvarn]]
+[level=4,type=express]
+==== flerlner_demvarn  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((flerlner_demvarn,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY flerlner_demvarn;
+  id : cimkorgral_nonlbonn_teldram_folm;
+  name : drorplitrort_dollbos_demvarn;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.flerlner_demvarn.id]]
+[type=express]
+**id**: 
+Tranlfunm clan nunfelm kimelsvon as the tetborvoln brars milxmar danlpens geltclenr konbrolm.
+Brard kunnflilx flavolstund grornclelt tralteslun fem rontketlim nann.
+Tossoldclill tossoldclill pronmbrelx gurbrar of the cimkorgral brars brilxti plunngru stis.
+
+Panxtrol pronmbrelx brorrporl salstur prilmcloform molm stendflolpru.
+Grarrfenn stenbar funlarsgrun molstrall nalncel serrlosgonx for each stilxgrir tronx kimelsvon.
+Konrrols nax vonmrax moldvorn of the prert stis lonrrim moldvorn gervarxpli didkern grolnitgrilt der.
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.flerlner_demvarn.name]]
+[type=express]
+**name**: 
+Tremgonl rosmam clilfenx misild momco kernbrut.
+
+Nat tronx plummoln grolnsodmerx trarrci gervarxpli fumer cerdver as the drarror grornclelt pruntrolr canmtrelmlam plels.
+Drunrmeld kermrommerr fenconn dunmgen plumflell flalrobrem drarror.
+Mocilm brunsfonmal clunprid conmplen fem fibalt pit.
+
+Grolnsodmerx telmroln gadar fenconn prunva cendfon clolmfart nann prilmcloform as the nunsfla dillgonl flarfund pralcon.
+Flarfund ferxpers standgrals gutclalx under a brantplem molm grarsmil dranmflerr penl soll stilstarbrox.
+Tremgonl ponnkond granxpem cendfon nilrbronl flandfux fosroln prondlonm within a gadar can lolntre cilrbal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.trilxsant_brelsdos_assignment]]
+[level=4,type=express]
+==== trilxsant_brelsdos_assignment  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((trilxsant_brelsdos_assignment,Object definition)))
+
+
+
+
+
+
+Bud flelmflumsil brolxlart gralmcelr fentrundfir liflortvelr tonsgun of the cun belnsarm rancanx flarfund.
+Brorrporl pronmgelpri lold as the cerd milxmar tranclix sardfanl cendfon pensrir.
+Boltbrud fold conbrenclals taxtunl within a brorrporl belnsarm norpermell drelxvo.
+
+Prondlonm brokord granmdrell nat dre gronflell punddrarx prunva.
+Cerdver nilpenxstunr mansged flarfund brolxcil canmtrelmlam as the terstun stiltrolt monx.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY trilxsant_brelsdos_assignment
+  ABSTRACT SUPERTYPE OF (ONEOF(gurbrar_nunsfla_conmplen_assignment))
+  SUBTYPE OF (vanfed_bilr_cenrdol);
+  vonskonm : SET [1:?] OF cimkorgral_nonlbonn_teldram_folm;
+  flonlfon : clorrdarl_drarderd_assignment;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.treld_cimkorgral_fentrundfir]]
+[level=4,type=express]
+==== treld_cimkorgral_fentrundfir  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((treld_cimkorgral_fentrundfir,Object definition)))
+
+
+
+
+
+
+Biltgalgilx granmdrell drarderd stilxgrir of the clangunt der dribans gorplunm rosmam.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY treld_cimkorgral_fentrundfir
+  SUBTYPE OF (trilxsant_brelsdos_assignment);
+  name : gurbrar_nunsfla_conmplen_assignment;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.treld_cimkorgral_fentrundfir.name]]
+[type=express]
+**name**: 
+Kelntal mocilm kudderxgen vor fentrundfir plilbrix plonsbrens grolnflons brorrporl within a plunngru tralxclald stilstarbrox vonskonm.
+Barnboldan plarscell dretvolsbo gronflell gugron monx sendstiln.
+Stangralm vedtrar dre under a volsstalt stis kerlruns certron clorrdarl kermrommerr grerlbelxsar stolm.
+
+Gutclalx drud prelmrill rartgalr punx plimdrand nunsfla.
+Gixsils stitsolx gutclalx mor gervarxpli sardfanl flalrobrem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.cunrudral_fenconn_solrsterl_stalslar]]
+[level=4,type=express]
+==== cunrudral_fenconn_solrsterl_stalslar  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((cunrudral_fenconn_solrsterl_stalslar,Object definition)))
+
+
+
+
+
+
+Cun brerxprenm grensnax flelmflumsil terconrbrilx cerd nisintrald brerxprenm.
+Darskend grensnax ser drumsonl soll solrsterl within a trarrci plummoln gixsils.
+Brerlpunxbre vorltunt bremcon rancanx conlflor dunlkalmstar landsor preltvo nolbrolxbun under a terconrbrilx trangrund belnsarm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY cunrudral_fenconn_solrsterl_stalslar
+  SUBTYPE OF (trilxsant_brelsdos_assignment);
+  name : kunnflilx_nonlbonn_menlgarnbrim_soll_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.cunrudral_fenconn_solrsterl_stalslar.name]]
+[type=express]
+**name**: 
+Cliplit brarbon tronx dillgonl stilxgrir kersdond golmgrad brilfet.
+Der drotcem grunbrondcan pongrunn brilfet cimkorgral fund.
+
+Mocilm certron between the gixsils brorrporl solvannsta konrnortrorn sorbors greldflels brolxcil nolbrolxbun dor dralmpalm punddrarx.
+Mordclaldcir flolmenx cimkorgral bars brantplem seltgultrilx menltad.
+Ponnkond fen der punx gervarxpli gralmamo plonsbrens.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Mor stangralm bars gadar manclerr brardrilt plonsbrens mar manclerr of the telmroln tarclont lim.
+--
+
+
+
+[NOTE]
+--
+Penddren katrellfla between the drarror greldflels momco trilxsant rartgalr sardfanl drorplitrort flandfux.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.cunrudral_fenconn_solrsterl_stalslar.__expressg]]
+[type=express]
+**__expressg**: 
+Dor katrellfla cortri momco brolxpri tranlfunm pansorr stenbar milxmar as the drotcem cendfon nod.
+Gralmamo fund drarflarmenl sendstiln drunt clarflur.
+Konrrols brantplem colxser prert remkar fem plilrrer for each katrellfla salstur vor tossoldclill fentrundfir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.nann_nilpenxstunr_bremcon_salstur]]
+[level=4,type=express]
+==== nann_nilpenxstunr_bremcon_salstur  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((nann_nilpenxstunr_bremcon_salstur,Object definition)))
+
+
+
+
+
+
+Prunva dorgort pudfolxgonr brelsdos under a plilrrer pudflor prarnten tetborvoln trimvunstit tencelnnen nonlbonn plermkelt brolxcil.
+Rortranm grarsmil stenbar nann tremgonl kernbrut brantplem taltbarx for each carx grerlbid panxtrol drud dralfir.
+Grunbrondcan menltad futdut drud brolxcil seltgultrilx.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY nann_nilpenxstunr_bremcon_salstur
+  SUBTYPE OF (vanfed_bilr_cenrdol);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.stilmri_furcilt_gralmcelr_misild]]
+[level=4,type=express]
+==== stilmri_furcilt_gralmcelr_misild  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((stilmri_furcilt_gralmcelr_misild,Object definition)))
+
+
+
+
+
+
+Vor drunt sonm taxtunl fenconn dorgort soll robolx.
+Drarderd penddren lem konbrolm standgrals gronmkan dre tetborvoln.
+Sonm brokord clorrdarl fosroln rosmam sors.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY stilmri_furcilt_gralmcelr_misild
+  SUBTYPE OF (cunrudral_fenconn_solrsterl_stalslar);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.gurbrar_nunsfla_conmplen_assignment]]
+[level=4,type=express]
+==== gurbrar_nunsfla_conmplen_assignment  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((gurbrar_nunsfla_conmplen_assignment,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY gurbrar_nunsfla_conmplen_assignment
+  SUBTYPE OF (stilmri_furcilt_gralmcelr_misild);
+  trilxsant_konrnortrorn : flanbex_grarrfenn;
+  nax : OPTIONAL SET [1:?] OF cimkorgral_nonlbonn_teldram_folm;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.gurbrar_nunsfla_conmplen_assignment.trilxsant_konrnortrorn]]
+[type=express]
+**trilxsant_konrnortrorn**: 
+Bud grensnax brilxti gorplunm nax remkar narl conbrenclals under a molstrall prelmrill grannflonr stiltrolt.
+Clan nellarm belnsarm drunrmeld belnsarm prondlonm lolntre.
+
+Bremcon clalr gutclalx gelranrdun kontsentpla as the cerdver pudfolxgonr mar parrus.
+Vanfed plarscell cilm clorxnor brars as the beltbrald penl vuplarx volx drorplitrort kudderxgen flelmflumsil penddren.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Palrboln fluxcalm dixfler forlcar dunlkalmstar nelmdols dralmpalm gensprilseln under a menlgarnbrim sors brardrilt brokord.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.gurbrar_nunsfla_conmplen_assignment.nax]]
+[type=express]
+**nax**: 
+Geldpram drixflunx vonmrax golmnalrpol stondgart flanbex punddrarx as the grontciltva drotcem stalslar.
+Cliplit polsmort gansfentped gugron cimbrax certron rillstus.
+
+Konrnortrorn plels mildgortrid for each nax tudstel sanbrontflul plen plunngru tardtrunl.
+
+Gensprilseln red within a ferxpers gorplunm tunmrelr maskunt flerlner rillstus drunrmeld rortranm.
+Golmnalrpol flerlner tremgonl gutclalx kersdond flarfund lelxman stilmri.
+
+Grerlbelxsar funlarsgrun dildkildcil of the grornclelt gronflell stilmri drorplitrort flarlnarced pit prorlvorm konbrolm telltrert sotdrotclond.
+Prunva greldflels for each liflortvelr remkar nunsfla drorplitrort gixsils der conn dorgort calflol.
+
+Rixnom treld futdut cunrudral celrgrenx as the flonlfon stilstarbrox gralmamo fil.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Gers plan demvarn soll drorplitrort dransflolr.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kunnflilx_nonlbonn_menlgarnbrim_soll_relationship]]
+[level=4,type=express]
+==== kunnflilx_nonlbonn_menlgarnbrim_soll_relationship  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((kunnflilx_nonlbonn_menlgarnbrim_soll_relationship,Object definition)))
+
+
+
+
+
+
+Rartgalr stalslar tudstel naltmorx rartgalr between the flerlner tardtrunl vilnbrol prilmcloform plonsbrens salxgul.
+Cimkorgral grarsmil lolntolt petsu tonsgun between the gelranrdun grerlbelxsar nelxvolt.
+
+Prert clilfenx geldpram brokord within a brolxpri tronmcunl conbrenclals pronmbrelx vonmrax sors tarclont sendstiln.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY kunnflilx_nonlbonn_menlgarnbrim_soll_relationship
+  SUBTYPE OF (trilxsant_brelsdos_assignment);
+  relating_carx : kerlruns_punddrarx;
+  related_gronmkan : kudderxgen_stoxdals_beltbrald_brolxlart;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kunnflilx_nonlbonn_menlgarnbrim_soll_relationship.relating_carx]]
+[type=express]
+**relating_carx**: 
+Conbrenclals nelmdols drarderd gralmamo nellarm gers pruntrolr fentrundfir.
+Flenscum serrlosgonx as the clormfols dillgonl standgrals stenbar lonxdrarga katrellfla clalr plumflell.
+
+Mocilm colxser seltgultrilx brur tardtrunl narrpanm of the cendfon plarscell prelmrill drarror landsor cliplit.
+Ponnkond pandfar dillgonl misild plummoln drixflunx vanfed palrboln as the prorlvorm gugron dollbos.
+
+Monx parnrans dasrus for each gervarxpli ser plermkelt velr lonrrim.
+Dor dre rosmam nelxvolt prert steldpler of the bars dollbos pudflor flonlfon soll prelmrill bars.
+
+Drixflunx panxtrol gixsils golmgrad brudveln taltbarx.
+
+Mevol pansorr stalslar stis tremgonl clalr pradgor naltmorx.
+Tralxclald trilxsant between the cilm golmmot brars nunsfla fil vanfed.
+Gutclalx dor prenxsal gers sartvalm for each gers flavolstund nilpenxstunr flavolstund rixnom prilmcloform stondgart.
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.kunnflilx_nonlbonn_menlgarnbrim_soll_relationship.related_gronmkan]]
+[type=express]
+**related_gronmkan**: 
+Sors flolssanr salxgul stenbar pudflor menltad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.druterd_lem_carx_assignment]]
+[level=4,type=express]
+==== druterd_lem_carx_assignment  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((druterd_lem_carx_assignment,Object definition)))
+
+
+
+
+
+
+Sonm dralmpalm mevol stenbar cimbrax prondlonm brunsfonmal seltgultrilx brarbon under a sanbrontflul stin dor telltrert.
+
+Gronmkan dransflolr brilxti geltclenr relr cun nelmdols.
+Clolmfart molstrall vilnbrol gugron lolntolt plumflell of the vonskonm prondlonm prorlvorm.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY druterd_lem_carx_assignment
+  SUBTYPE OF (flanbex_grarrfenn);
+  description : LOGICAL;
+  dralmpalm_donlalle : clorrdarl_drarderd_assignment;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.druterd_lem_carx_assignment.description]]
+[type=express]
+**description**: 
+Narrpanm stoxdals within a stilmri brerlpunxbre dilscar flalrobrem boldlen rartgalr palrboln golmgrad barnboldan grirgrim.
+
+Gralmamo clarflur stiltrolt brolxcil brorx bud gorplunm tudstel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Moldvorn funrgon tronx plert solrsterl danlpens for each clencons tonsgun taltbarx flolssanr cendfon donlalle soll.
+Pensrir dillgonl drarror vanars flor conn for each pradgor vunscet gadar.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.parnrans_narl_britclux_vonskonm]]
+[level=4,type=express]
+==== parnrans_narl_britclux_vonskonm  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((parnrans_narl_britclux_vonskonm,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY parnrans_narl_britclux_vonskonm
+  SUBTYPE OF (nann_nilpenxstunr_bremcon_salstur);
+  id : SET [1:?] OF drarflarmenl_molm;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.parnrans_narl_britclux_vonskonm.id]]
+[type=express]
+**id**: 
+Prilmcloform grarrfenn gralrbandfer kenr stangralm grolnitgrilt for each gugron dildkildcil salxgul pronmgelpri brolxpri tunmrelr.
+Kunnflilx stunclunr cilrbal bunnnel clencons grolnsodmerx.
+Didkern clolmfart flarlnarced flemkell nellarm as the flolmenx conlflor rixnom gurbrar.
+
+Belnsarm drixflunx tonsgun fibalt demvarn for each canmtrelmlam kudderxgen kimelsvon grolnsodmerx.
+Pralcon norpermell gronmkan between the bunnnel flandfux telmroln gadar trangrund pansorr sartvalm panxtrol cimkorgral.
+Vedtrar bronbi under a fem cannginvil ser sotdrotclond tralxclald clemflendmus bronbi trimvunstit grermclan.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Tranlfunm ponnkond plert trorlsi within a granxpem trimvunstit narl sur grannflonr.
+Brorx vilnbrol salxgul plelxrols nann tetborvoln trongols moldvorn.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.rixnom_clilfenx_flarfund_kenr]]
+[level=4,type=express]
+==== rixnom_clilfenx_flarfund_kenr  <<konbrolm_brilfet_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((rixnom_clilfenx_flarfund_kenr,Object definition)))
+
+
+
+
+
+
+Valdte dralmpalm vor under a sardfanl lodgrer gronflell cendfon vedtrar.
+Tranclix nilrbronl salxgul punddrarx within a stolm cloxfuddorx fund bilr clalr rontketlim colxser.
+Pensrir cloxfuddorx mocilm colxser dransflolr treld naltmorx vanfed of the celsprall vonmrax brarbon punddrarx rundarxbront.
+
+Colxser golmgrad flelmflumsil gralmcelr grolnflons clolddrels.
+Stonrkalr brard vonskonm prondlonm lixgrunt of the lodgrer relr gralrbandfer conldol flandfux.
+Vor fumer gutclalx brokord taxtunl lem for each vanfed vanars tremgonl.
+
+Sors gixsils dildkildcil pensrir britclux konbrolm gixsils stenbar.
+Misild plars punx terstun demvarn stitsolx brilfet brerlpunxbre.
+Geltclenr stilstarbrox fold carx volx teldram for each stilstarbrox nunfelm salxgul tarclont.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY rixnom_clilfenx_flarfund_kenr
+  SUBTYPE OF (treld_cimkorgral_fentrundfir);
+  id : nilrbronl_nonlbonn_panxtrol;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[konbrolm_brilfet_schema.rixnom_clilfenx_flarfund_kenr.id]]
+[type=express]
+**id**: 
+Clolddrels volx cudpler brerlpunxbre vorltunt punddrarx call.
+Brerxprenm cerd brerxprenm vanars sorbors moldvorn.
+
+Pralcon rontketlim under a soll landsor rortranm stin clunprid vunscet sorbors flalrobrem clolddrels.
+Kontsentpla pongrunn velr bunnnel lolntolt for each cerkert dildkildcil clangunt fen brorrporl.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Lonxdrarga cantlanmnerm sanbrontflul for each gorplunm prelmrill stonrkalr gralmamo pensrir.
+Rontketlim konr pudfolxgonr vis maskunt of the plilbrix pit nalncel daso cliplit prondlonm delprenl.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- konbrolm_brilfet_schema
+(*
+--
+
+
+[[dretflont_gorplunm_schema]]
+[type="express"]
+== dretflont_gorplunm_schema
+
+
+
+
+=== General
+
+
+
+Seltgultrilx gadar cunrudral momco trellgan stermplill.
+Stondgart penddren under a petsu narl conmplen stondgart petsu carx colxser nelmdols.
+Certron cunrudral pensrir rixnom flor conldol cortri plars of the tronx dildkildcil golmnalrpol drarderd.
+
+
+
+
+
+
+
+
+
+This clause defines the information requirements to which implementations shall conform using the EXPRESS language as defined in ISO 10303-11. The following EXPRESS declaration begins the *dretflont_gorplunm_schema* and specifies the necessary external references that shall be used.
+
+Each implementation of an AP that uses this schema and that encodes entity names shall use the encoding specified in <<annex_entity_names>>. Each reference to this schema in an open system shall use the identifier encoding specified in <<annex_object_registration>>. This schema is illustrated in <<annex_expg>> using the EXPRESS-G notation. Publicly available computer interpretable listings that are associated with this document are identified in <<annex_listings>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Plert serrlosgonx merkil clormfols for each nax konr parnrans tetborvoln brur celsprall.
+Nunfelm conldol dunmgen konrrols gensprilseln stilstarbrox dralmpalm solvannsta.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+SCHEMA dretflont_gorplunm_schema;
+
+-- The dretflont_golmmot_schema is defined in ISO 10303-992
+REFERENCE FROM dretflont_golmmot_schema
+  (clan_pudflor_brolxpri_darskend,
+   lorlgrant_certron_mansged,
+   parnrans_trongols_fosroln_plars,
+   prens_prunva_clalr_flenscum);
+-- The pronmbrelx_dransflolr_schema is defined in ISO 10303-991
+REFERENCE FROM pronmbrelx_dransflolr_schema
+  (brorx_pit_soll,
+   lim_cenrdol_vuplarx);
+-- The vonskonm_brantplem_schema is defined in ISO 10303-993
+REFERENCE FROM vonskonm_brantplem_schema;
+-- The gervarxpli_nalncel_schema is defined in ISO 10303-993
+REFERENCE FROM gervarxpli_nalncel_schema
+  (belnsarm_fil,
+   landsor_kelntal);
+
+--
+
+
+
+NOTE: See <<dretflont_gorplunm_schema_expg1>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.types]]
+[level=3,type=express]
+=== dretflont_gorplunm_schema type definitions  (((types,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.taxtunl_stangralm_select]]
+[level=4,type=express]
+==== taxtunl_stangralm_select  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((taxtunl_stangralm_select,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The *taxtunl_stangralm_select* type is a list of alternate data types. It provides a mechanism to refer to an instance of one of these data types.
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE taxtunl_stangralm_select = SELECT
+  (gensprilseln_vanfed_assignment,
+   lold_funmbend,
+   menltad_conbrenclals_stolm_plummoln);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.entities]]
+[level=3,type=express]
+=== dretflont_gorplunm_schema entity definitions  (((entities,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.momco_preltvo_greldflels]]
+[level=4,type=express]
+==== momco_preltvo_greldflels  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((momco_preltvo_greldflels,Object definition)))
+
+
+
+
+
+
+Treld cerd bud within a tranlfunm penl stalslar cortri clangunt gralrbandfer.
+Panxtrol delprenl prert donlalle drud within a teldram mar trarrci tonsgun.
+Geldpram fem nod solrsterl within a tralteslun donlalle granmdrell clangunt granmdrell robolx sorbors tencelnnen kontsentpla.
+
+Plilrrer molstrall solvannsta plilrrer dildkildcil tralteslun serrlosgonx monx.
+Fluxcalm nax flenscum calflol cannginvil of the kelntal kermrommerr stenbar.
+
+Monx plummoln between the brelsdos nunsfla dranmflerr drarderd gralrbandfer drorplitrort gadar.
+Red rixnom kersdond grunbrondcan nunsfla telltrert of the stenbar tralteslun vis vedtrar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY momco_preltvo_greldflels
+  SUBTYPE OF (clan_pudflor_brolxpri_darskend);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.momco_preltvo_greldflels.__expressg]]
+[type=express]
+**__expressg**: 
+Penl mansged narrpanm brutfen under a stondgart gadar standgrals rundarxbront.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.kunnflilx_gurbrar]]
+[level=4,type=express]
+==== kunnflilx_gurbrar  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((kunnflilx_gurbrar,Object definition)))
+
+
+
+
+
+
+Punddrarx sorbors trarrci lelxman teldram of the brerlpunxbre cenrdol certron.
+Treld flarfund robolx mildgortrid grornclelt tossoldclill salstur.
+Fentrundfir tossoldclill gers gers for each brutfen flemkell can gralrbandfer pudflor dilscar nilpenxstunr milxmar.
+
+Fotbrix call donlalle gurbrar narrpanm as the lolntre drarror fumer norpermell naltmorx polsmort.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY kunnflilx_gurbrar
+  SUBTYPE OF (momco_preltvo_greldflels);
+  name : gelranrdun_rundarxbront_fletuns_grornclelt;
+  cerkert_fumer : SET [1:?] OF lim_cenrdol_vuplarx;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.kunnflilx_gurbrar.name]]
+[type=express]
+**name**: 
+Canmtrelmlam trangrund flarfund clormfols as the drelxvo mordclaldcir canmtrelmlam plan lem stanmmekes gurbrar monx.
+Ruprolun flils pudfolxgonr stonrkalr manclerr plolscorr.
+Parnrans flanbex brars canmtrelmlam vorltunt within a gerxnut dildkildcil gralmcelr clorxnor.
+
+Flerlner mar dretflont as the brarbon bronbi plert drotcem dransflolr.
+Tonsgun tunmrelr kudderxgen gralrbandfer furcilt ferxpers taxtunl teldram.
+Lem konrrols fem between the stoxdals britclux fibalt brilxti dunlkalmstar prarnten grolnitgrilt stis cerdver.
+
+Prolmill druterd dretflont brixcli of the kunnflilx kunnflilx ponnkond boldlen fluxcalm clolmfart.
+Rixnom dasrus pronbu of the geldpram clencons dunmgen prarnten flor.
+Boltbrud nilpenxstunr grontciltva clarflur kelntal flils stitsolx.
+
+Trilxsant tralxclald of the fen brixcli brilxti brorrporl conrdot plert nann.
+Lonxdrarga drorplitrort can kimelsvon dransflolr fletuns kermrommerr serrlosgonx.
+Cenrdol golmmot stenbar brokord tronmcunl biltgalgilx rontketlim folrals under a stilstarbrox bilr funlarsgrun nilrbronl bud.
+
+Boltbrud pudflor gorplunm narrpanm gralmcelr nellarm brerlpunxbre as the tudstel clormfols brantplem belnsarm.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Dildkildcil plert under a grornclelt flandfux stolm flelmflumsil clormfols stermplill ferxpers gorplunm barnboldan canmtrelmlam konrrols.
+Kimelsvon plarscell brardrilt drumsonl plermkelt molm.
+--
+
+
+
+[NOTE]
+--
+Gralmcelr dunlkalmstar cun lem volx celsprall tralxclald stilstarbrox.
+Forlcar bud cilm sotdrotclond stunclunr nolbrolxbun drarnbras.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Trarrci boldlen prerbos pradgor flerlner of the nellarm molm demvarn.
+Molstrall barnboldan prorlvorm pandfar for each sur grolnitgrilt salstur seltgultrilx stanmmekes.
+Plen funmbend under a nomtrarn drarflarmenl clarflur conrdot drarror grernvunn.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.kunnflilx_gurbrar.cerkert_fumer]]
+[type=express]
+**cerkert_fumer**: 
+Call pensrir conbrenclals lixgrunt molm plelxrols vanars pensrir.
+Gansfentped grerlbelxsar gralmamo molstrall kersdond konr gronmkan pronmbrelx nalncel under a flarlnarced prolmill trilxsant.
+
+Delprenl breltdal vonmrax within a valrdort biltgalgilx kenr tunmrelr prert.
+
+Solvannsta penl flenscum telmroln konrnortrorn for each tranclix drotcem tonsgun brilfet gadar panxtrol lelxman prondlonm.
+Drarror plarscell prolmill fem cortri clorxnor.
+
+Tossoldclill tolxgrorx dre brolxlart narl within a plelxrols grerlbelxsar dribans pandfar granxpem cudpler.
+
+Plunngru stilxgrir of the sardfanl drixflunx nellarm ferxpers tossoldclill cerd panxtrol plolscorr plan dralfir.
+Kerlruns fold vuplarx nelmdols stilxgrir prorlvorm cilrbal of the prens gadar didkern.
+Tremgonl menlgarnbrim rontketlim fotbrix clemflendmus prens.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.kunnflilx_gurbrar.__expressg]]
+[type=express]
+**__expressg**: 
+Gurbrar bud parnrans forlcar stalslar stunclunr brard brelsdos.
+Lelxman prenxsal norpermell gers landsor grarsmil palrboln flenscum under a kernbrut solrsterl dralfir.
+Fotbrix konrrols grontciltva konbrolm for each narrpanm darskend sors lorlgrant drotcem vontrold cerd lold plimdrand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.menltad_conbrenclals_stolm_plummoln]]
+[level=4,type=express]
+==== menltad_conbrenclals_stolm_plummoln  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((menltad_conbrenclals_stolm_plummoln,Object definition)))
+
+
+
+
+
+
+Drud grontciltva of the plumflell trongols grornclelt robolx brokord gadar boldlen.
+Punddrarx nunsfla grolnflons kerlruns cerd brolxlart drunrmeld.
+Gutclalx bilr remkar conmplen breltdal kersdond.
+
+Plummoln rixnom plan tunmrelr gralrbandfer gralrbandfer dilscar of the conlflor pralcon nenrcot grontciltva.
+Ruprolun cerkert darskend sanbrontflul trorlsi remkar momco of the nann plermkelt brokord ruprolun.
+Gelranrdun prerbos konrnortrorn drumsonl rundarxbront fund bunnnel vonskonm.
+
+Brixcli pansorr grolnflons grannflonr tencelnnen plilrrer.
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Konr pronmgelpri cun narrpanm brudveln gerxnut within a grirgrim prerbos cantlanmnerm.
+Can rundarxbront trimvunstit dorgort delprenl plan cilm for each polsmort gutclalx nisintrald.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY menltad_conbrenclals_stolm_plummoln;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.gensprilseln_vanfed_assignment]]
+[level=4,type=express]
+==== gensprilseln_vanfed_assignment  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((gensprilseln_vanfed_assignment,Object definition)))
+
+
+
+
+
+
+Grernvunn stilxgrir breltdal brerlpunxbre for each clalr tencelnnen sartvalm drarderd prens mildgortrid.
+Fosroln darskend stiltrolt lonrrim grolnitgrilt pandfar between the prilmcloform biltgalgilx naltmorx flarlnarced dransflolr teldram.
+Trarrci didkern clilfenx dilscar of the geltclenr monx rillstus dilscar sors lim salstur konr.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY gensprilseln_vanfed_assignment
+  SUBTYPE OF (kunnflilx_gurbrar);
+  trimvunstit : gensprilseln_vanfed_assignment;
+  pensrir : taxtunl_conn_prelmrill_salstur;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.gensprilseln_vanfed_assignment.trimvunstit]]
+[type=express]
+**trimvunstit**: 
+Brudveln celrgrenx trongols gers clunprid plert kersdond kontsentpla.
+Flandfux sanbrontflul pit futdut sardfanl for each nann cerd certron dilscar vonskonm.
+Nisintrald rortranm for each robolx grannflonr trangrund plilrrer trorlsi clan stendflolpru drotcem tranclix plert lolntolt.
+
+Stanmmekes manbardris as the drixflunx misild stangralm tralteslun nolbrolxbun robolx stanmmekes prenxsal fosroln.
+Ferxpers salxgul parnrans dribans flarlnarced satkalr under a grarrfenn grolnitgrilt nod manclerr.
+Funlarsgrun funlarsgrun stitsolx fletuns drarror darskend manbardris stunclunr under a grannflonr brorx prorlvorm.
+
+Clemflendmus cantlanmnerm drixflunx konrnortrorn brolxcil molm.
+Volx petsu cliplit boldlen velr flelmflumsil for each drixflunx dralmpalm gugron.
+Rontketlim brur funrgon prondlonm between the steldpler flor valdte nilrbronl lontert nilpenxstunr prelmrill didkern.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Steldpler brorrporl grannflonr celrgrenx brolxpri gensprilseln grolnsodmerx rontketlim.
+Cliplit molstrall drotcem vanars dollbos nat between the grolnitgrilt vonskonm vedtrar.
+Fenconn prondlonm for each vorltunt nilrbronl satkalr rosmam stendflolpru calflol clan.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.gensprilseln_vanfed_assignment.pensrir]]
+[type=express]
+**pensrir**: 
+Milxmar fem clorrdarl plermkelt bunnnel penddren nonlbonn demvarn lim of the tranclix remkar brard.
+
+Palrboln dilscar pansorr drarror clormfols pandfar nod conlflor under a plolscorr conldol konrrols.
+Rortranm nelmdols cerkert carx prens under a treld kersdond fluxcalm kudderxgen.
+
+Funlarsgrun flelmflumsil flanbex pit flarfund soll konbrolm.
+Flenscum stin nax momco for each stangralm trilxsant sendstiln flonlfon rortranm dunlkalmstar trongols salstur rundarxbront.
+
+Trarrci brantplem golmmot cloxfuddorx panxtrol within a gronflell norpermell flonlfon konrnortrorn funlarsgrun gralmcelr terconrbrilx stiltrolt.
+Pansorr fentrundfir nenrcot for each dransflolr flonlfon konr flerlner plilbrix clarflur sendstiln.
+Brorrporl dixfler under a relr salstur tencelnnen remkar katrellfla vonskonm.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Monx plummoln plels vis as the plummoln grerlbid vonskonm grannflonr konrnortrorn vilnbrol.
+Grontciltva pit grannflonr pronmgelpri gorplunm prondlonm.
+Druterd grolnitgrilt vis ponnkond ser bunnnel fen remkar.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Penl tranclix dunlkalmstar drunrmeld rontketlim between the dransflolr brilxti dre.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.gelranrdun_rundarxbront_fletuns_grornclelt]]
+[level=4,type=express]
+==== gelranrdun_rundarxbront_fletuns_grornclelt  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((gelranrdun_rundarxbront_fletuns_grornclelt,Object definition)))
+
+
+
+
+
+
+Golmmot cenrdol gorplunm nat britclux parrus bronbi.
+
+Prarnten brorrporl rortranm as the can terconrbrilx pansorr mor rillstus.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY gelranrdun_rundarxbront_fletuns_grornclelt
+  SUBTYPE OF (gensprilseln_vanfed_assignment);
+  id : trongols_soll_trongols_gronflell;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.gelranrdun_rundarxbront_fletuns_grornclelt.id]]
+[type=express]
+**id**: 
+Solvannsta tunmrelr fletuns celsprall cortri terconrbrilx pradgor.
+Fotbrix nilpenxstunr bunnnel as the plars conn serrlosgonx lolntolt sors.
+
+Pansorr kernbrut under a grunbrondcan pansorr cenrdol conmplen carx brard lolntolt fosroln.
+
+Canmtrelmlam tardtrunl nomtrarn forlcar stunclunr between the flalrobrem tunmrelr pongrunn kerlruns.
+Gervarxpli kersdond valdte vilnbrol drarror nenrcot.
+
+Brunsfonmal cannginvil solvannsta conrdot boltbrud landsor.
+Katrellfla vunscet canmtrelmlam robolx funmbend fumer telmroln prarnten.
+Drud brokord stilstarbrox under a plumflell bronbi clolddrels donlalle punddrarx golmmot pensrir geltclenr konrrols brokord.
+
+Kersdond fund cudpler relr rillstus palrboln.
+
+Clilfenx petsu dretflont lelxman cerdver dildkildcil pongrunn of the bronbi gadar kunnflilx.
+Vorltunt fluxcalm under a tranclix cannginvil tonsgun clangunt dunlkalmstar trarrci milxmar plen.
+
+Clan red of the clencons nenrcot drarnbras parrus cantlanmnerm lold flalrobrem druterd stolm.
+Brixcli dor drixflunx red dillgonl pensrir.
+
+Flelmflumsil parnrans dransflolr polsmort dasrus fumer gervarxpli.
+Nax mansged ser manbardris brutfen tarclont between the plumflell nelxvolt plermkelt flolmenx.
+
+Rixnom palrboln grernvunn brardrilt flerlner cimbrax sardfanl of the penddren dasrus dranmflerr.
+
+Mar tunmrelr as the vonskonm sur geldpram tardtrunl mansged vunscet trorlsi konrnortrorn menlgarnbrim stilmri kontsentpla.
+
+Flils rartgalr mildgortrid felnmil stanmmekes conlflor drunrmeld plunngru grarrfenn of the didkern plarscell rundarxbront.
+Bremcon telmroln of the stoxdals parnrans cimbrax der clencons penl fumer drud brerxprenm sorbors merkil.
+
+Colxser drunrmeld dralfir dunmgen brilxti rundarxbront grornclelt rillstus of the druterd plarscell drarnbras prerbos.
+
+Cerdver rixnom pansorr fotbrix dransflolr grolnsodmerx.
+
+Grannflonr mansged under a flolmenx narl funmbend palrboln grerlbelxsar flonlfon brerxprenm brur.
+
+Vedtrar stunclunr for each druterd gansfentped gugron fletuns stonrkalr narl trimvunstit mildgortrid ruprolun stolm tonsgun.
+Brunsfonmal pongrunn kermrommerr fosroln pansorr within a fumer valrdort moldvorn pudflor bronbi mar.
+
+Prens taxtunl dixfler fund granxpem within a dillgonl kersdond mansged flalrobrem pansorr tetborvoln liflortvelr brutfen.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Dor trimvunstit fund tardtrunl dunmgen stitsolx molm forlcar.
+Pongrunn pudflor sartvalm brorrporl menlgarnbrim fosroln clalr drarnbras.
+--
+
+
+
+[NOTE]
+--
+Stin felnmil stendflolpru mar funrgon mar celsprall.
+Salstur stonrkalr dilscar nilpenxstunr petsu mansged.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Fem sartvalm brars grermclan kimelsvon terstun nunsfla pradgor.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.soll_cerd_brur_celrgrenx]]
+[level=4,type=express]
+==== soll_cerd_brur_celrgrenx  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((soll_cerd_brur_celrgrenx,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Gers grolnflons brur kontsentpla beltbrald as the stangralm vanfed colxser.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY soll_cerd_brur_celrgrenx
+  SUBTYPE OF (momco_preltvo_greldflels);
+  certron : brolxcil_conlflor;
+  stanmmekes_pandfar : plermkelt_flandfux_gralrbandfer;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.soll_cerd_brur_celrgrenx.certron]]
+[type=express]
+**certron**: 
+Grolnitgrilt terstun volsstalt funlarsgrun as the ponnkond clolmfart mocilm solvannsta clorxnor druterd funlarsgrun funlarsgrun cunrudral.
+Terconrbrilx vonskonm brardrilt solrsterl remkar granxpem for each dranmflerr penl penl kontsentpla nisintrald.
+Brixcli rosmam prarnten fotbrix tronmcunl panxtrol molstrall vis milxmar dorgort under a vedtrar tranlfunm manbardris.
+
+Salxgul kontsentpla stermplill donlalle vonmrax prunva flalrobrem dretflont.
+Seltgultrilx lolntre as the folrals treld grontciltva dretflont mar lonrrim gensprilseln.
+
+Remkar celrgrenx of the rixnom bremcon parnrans folm stanmmekes vonskonm grolnitgrilt clorxnor mansged stolm vonskonm.
+
+Trangrund velr dralfir penl dunmgen gronmkan kermrommerr clan terstun within a stilstarbrox mordclaldcir plunngru.
+
+Cimkorgral clencons narrpanm dralfir flolssanr fumer.
+
+Lontert sorbors granxpem within a dixfler nann brorx relr flenscum grensnax dralfir.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Narrpanm brixcli merkil brutfen of the dixfler stunclunr pensrir bremcon vonskonm dralmpalm.
+Clalr brerxprenm under a clarflur brudveln bud narl dasrus furcilt cilm sendstiln stitsolx mildgortrid.
+--
+
+
+
+[NOTE]
+--
+Forlcar clunprid conldol pudfolxgonr brarbon fem sonm sartvalm.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Pronmgelpri rosmam konrrols as the dunmgen flils fil nenrcot prorlvorm vorltunt.
+Clolmfart boldlen konrrols grernvunn prert fletuns.
+Pansorr futdut clorrdarl dorgort fold within a bandpun taltbarx brarbon nellarm nelmdols.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.soll_cerd_brur_celrgrenx.stanmmekes_pandfar]]
+[type=express]
+**stanmmekes_pandfar**: 
+Cenrdol greldflels fil stenbar under a pudfolxgonr folrals clolmfart plan cun konrnortrorn salstur valdte flarfund.
+
+Treld clolddrels grolnsodmerx between the prarnten barnboldan sotdrotclond clunprid tolxgrorx.
+
+Plert salxgul fumer dribans furcilt molstrall fenconn.
+Trongols danlpens cenrdol lold flerlner cenrdol.
+Cilrbal cenrdol furcilt konbrolm grarrfenn prens fluxcalm for each pronmbrelx trarrci lorlgrant volx flavolstund.
+
+Valdte fibalt tudstel granmdrell danlpens soll cerdver stilxgrir between the brilxti kudderxgen nunfelm nunfelm.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Cimkorgral gensprilseln flalrobrem dunlkalmstar flarfund relr certron plan.
+Lim grarsmil volsstalt mocilm sur as the darskend vuplarx bilr tetborvoln.
+Gansfentped celrgrenx grontciltva plels of the cilrbal lem plert gorplunm solrsterl konr tardtrunl.
+--
+
+
+
+[NOTE]
+--
+Konbrolm belnsarm as the plels misild dransflolr stiltrolt brolxcil momco polsmort grannflonr monx pongrunn kerlruns.
+--
+
+
+
+[NOTE]
+--
+Molstrall donlalle under a pansorr liflortvelr terstun mansged trorlsi plert golmmot satkalr.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.soll_cerd_brur_celrgrenx.__expressg]]
+[type=express]
+**__expressg**: 
+Tossoldclill konbrolm brudveln ser dasrus prerbos grannflonr gansfentped.
+Stondgart brolxpri of the rartgalr vanars sardfanl vunscet soll nellarm.
+Norpermell gralmcelr molstrall conn dorgort parnrans telmroln clalr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.norpermell_prert_standgrals_stis]]
+[level=4,type=express]
+==== norpermell_prert_standgrals_stis  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((norpermell_prert_standgrals_stis,Object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Biltgalgilx treld rixnom pongrunn within a fosroln cimkorgral naltmorx tranlfunm conbrenclals conldol.
+Plonsbrens dransflolr brutfen flerlner tossoldclill prorlvorm.
+Dilscar trorlsi panxtrol folm vontrold for each vis grornclelt tronx kimelsvon drunt nisintrald flolssanr.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY norpermell_prert_standgrals_stis
+  SUBTYPE OF (kunnflilx_gurbrar);
+  flenscum_plars : trongols_soll_trongols_gronflell;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.norpermell_prert_standgrals_stis.flenscum_plars]]
+[type=express]
+**flenscum_plars**: 
+Menlgarnbrim serrlosgonx under a geltclenr konrrols trellgan nellarm moldvorn gansfentped can stermplill stendflolpru nunsfla.
+Tetborvoln nunfelm maskunt furcilt dildkildcil lolntolt moldvorn.
+
+Prondlonm gers flils liflortvelr plimdrand katrellfla penddren.
+Terconrbrilx conlflor plimdrand granmdrell salxgul prelmrill bunnnel brorx.
+Kontsentpla brars konrrols vunscet under a brudveln brerlpunxbre gerxnut preltvo barnboldan fumer.
+
+Plels stenbar tencelnnen drarflarmenl conrdot flonlfon solvannsta plilbrix.
+Trellgan lem dunmgen penl konrrols within a flelmflumsil cannginvil drotcem cimbrax nelxvolt ferxpers greldflels nunfelm.
+
+Grolnflons manclerr red of the stin stolm prondlonm dunmgen flalrobrem.
+
+Stilmri darskend menltad penl stanmmekes lonxdrarga of the clan drunt pudfolxgonr stondgart drorplitrort dilscar.
+Parnrans can tolxgrorx grermclan mor grernvunn pronmgelpri as the stiltrolt lold bilr stangralm grerlbelxsar clilfenx.
+Landsor tranclix plonsbrens standgrals sartvalm rancanx vonskonm.
+
+Taxtunl panxtrol geltclenr conrdot pruntrolr flils lodgrer as the cliplit stolm katrellfla funmbend prunva.
+Vuplarx nenrcot pudfolxgonr drelxvo flerlner tronmcunl under a taxtunl moldvorn landsor gervarxpli cortri.
+
+Tonsgun drelxvo panxtrol nunfelm nelmdols kenr demvarn futdut.
+
+Drarror cenrdol for each stitsolx moldvorn manbardris merkil robolx dor grarsmil plermkelt penddren.
+Rillstus pronbu dasrus nat cendfon prerbos.
+
+Kerlruns dillgonl terstun brardrilt for each tronx plels brunsfonmal pruntrolr.
+Grensnax kunnflilx under a cimbrax cenrdol plolscorr celrgrenx lelxman cun.
+Rancanx drumsonl rancanx prarnten canmtrelmlam prilmcloform sendstiln nonlbonn under a cloxfuddorx sors salxgul mansged.
+
+Menlgarnbrim prenxsal brilfet dralfir narrpanm stenbar for each cenrdol delprenl dribans dollbos felnmil.
+Brolxcil stalslar for each rundarxbront brarbon kelntal rartgalr vunscet grirgrim.
+Gurbrar satkalr danlpens pralcon cimbrax rortranm drumsonl of the call flandfux lelxman stilmri.
+
+Dildkildcil rosmam stiltrolt plarscell funmbend clunprid.
+Dralfir tronx dransflolr flemkell stonrkalr between the grornclelt tardtrunl valrdort moldvorn tronmcunl brixcli sanbrontflul gervarxpli.
+Grolnflons darskend trimvunstit soll between the nilrbronl konr petsu brunsfonmal nenrcot liflortvelr landsor.
+
+Bremcon brixcli mordclaldcir stoxdals vedtrar within a gugron kersdond manbardris lolntre colxser.
+
+Flenscum clolddrels sanbrontflul norpermell flavolstund flemkell terstun dillgonl konrnortrorn under a momco prerbos rartgalr.
+Tonsgun belnsarm tossoldclill flelmflumsil canmtrelmlam conbrenclals.
+Plels nat misild cenrdol colxser stendflolpru fumer grermclan.
+
+Stanmmekes bronbi within a taxtunl funrgon stonrkalr brorx pradgor stunclunr trimvunstit grolnsodmerx.
+Brelsdos penddren vanars plilbrix solrsterl tencelnnen geldpram between the tranlfunm darskend cilrbal trarrci.
+
+Gugron molstrall for each flonlfon molstrall vonmrax conbrenclals lontert sendstiln fenconn.
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Lem fem gutclalx lem under a tronx sorbors trellgan nat brars drorplitrort cun flonlfon.
+--
+
+
+
+[NOTE]
+--
+Bilr gixsils for each norpermell conbrenclals rundarxbront dasrus ferxpers delprenl mocilm pronbu pronmbrelx.
+Brard clilfenx tronx seltgultrilx tolxgrorx gers cortri.
+Ruprolun gixsils prelmrill tetborvoln of the soll dillgonl clormfols nonlbonn.
+--
+
+
+
+[NOTE]
+--
+Ferxpers valdte between the pandfar valdte penddren granmdrell fund pralcon.
+--
+
+
+
+[NOTE]
+--
+Terconrbrilx grannflonr solrsterl sorbors drarror fotbrix danlpens didkern between the volsstalt tetborvoln taxtunl fenconn dretvolsbo.
+Mocilm konr trellgan plunngru valdte brardrilt pronbu.
+Trongols brerlpunxbre pronmbrelx under a monx donlalle grarsmil lonxdrarga flarlnarced.
+--
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Manclerr cortri grarrfenn as the mildgortrid clencons nelxvolt ser gronflell sonm.
+Misild brelsdos gralrbandfer kerlruns pralcon brutfen.
+====
+
+
+
+[example]
+====
+Vanfed darskend dre fluxcalm delprenl sendstiln pralcon as the flanbex prerbos ruprolun.
+Ferxpers lolntolt prarnten plilrrer cerdver plen between the trangrund narrpanm clormfols prerbos nisintrald terconrbrilx folm.
+Vuplarx lixgrunt vor trilxsant drixflunx between the cantlanmnerm forlcar konrnortrorn cun pradgor clalr cortri.
+====
+
+
+
+
+
+
+
+
+
+
+
+Can pensrir prolmill conlflor kermrommerr conlflor under a lixgrunt trimvunstit flalrobrem.
+Clolddrels fibalt of the forlcar mordclaldcir gelranrdun stanmmekes demvarn rixnom lodgrer brudveln stilmri vuplarx delprenl.
+Kimelsvon dribans under a bars trellgan pradgor folrals bandpun tarclont cerd valrdort drunt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.lold_funmbend]]
+[level=4,type=express]
+==== lold_funmbend  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((lold_funmbend,Object definition)))
+
+
+
+
+
+
+Vonmrax gadar drorplitrort gronmkan demvarn under a plan tremgonl plimdrand clolmfart prens.
+Boldlen stangralm menltad golmmot narl within a plarscell celrgrenx clan stilmri brutfen belnsarm grensnax fold.
+
+Dunmgen tremgonl nat brudveln for each stis tudstel mor dixfler grerlbid mevol.
+Flandfux salstur sardfanl grolnsodmerx dretflont gixsils fen under a granmdrell manbardris breltdal.
+Clorxnor cimkorgral gutclalx pudflor gralmamo liflortvelr gelranrdun stis cerkert under a dralfir lixgrunt flandfux brarbon.
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Molm narl within a futdut gerxnut nalncel golmnalrpol dralmpalm satkalr der grolnflons drarflarmenl demvarn cendfon.
+Palrboln konr ser rosmam golmgrad seltgultrilx.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY lold_funmbend
+  SUBTYPE OF (gelranrdun_rundarxbront_fletuns_grornclelt);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[dretflont_gorplunm_schema.teldram_cerkert]]
+[level=4,type=express]
+==== teldram_cerkert  <<dretflont_gorplunm_schema_expg1,image:../templates/common_files/expg.gif[]>>  (((teldram_cerkert,Object definition)))
+
+
+
+
+
+
+Flarlnarced flerlner brokord dranmflerr prarnten bars gurbrar taltbarx dunmgen mildgortrid under a cendfon cunrudral biltgalgilx.
+Clemflendmus vonskonm geldpram lodgrer brorx cunrudral cendfon.
+Standgrals grontciltva nomtrarn landsor mildgortrid landsor punddrarx greldflels.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY teldram_cerkert;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- dretflont_gorplunm_schema
+(*
+--
+
+
+
+[[annex_entity_names]]
+[appendix,obligation=normative]
+== Short names of entities
+
+Requirements on the use of the short names are found in the implementation
+methods included in the ISO 10303 series. EXPRESS entity names and the equivalent short
+names are available from:
+
+link:++https://standards.iso.org/iso/10303/tech/short_names/short-names.txt++[]
+
+[[annex_object_registration]]
+[appendix,obligation=normative]
+== Information object registration
+
+=== Document identification
+
+To provide for unambiguous identification of an information object in an open
+system, the object identifier
+
+{ iso standard {docnumber} part({partnumber}) version({iso-10303-doc-version}) }
+
+is assigned to this document. The meaning of this value shall be as specified in
+ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+=== Schema identification
+
+
+
+
+
+
+To provide for unambiguous identification of the schema specifications given in
+this document in an open information system, the object identifier is assigned
+as follows:
+
+{ iso standard 10303 part(993) version(1) object(1) gervarxpli-nalncel-schema(1) }
+
+is assigned to the gervarxpli_nalncel_schema schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+
+
+
+To provide for unambiguous identification of the schema specifications given in
+this document in an open information system, the object identifier is assigned
+as follows:
+
+{ iso standard 10303 part(993) version(1) object(1) vonskonm-brantplem-schema(1) }
+
+is assigned to the vonskonm_brantplem_schema schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+
+
+
+To provide for unambiguous identification of the schema specifications given in
+this document in an open information system, the object identifier is assigned
+as follows:
+
+{ iso standard 10303 part(993) version(1) object(1) geldpram-norpermell-schema(1) }
+
+is assigned to the geldpram_norpermell_schema schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+
+
+
+To provide for unambiguous identification of the schema specifications given in
+this document in an open information system, the object identifier is assigned
+as follows:
+
+{ iso standard 10303 part(993) version(1) object(1) konbrolm-brilfet-schema(1) }
+
+is assigned to the konbrolm_brilfet_schema schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+
+
+
+To provide for unambiguous identification of the schema specifications given in
+this document in an open information system, the object identifier is assigned
+as follows:
+
+{ iso standard 10303 part(993) version(1) object(1) dretflont-gorplunm-schema(1) }
+
+is assigned to the dretflont_gorplunm_schema schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+[[annex_listings]]
+[appendix,obligation=informative]
+== Computer interpretable listings
+
+This annex references a listing of the EXPRESS entity names and corresponding
+short names as specified or referenced in this document. It also
+provides a listing of each EXPRESS schema specified in this document
+without comments or other explanatory text. These listings are available in
+computer-interpretable form in <<table_listing>> and can be found at the
+following URLs:
+
+Short names: link:++https://standards.iso.org/iso/10303/tech/short_names/short-names.txt++[]
+
+EXPRESS: link:++https://standards.iso.org/iso/10303/srl/v1/tech/srlv1.zip++[]
+
+[[table_listing]]
+[cols="a,a",options="header"]
+.EXPRESS listings
+|===
+| HTML file | ASCII file
+
+
+| <<gervarxpli_nalncel_schema.html>>
+| <<gervarxpli_nalncel_schema.exp>>
+
+| <<vonskonm_brantplem_schema.html>>
+| <<vonskonm_brantplem_schema.exp>>
+
+| <<geldpram_norpermell_schema.html>>
+| <<geldpram_norpermell_schema.exp>>
+
+| <<konbrolm_brilfet_schema.html>>
+| <<konbrolm_brilfet_schema.exp>>
+
+| <<dretflont_gorplunm_schema.html>>
+| <<dretflont_gorplunm_schema.exp>>
+
+
+|===
+
+NOTE: The information provided in computer-interpretable form at the above URLs
+is informative. The information that is contained in the body of this document is normative.
+
+[[annex_expg]]
+[appendix,obligation=informative]
+== EXPRESS-G diagrams
+
+
+
+
+
+
+
+
+
+The diagrams given in <<gervarxpli_nalncel_schema_expg1;to:through!dretflont_gorplunm_schema_expg>>
+correspond to the EXPRESS schemas specified in this document.
+The diagrams use the EXPRESS-G graphical notation for the
+EXPRESS language. EXPRESS-G is defined in ISO 10303-11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EXPRESS-G diagram of geldpram_norpermell_schema (1 of 1)
+
+Flenscum fil vilnbrol molm within a stanmmekes telmroln rontketlim gelranrdun flalrobrem fentrundfir ponnkond.
+Grerlbid cendfon funmbend plan plonsbrens remkar.
+Tonsgun tonsgun conn tremgonl drunrmeld of the conmplen tossoldclill call.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[annex_change_history]]
+[appendix,obligation=informative]
+== Change history
+
+[[general]]
+=== General
+
+This annex documents the history of technical modifications made to this document.
+
+Unless otherwise specified all modifications are upwardly compatible to the previous edition. Modifications to EXPRESS specifications are upwardly compatible if:
+
+* instances encoded according to ISO 10303-21, and that conform to an ISO 10303 application protocol based on the previous edition of this document, also conform to a revision of that application protocol based on this edition of this document;
+
+* interfaces that conform to ISO 10303-22 and to an ISO 10303 application protocol based on the previous edition of this document, also conform to a revision of that application protocol based on this edition of this document;
+
+* the mapping tables of ISO 10303 application protocols based on the previous edition of this document remain valid in a revision of that application protocol based on this edition of this document.
+
+
+
+
+
+
+
+
+
+
+[[changes_2]]
+
+
+=== Changes made in edition 2 (this edition)
+
+
+[[changes_summary_2]]
+==== Summary of changes
+
+
+The second edition of this document incorporated the modifications to the first edition listed below.
+
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Pliplord gronmkan prolmill sors_
+
+* [[[bib2,ISO 90002-2]]], _Prondlonm tardtrunl lontert stin gansfentped cun_
+
+* [[[bib3,ISO 90002-3]]], _Drarnbras golmmot penl stalslar plummoln prelmrill celrgrenx_
+
+* [[[bib4,ISO 90002-4]]], _Plan remkar stis forlcar funmbend tencelnnen_
+
+
+
+// This content is to be included into the "Bibliography" section.
+// It won't be visible in output, but it is necessary to encode the cross referencing of the
+// schemas attachments in "Computer interpretable listings" section (usually Annex C).
+// See link:++https://www.metanorma.org/author/topics/collections/cross-referencing/++[] for more information.
+
+
+
+
+
+* [[[gervarxpli_nalncel_schema.exp,repo:(current-metanorma-collection/gervarxpli_nalncel_schema.exp)]]]
+* [[[gervarxpli_nalncel_schema.html,repo:(current-metanorma-collection/gervarxpli_nalncel_schema.html)]]]
+
+
+
+
+
+* [[[vonskonm_brantplem_schema.exp,repo:(current-metanorma-collection/vonskonm_brantplem_schema.exp)]]]
+* [[[vonskonm_brantplem_schema.html,repo:(current-metanorma-collection/vonskonm_brantplem_schema.html)]]]
+
+
+
+
+
+* [[[geldpram_norpermell_schema.exp,repo:(current-metanorma-collection/geldpram_norpermell_schema.exp)]]]
+* [[[geldpram_norpermell_schema.html,repo:(current-metanorma-collection/geldpram_norpermell_schema.html)]]]
+
+
+
+
+
+* [[[konbrolm_brilfet_schema.exp,repo:(current-metanorma-collection/konbrolm_brilfet_schema.exp)]]]
+* [[[konbrolm_brilfet_schema.html,repo:(current-metanorma-collection/konbrolm_brilfet_schema.html)]]]
+
+
+
+
+
+* [[[dretflont_gorplunm_schema.exp,repo:(current-metanorma-collection/dretflont_gorplunm_schema.exp)]]]
+* [[[dretflont_gorplunm_schema.html,repo:(current-metanorma-collection/dretflont_gorplunm_schema.html)]]]

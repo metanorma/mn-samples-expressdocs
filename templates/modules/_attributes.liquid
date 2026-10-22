@@ -1,0 +1,102 @@
+
+{% liquid
+assign found_type = false
+if definition.underlying_type.items[0].remarks.size > 0
+assign found_type = true
+endif
+
+assign found_attribute = false
+if definition.attributes[0].remarks.size > 0
+assign found_attribute = true
+endif
+
+assign found_wr = false
+if definition.where_rules.size > 0
+assign found_wr = true
+endif
+
+assign found_ip = false
+if definition.informal_propositions[0].remarks.size > 0
+assign found_ip = true
+endif
+
+assign found_p = false
+if definition.parameters.size > 0
+assign found_p = true
+endif
+%}
+
+{% if found_type %}
+[underline]#Enumerated item definitions:#
+
+{% for item in definition.underlying_type.items %}
+{% if item.id %}
+[[{{ schema_id }}.{{ definition.id }}.{{ item.id }}]]
+*{{ item.id }}*: {% for item_remark in item.remarks %}
+{% if item_remark != null and item_remark != "" -%}{{ item_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: item.remark_items %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if found_attribute %}
+[underline]#Attribute definitions:#
+
+{% for attr in definition.attributes %}
+{% if attr.id %}
+[[{{ schema_id }}.{{ definition.id }}.{{ attr.id }}]]
+*{{ attr.id }}*: {% for attr_remark in attr.remarks %}
+{% if attr_remark != null and attr_remark != "" -%}{{ attr_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: attr.remark_items %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if found_wr %}
+[underline]#Formal propositions:#
+
+{% for wr in definition.where_rules %}
+{% if wr.id %}
+[[{{ schema_id }}.{{ definition.id }}.{{ wr.id }}]]
+*{{ wr.id }}*: {% for wr_remark in wr.remarks %}
+{% if wr_remark != null and wr_remark != "" -%}{{ wr_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: wr.remark_items %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if found_ip %}
+[underline]#Informal propositions:#
+
+{% for ip in definition.informal_propositions %}
+{% if ip.id %}
+[[{{ schema_id }}.{{ definition.id }}.{{ ip.id }}]]
+*{{ ip.id }}*: {% for ip_remark in ip.remarks %}
+{% if ip_remark != null and ip_remark != "" -%}{{ ip_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: ip.remark_items %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if found_p %}
+[underline]#Argument definitions:#
+
+{% for p in definition.parameters %}
+{% if p.id %}
+[[{{ schema_id }}.{{ definition.id }}.{{ p.id }}]]
+*{{ p.id }}*: {% for p_remark in p.remarks %}
+{% if p_remark != null and p_remark != "" -%}{{ p_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: p.remark_items %}
+{% endif %}
+{% endfor %}
+{% endif %}

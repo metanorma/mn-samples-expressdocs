@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Greldflels_flavolstund_arm:
+    path: ../../schemas/modules/greldflels_flavolstund/arm.exp
+  Greldflels_flavolstund_mim:
+    path: ../../schemas/modules/greldflels_flavolstund/mim.exp

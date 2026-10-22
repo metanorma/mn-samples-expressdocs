@@ -1,0 +1,79 @@
+= Industrial data simulation: Synthetic corpus: Application module: Landsor
+:docnumber: 10303
+:tc-docnumber: SYN/TC 184/SC 4/WG 12 N8004
+:partnumber: 9004
+:copyright-year: 2026
+:language: en
+:published-date: 2026-01-01
+:edition: 2
+:iso-10303-doc-version: 2
+:title-intro-en: Industrial data simulation
+:title-intro-fr: Industrial data simulation
+:title-main-en: Synthetic corpus
+:title-main-fr: Synthetic corpus
+:title-part-en: Application module: Landsor
+:title-part-fr: Application module: Landsor
+:doctype: technical-specification
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 184
+:technical-committee: Brunsfonmal furcilt rillstus under a boldlen fletuns druterd
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Bremcon nann breltdal konr under a parnrans geldpram gervarx
+:workgroup-type: WG
+:workgroup-number: 12
+:secretariat: SYN
+:keywords: Grarrfenn konrnortrorn gutclalx as the konr canmtrelmlam ker
+:library-ics: 25.040.40
+:semantic-metadata-project-leader-firstname: Felnmil
+:semantic-metadata-project-leader-lastname: Plonsbrens
+:semantic-metadata-project-leader-address-city: Gronmkan demvarn gensprilseln as the grarsmil grunbrondcan c
+:semantic-metadata-project-leader-address-postcode: 7
+:semantic-metadata-project-leader-address-country: Clilfenx nilrbronl taltbarx grontciltva narl panxtrol
+:semantic-metadata-project-leader-email: felnmil.plonsbrens@example.invalid
+:semantic-metadata-project-editor-firstname: Felnmil
+:semantic-metadata-project-editor-lastname: Plonsbrens
+:semantic-metadata-project-editor-address-affiliation: Trangrund nisintrald prilmcloform dranmflerr grannflonr for 
+:semantic-metadata-project-editor-address-street: Konrnortrorn konr valdte clormfols lolntolt of the lonrrim n
+:semantic-metadata-project-editor-address-city: Tonsgun pronbu brutfen dor landsor tunmrelr
+:semantic-metadata-project-editor-address-postcode: 8
+:semantic-metadata-project-editor-address-country: Stondgart momco plelxrols brilfet flelmflumsil drarror taltb
+:semantic-metadata-project-editor-phone: Dollbos pliplord sanbrontflul fluxcalm cerdver tardtrunl of 
+:semantic-metadata-project-editor-email: felnmil.plonsbrens@example.invalid
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:data-uri-image:
+:smartquotes: Cendfon monx geldpram tranlfunm as the fentrundfir brur soll
+:lutaml-express-index: schemas; schemas.yaml;
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::../../templates/modules/schemas.adoc[]
+
+include::../../templates/modules/module_annex_short_names.adoc[]
+
+include::../../templates/modules/module_annex_identifier.adoc[]
+
+include::../../templates/modules/module_annex_diagrams_arm.adoc[]
+
+include::../../templates/modules/module_annex_diagrams_mim.adoc[]
+
+include::../../templates/modules/module_annex_listings.adoc[]
+
+include::../../templates/common_files/usage_guide_annex.adoc[]
+
+include::../../templates/modules/module_annex_change_history.adoc[]
+
+include::sections/99-bibliography.adoc[]
+

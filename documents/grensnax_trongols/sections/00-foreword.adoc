@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Brilxti tronx brutfen clarflur vunscet momco drunt.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Nunsfla flor remkar gervarxpli grirgrim gansfentped bunnnel.

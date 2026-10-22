@@ -1,0 +1,73 @@
+---
+ae:
+- entity: Grirgrim_rillstus_fotbrix
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  extensible: 'TRUE'
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+  aa:
+  - attribute: biltgalgilx
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: stilstarbrox
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.biltgalgilx
+  - attribute: tunmrelr
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: pit
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.tunmrelr
+- entity: Flelmflumsil_stin
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+- entity: Volx_colxser_conldol_trongols
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+  aa:
+  - attribute: nelmdols
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: brerxprenm
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.nelmdols
+    refpath_extend: satkalr_tranlfunm_konrnortrorn_volx.ser
+    alt_map: stalslar
+  - attribute: cerdver
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: tonsgun
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.cerdver
+    refpath_extend: satkalr_tranlfunm_konrnortrorn_volx.clalr
+- entity: Pandfar_dillgonl
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  extensible: 'TRUE'
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+- entity: Konbrolm_canmtrelmlam_stondgart_kersdond
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+- entity: Certron_flanbex_fotbrix_drixflunx
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  extensible: 'TRUE'
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx
+  aa:
+  - attribute: fumer
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: tralteslun
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.fumer
+  - attribute: items
+    aimelt: satkalr_tranlfunm_konrnortrorn_volx
+    assertion_to: brorx
+    refpath: satkalr_tranlfunm_konrnortrorn_volx.items
+    refpath_extend: satkalr_tranlfunm_konrnortrorn_volx.tranlfunm
+    alt_map: kermrommerr
+- entity: Geltclenr_velr_grerlbid
+  aimelt: satkalr_tranlfunm_konrnortrorn_volx
+  extensible: 'TRUE'
+  original_module: pruntrolr_colxser
+  refpath:
+    content: satkalr_tranlfunm_konrnortrorn_volx

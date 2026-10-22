@@ -1,0 +1,20 @@
+[bibliography]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Plert flor bremcon penl_
+
+* [[[nref2,ISO 90001-2]]], _Kimelsvon cudpler flolmenx gralrbandfer_
+
+* [[[nref3,ISO 90001-3]]], _Pralcon britclux pradgor plilrrer druterd sendstiln_
+
+* [[[nref4,ISO 90001-4]]], _Greldflels prarnten flolmenx konrnortrorn flor flanbex flolmenx_
+
+* [[[nref5,ISO 90001-5]]], _Stonrkalr fem nod tardtrunl vanars_
+
+* [[[nref6,ISO 90001-6]]], _Beltbrald parnrans kontsentpla bandpun dre delprenl_
+
+* [[[nref7,ISO 90001-7]]], _Sotdrotclond cendfon fotbrix fil flanbex_
+
+* [[[nref8,ISO 90001-8]]], _Fold prens sartvalm rancanx valrdort brorrporl velr_
+
+* [[[nref9,ISO 90001-9]]], _Clolddrels monx plan plermkelt flor grerlbelxsar_

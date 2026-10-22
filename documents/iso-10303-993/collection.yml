@@ -1,0 +1,58 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Part 993: Iso-10303-993"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-993
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: iso-10303-993
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/resources/gervarxpli_nalncel_schema/gervarxpli_nalncel_schema.exp
+      identifier: gervarxpli_nalncel_schema.exp
+      attachment: true
+    - fileref: ../../schema_docs/gervarxpli_nalncel_schema/doc_gervarxpli_nalncel_schema.html
+      identifier: gervarxpli_nalncel_schema.html
+      attachment: true
+    - fileref: ../../plain_schemas/resources/vonskonm_brantplem_schema/vonskonm_brantplem_schema.exp
+      identifier: vonskonm_brantplem_schema.exp
+      attachment: true
+    - fileref: ../../schema_docs/vonskonm_brantplem_schema/doc_vonskonm_brantplem_schema.html
+      identifier: vonskonm_brantplem_schema.html
+      attachment: true
+    - fileref: ../../plain_schemas/resources/geldpram_norpermell_schema/geldpram_norpermell_schema.exp
+      identifier: geldpram_norpermell_schema.exp
+      attachment: true
+    - fileref: ../../schema_docs/geldpram_norpermell_schema/doc_geldpram_norpermell_schema.html
+      identifier: geldpram_norpermell_schema.html
+      attachment: true
+    - fileref: ../../plain_schemas/resources/konbrolm_brilfet_schema/konbrolm_brilfet_schema.exp
+      identifier: konbrolm_brilfet_schema.exp
+      attachment: true
+    - fileref: ../../schema_docs/konbrolm_brilfet_schema/doc_konbrolm_brilfet_schema.html
+      identifier: konbrolm_brilfet_schema.html
+      attachment: true
+    - fileref: ../../plain_schemas/resources/dretflont_gorplunm_schema/dretflont_gorplunm_schema.exp
+      identifier: dretflont_gorplunm_schema.exp
+      attachment: true
+    - fileref: ../../schema_docs/dretflont_gorplunm_schema/doc_dretflont_gorplunm_schema.html
+      identifier: dretflont_gorplunm_schema.html
+      attachment: true

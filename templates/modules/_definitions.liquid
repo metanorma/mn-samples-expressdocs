@@ -1,0 +1,46 @@
+
+{% if definitions.size > 0%}
+
+{% if depth %}
+{% assign xdepth = depth | plus: 1 %}
+{% if xdepth > 5 %}
+{% capture equalsigns %}====={% endcapture %}
+{% else %}
+{% capture equalsigns %}{% for count in (1..xdepth) %}={% endfor %}{% endcapture %}
+{% endif %}
+{% endif %}
+
+{% assign index_term_type = definition_type | split: " " | first | append: " object definition" %}
+
+[type=express]
+{{ equalsigns }} {{ definition_type }} definitions
+
+{% render "templates/modules/boilerplates", fetch: definition_type %}
+
+{% for definition in definitions %}
+
+{% comment %} Encode heading, with xref to EXPRESS diagram {% endcomment %}
+[[{{ schema_id }}.{{ definition.id }}]]
+{{ equalsigns | append: "="}} {{ definition.id }} <<{{ schema_id }}.expg2,image:../templates/common_files/expg.gif[]>>((({{ definition.id }},{{ index_term_type }})))
+
+{% assign remarks_text = definition.remarks | join: " " | strip %}
+{% if remarks_text != blank %}
+{% for definition_remark in definition.remarks %}
+{% if definition_remark != null and definition_remark != "" -%}{{ definition_remark }}{%- endif %}
+{% endfor %}
+{% else %}
+{% comment %}
+Blank remarks: generated boilerplate for SELECT types (SC4UTILITI-112).
+{% endcomment %}
+{% render "templates/modules/boilerplates", fetch: "select type description", definition: definition %}
+{% endif %}
+
+{% render "templates/common_files/body_remarks", remark_items: definition.remark_items %}
+
+{% render "templates/common_files/source_code", source: definition.source %}
+
+{% render "templates/modules/attributes", definition: definition, schema_id: schema_id %}
+
+{% endfor %}
+
+{% endif %}

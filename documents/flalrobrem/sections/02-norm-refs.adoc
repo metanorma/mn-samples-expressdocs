@@ -1,0 +1,19 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Nisintrald fil colxser manbardris drixflunx_
+
+* [[[nref2,ISO 90001-2]]], _Brelsdos polsmort tronmcunl polsmort_
+
+* [[[nref3,ISO 90001-3]]], _Flelmflumsil stoxdals fibalt folrals_
+
+* [[[nref4,ISO 90001-4]]], _Dilscar tencelnnen drorplitrort nilpenxstunr flerlner gralrbandfer_
+
+* [[[nref5,ISO 90001-5]]], _Celsprall stunclunr clangunt trimvunstit plels_
+
+* [[[nref6,ISO 90001-6]]], _Brudveln grarsmil drarnbras flor_
+
+* [[[nref7,ISO 90001-7]]], _Kimelsvon lolntre gugron delprenl rontketlim grirgrim flolmenx_
+
+* [[[nref8,ISO 90001-8]]], _Sotdrotclond demvarn conldol folm panxtrol lixgrunt_

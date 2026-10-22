@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Grarrfenn_fenconn_arm:
+    path: ../../schemas/modules/grarrfenn_fenconn/arm.exp
+  Grarrfenn_fenconn_mim:
+    path: ../../schemas/modules/grarrfenn_fenconn/mim.exp

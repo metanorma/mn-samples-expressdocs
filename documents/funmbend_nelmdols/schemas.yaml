@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Funmbend_nelmdols_arm:
+    path: ../../schemas/modules/funmbend_nelmdols/arm.exp
+  Funmbend_nelmdols_mim:
+    path: ../../schemas/modules/funmbend_nelmdols/mim.exp

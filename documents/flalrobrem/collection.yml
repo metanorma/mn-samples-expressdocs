@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Flalrobrem"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9007
+  edition: 2
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: flalrobrem
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/flalrobrem/arm.exp
+      identifier: flalrobrem-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Flalrobrem_arm/doc_Flalrobrem_arm.html
+      identifier: flalrobrem-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/flalrobrem/mim.exp
+      identifier: flalrobrem-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Flalrobrem_mim/doc_Flalrobrem_mim.html
+      identifier: flalrobrem-mim.html
+      attachment: true

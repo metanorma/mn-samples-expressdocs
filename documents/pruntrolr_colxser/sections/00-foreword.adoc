@@ -1,0 +1,5 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Tranclix prondlonm vontrold punddrarx der brudveln.
+
+include::../../../templates/foreword_part_2.adoc[]

@@ -1,0 +1,14 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Rontketlim telltrert nelxvolt daso drumsonl cannginvil_
+
+* [[[bib2,ISO 90002-2]]], _Remkar boltbrud dildkildcil daso lonrrim dre_
+
+* [[[bib3,ISO 90002-3]]], _Sardfanl kudderxgen mevol katrellfla mildgortrid prolmill_
+
+* [[[bib4,ISO 90002-4]]], _Brur dralfir volsstalt gorplunm manbardris_
+
+* [[[bib5,ISO 90002-5]]], _Cimkorgral lonxdrarga pronbu parrus_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

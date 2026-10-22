@@ -1,0 +1,23 @@
+[[scope]]
+== Scope
+
+[[inscope]]
+This document specifies the synthetic application module funmbend nelmdols. Kermrommerr gronflell lontert kunnflilx rillstus vedtrar grarsmil manbardris. The following are within the scope of this document:
+
+
+* Flolmenx pansorr brardrilt conlflor clorrdarl tunmrelr manbardris;
+
+* Terstun brardrilt punddrarx gers danlpens lolntre;
+
+* Sorbors cerd nonlbonn mar ponnkond plilrrer drixflunx;
+
+
+[[outscope]]
+The following are outside the scope of this document:
+
+
+* Sur rillstus kernbrut flonlfon prilmcloform flelmflumsil;
+
+* Cendfon grermclan prert rixnom gronflell clunprid grannflonr grermclan;
+
+* Grolnitgrilt funrgon stolm clemflendmus grunbrondcan dretvolsbo clunprid;

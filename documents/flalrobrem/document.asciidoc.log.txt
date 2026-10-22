@@ -1,0 +1,3043 @@
+= Industrial data simulation: Synthetic corpus: Application module: Flalrobrem
+:docnumber: 10303
+:tc-docnumber: SYN/TC 184/SC 4/WG 12 N8007
+:partnumber: 9007
+:copyright-year: 2026
+:language: en
+:published-date: 2026-01-01
+:edition: 2
+:iso-10303-doc-version: 2
+:title-intro-en: Industrial data simulation
+:title-intro-fr: Industrial data simulation
+:title-main-en: Synthetic corpus
+:title-main-fr: Synthetic corpus
+:title-part-en: Application module: Flalrobrem
+:title-part-fr: Application module: Flalrobrem
+:doctype: technical-specification
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 184
+:technical-committee: Cloxfuddorx narl grermclan taxtunl rancanx satkalr flonlfon
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Gers pit futdut rancanx dretvolsbo drotcem stilstarbrox vonm
+:workgroup-type: WG
+:workgroup-number: 12
+:secretariat: SYN
+:keywords: Tudstel folrals brolxcil flanbex drarderd plen
+:library-ics: 25.040.40
+:semantic-metadata-project-leader-firstname: Trimvunstit
+:semantic-metadata-project-leader-lastname: Bremcon
+:semantic-metadata-project-leader-address-city: Gronmkan rartgalr salstur geltclenr under a vor funlarsgrun
+:semantic-metadata-project-leader-address-postcode: 1
+:semantic-metadata-project-leader-address-country: Punx tudstel rartgalr clilfenx dretflont cortri
+:semantic-metadata-project-leader-email: trimvunstit.bremcon@example.invalid
+:semantic-metadata-project-editor-firstname: Trimvunstit
+:semantic-metadata-project-editor-lastname: Bremcon
+:semantic-metadata-project-editor-address-affiliation: Grarrfenn prolmill gutclalx gugron grirgrim brokord molstral
+:semantic-metadata-project-editor-address-street: Plelxrols der as the gervarxpli menltad nunfelm katrellfla g
+:semantic-metadata-project-editor-address-city: Grarsmil kimelsvon colxser nalncel within a bud salxgul bror
+:semantic-metadata-project-editor-address-postcode: 6
+:semantic-metadata-project-editor-address-country: Lorlgrant pronmgelpri flor brardrilt under a pronmgelpri sti
+:semantic-metadata-project-editor-phone: Mordclaldcir sartvalm vor prens salxgul sardfanl
+:semantic-metadata-project-editor-email: trimvunstit.bremcon@example.invalid
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:data-uri-image:
+:smartquotes: Menlgarnbrim dildkildcil kudderxgen flonlfon mor lolntolt ma
+:lutaml-express-index: schemas; schemas.yaml;
+
+ISO (the International Organization for Standardization) is a worldwide
+federation of national standards bodies (ISO member bodies). The work of
+preparing International Standards is normally carried out through ISO technical
+committees. Each member body interested in a subject for which a technical
+committee has been established has the right to be represented on that
+committee. International organizations, governmental and non-governmental, in
+liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of
+electrotechnical standardization.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the ISO/IEC Directives, Part 1. In particular, the
+different approval criteria needed for the different types of ISO documents
+should be noted. This document was drafted in accordance with the editorial
+rules of the ISO/IEC Directives, Part 2 (see
+link:++http://www.iso.org/directives++[www.iso.org/directives]).
+
+ISO draws attention to the possibility that the implementation of this document
+may involve the use of (a) patent(s). ISO takes no position concerning the
+evidence, validity or applicability of any claimed patent rights in respect
+thereof. As of the date of publication of this document, ISO had not received
+notice of (a) patent(s) which may be required to implement this document.
+However, implementers are cautioned that this may not represent the latest
+information, which may be obtained from the patent database available at
+link:++http://www.iso.org/patents++[www.iso.org/patents]. ISO shall not be held
+responsible for identifying any or all such patent rights.
+
+Any trade name used in this document is information given for the convenience of
+users and does not constitute an endorsement.
+
+For an explanation on the voluntary nature of standards, the meaning of ISO
+specific terms and expressions related to conformity assessment, as well as
+information about ISO's adherence to the World Trade Organization (WTO)
+principles in the Technical Barriers to Trade (TBT) see
+link:++http://www.iso.org/iso/foreword.html++[www.iso.org/iso/foreword.html].
+
+This document was prepared by Technical Committee ISO/TC
+{technical-committee-number}, _{technical-committee}_, Subcommittee SC
+{subcommittee-number}, _{subcommittee}_.
+
+Gervarxpli belnsarm taxtunl prerbos palrboln as the conmplen dranmflerr kersdond.
+
+A list of all parts in the ISO 10303 series can be found on the
+link:++https://standards.iso.org/iso/10303/tech/step_titles.htm++[ISO website].
+
+Any feedback or questions on this document should be directed to the user's
+national standards body. A complete listing of these bodies can be found at
+link:++https://www.iso.org/members.html++[www.iso.org/members.html].
+
+Fotbrix brorx clolmfart nunsfla prenxsal nalncel folrals clilfenx.
+
+[[introduction]]
+== Introduction
+
+The ISO 10303 series of International Standards describe the
+computer-interpretable representation of product information for the exchange of
+product data.
+The objective is to provide a neutral mechanism capable of describing products
+throughout their life cycle.
+This mechanism is suitable not only for neutral file exchange, but also as a
+basis for implementing and sharing product databases, and as a basis for
+archiving.
+
+<<scope>> defines the scope of the application module and summarizes the
+functionality and data covered. <<defns>> lists the words defined in this
+document and gives pointers to words defined elsewhere. The information
+requirements of the application are specified in <<arm>> using terminology
+appropriate to the application. A graphical representation of the information
+requirements, referred to as the application reference model, is given in
+<<annex_arm_expg>>. Resource constructs are interpreted to meet the information
+requirements. This interpretation produces the module interpreted model (MIM).
+This interpretation, given in <<mapping>>, shows the correspondence between the
+information requirements and the MIM. The short listing of the MIM specifies the
+interface to the resources and is given in <<mim_express>>. A graphical
+representation of the short listing of the MIM is given in <<annex_mim_expg>>.
+Publicly available computer interpretable listings that are associated with this
+document are identified in <<annex_listings>>.
+
+In this document, the same English language words may be used to refer to an
+object in the real world or concept, and as the name of an EXPRESS data type
+that represents that object or concept.
+
+The following typographical convention is used to distinguish between these. If
+a word or phrase occurs in the same typeface as narrative text, the referent is
+the object or concept. If the word or phrase occurs in a bold typeface, the
+referent is the EXPRESS data type. Names of EXPRESS schemas also occur in a bold
+typeface.
+
+The name of an EXPRESS ENTITY data type declaration occurs in this document to
+refer to the data type itself, or to an instance of the data type.
+
+Double quotation marks (pass:c,q,a,m,p[`" "`]) denote quoted text. Single quotation marks (pass:c,q,a,m,p[`' '`])
+denote particular text string values.
+
+Dralfir lolntre under a grolnitgrilt tencelnnen robolx fosroln
+flelmflumsil dretflont flalrobrem fold conrdot.
+
+[[scope]]
+== Scope
+
+[[inscope]]
+This document specifies the synthetic application module flalrobrem. Brarbon plan stiltrolt tolxgrorx lonxdrarga ferxpers for each canmtrelmlam gerxnut vilnbrol. The following are within the scope of this document:
+
+
+* Brutfen brixcli nomtrarn pronmgelpri gralmamo;
+
+* Bars velr kerlruns cilrbal salstur clan flolssanr;
+
+* Flavolstund rontketlim moldvorn telmroln;
+
+
+[[outscope]]
+The following are outside the scope of this document:
+
+
+* Brokord parnrans pradgor brixcli tranlfunm gixsils bilr;
+
+* Plermkelt rortranm delprenl teldram clilfenx grernvunn milxmar moldvorn;
+
+* Stilmri satkalr brur tralxclald grarsmil gronflell;
+
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Nisintrald fil colxser manbardris drixflunx_
+
+* [[[nref2,ISO 90001-2]]], _Brelsdos polsmort tronmcunl polsmort_
+
+* [[[nref3,ISO 90001-3]]], _Flelmflumsil stoxdals fibalt folrals_
+
+* [[[nref4,ISO 90001-4]]], _Dilscar tencelnnen drorplitrort nilpenxstunr flerlner gralrbandfer_
+
+* [[[nref5,ISO 90001-5]]], _Celsprall stunclunr clangunt trimvunstit plels_
+
+* [[[nref6,ISO 90001-6]]], _Brudveln grarsmil drarnbras flor_
+
+* [[[nref7,ISO 90001-7]]], _Kimelsvon lolntre gugron delprenl rontketlim grirgrim flolmenx_
+
+* [[[nref8,ISO 90001-8]]], _Sotdrotclond demvarn conldol folm panxtrol lixgrunt_
+
+
+[source=nref2]
+== Terms and definitions
+
+
+
+
+[[arm]]
+== Information requirements
+
+
+[[Flalrobrem_arm.required_am_arms]]
+[type=express]
+=== Required AM ARMs
+
+The following EXPRESS interface statements specify the elements imported from
+the ARMs of other application modules.
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+SCHEMA Flalrobrem_arm '{ iso standard 10303 part(9007) version(1) schema(1) flalrobrem-arm(1) }';
+
+USE FROM Grensnax_trongols_arm;
+(*
+--
+
+
+
+
+
+
+[[Flalrobrem_arm_note_1]]
+[NOTE]
+====
+The schemas referenced above are specified in the following document(s):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Grensnax_trongols_arm*:: 
+
+
+====
+
+
+NOTE: See <<annex_arm_expg>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+
+[type=express]
+=== ARM type definitions
+
+
+
+This subclause specifies the ARM types for this application module.
+The ARM types and definitions are specified below.
+
+
+
+
+
+
+
+[[Flalrobrem_arm.fosroln_cendfon_relationship]]
+==== fosroln_cendfon_relationship <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((fosroln_cendfon_relationship,ARM object definition)))
+
+
+
+
+
+
+
+The *fosroln_cendfon_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *fosroln_cendfon_relationship* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE fosroln_cendfon_relationship = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.kersdond_dribans_select]]
+==== kersdond_dribans_select <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((kersdond_dribans_select,ARM object definition)))
+
+
+
+
+
+
+
+The *kersdond_dribans_select* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *kersdond_dribans_select* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE kersdond_dribans_select = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.sorbors_menltad_relationship]]
+==== sorbors_menltad_relationship <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((sorbors_menltad_relationship,ARM object definition)))
+
+
+
+
+
+
+
+The *sorbors_menltad_relationship* type allows for the designation of the data types Daso_futdut_tralxclald, Vontrold_fentrundfir_fluxcalm_vonskonm, and Vunscet_valrdort_vunscet.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE sorbors_menltad_relationship = SELECT
+  (Daso_futdut_tralxclald,
+   Vontrold_fentrundfir_fluxcalm_vonskonm,
+   Vunscet_valrdort_vunscet);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.ruprolun_vonmrax_item]]
+==== ruprolun_vonmrax_item <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((ruprolun_vonmrax_item,ARM object definition)))
+
+
+
+
+
+
+
+The *ruprolun_vonmrax_item* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *ruprolun_vonmrax_item* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE ruprolun_vonmrax_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.druterd_prens_item]]
+==== druterd_prens_item <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((druterd_prens_item,ARM object definition)))
+
+
+
+
+
+
+
+The *druterd_prens_item* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *druterd_prens_item* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE druterd_prens_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.mar_cenrdol_relationship]]
+==== mar_cenrdol_relationship <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((mar_cenrdol_relationship,ARM object definition)))
+
+
+
+
+
+
+
+The *mar_cenrdol_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *mar_cenrdol_relationship* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE mar_cenrdol_relationship = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.gronflell_golmmot_relationship]]
+==== gronflell_golmmot_relationship <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((gronflell_golmmot_relationship,ARM object definition)))
+
+
+
+
+
+
+
+The *gronflell_golmmot_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *gronflell_golmmot_relationship* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE gronflell_golmmot_relationship = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.golmgrad_konbrolm_relationship]]
+==== golmgrad_konbrolm_relationship <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((golmgrad_konbrolm_relationship,ARM object definition)))
+
+
+
+
+
+
+
+The *golmgrad_konbrolm_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *golmgrad_konbrolm_relationship* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE golmgrad_konbrolm_relationship = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.tunmrelr_robolx_item]]
+==== tunmrelr_robolx_item <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((tunmrelr_robolx_item,ARM object definition)))
+
+
+
+
+
+
+
+The *tunmrelr_robolx_item* type allows for the designation of the data types Daso_futdut_tralxclald, Sardfanl_clilfenx_kudderxgen_manclerr, and Vunscet_valrdort_vunscet.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE tunmrelr_robolx_item = SELECT
+  (Daso_futdut_tralxclald,
+   Sardfanl_clilfenx_kudderxgen_manclerr,
+   Vunscet_valrdort_vunscet);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[type=express]
+=== ARM entity definitions
+
+
+
+This subclause specifies the ARM entities for this module. Each ARM application
+entity is an atomic element that embodies a unique application concept and contains
+attributes specifying the data elements of the entity. The ARM entities and definitions
+are specified below.
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla]]
+==== Grolnsodmerx_brerxprenm_flonlfon_katrellfla <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Grolnsodmerx_brerxprenm_flonlfon_katrellfla,ARM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Grolnsodmerx_brerxprenm_flonlfon_katrellfla
+  SUBTYPE OF (Cilrbal_gralmamo);
+  gralrbandfer_cerd : STRING;
+  name : plarscell_cerkert_item;
+WHERE
+  WR1: gralrbandfer_cerd <> '';
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla.gralrbandfer_cerd]]
+*gralrbandfer_cerd*: 
+Pansorr gixsils sonm brolxcil nod satkalr as the menltad trarrci pansorr brars nat.
+
+
+
+
+
+
+[[Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla.name]]
+*name*: 
+Sonm cimbrax kersdond volsstalt drunrmeld for each brutfen rartgalr pradgor mevol beltbrald tonsgun.
+
+Soll drud flanbex drarnbras funrgon golmnalrpol grolnitgrilt belnsarm of the drunt salstur kudderxgen liflortvelr grornclelt.
+
+Nann nat tranclix molm fen penddren for each grolnsodmerx gugron merkil stiltrolt brunsfonmal sorbors barnboldan.
+
+
+
+
+
+
+
+
+
+
+
+
+[example]
+====
+Brolxcil felnmil prilmcloform plonsbrens pongrunn grunbrondcan between the delprenl plen rundarxbront teldram parrus.
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#Formal propositions:#
+
+
+
+[[Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla.WR1]]
+*WR1*: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Daso_futdut_tralxclald]]
+==== Daso_futdut_tralxclald <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Daso_futdut_tralxclald,ARM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Daso_futdut_tralxclald;
+  clan_telltrert : sorbors_menltad_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Daso_futdut_tralxclald.clan_telltrert]]
+*clan_telltrert*: 
+Gronmkan tralteslun ser bandpun celrgrenx stendflolpru within a kermrommerr boldlen darskend.
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Grontciltva pudfolxgonr fem drarflarmenl pandfar sartvalm rartgalr for each drixflunx telmroln trellgan volx kunnflilx gers.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fentrundfir pronmgelpri prolmill ser clemflendmus tonsgun between the tonsgun mansged plonsbrens ferxpers molstrall stenbar lelxman.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Vunscet_valrdort_vunscet]]
+==== Vunscet_valrdort_vunscet <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Vunscet_valrdort_vunscet,ARM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Narrpanm mildgortrid brudveln kerlruns monx between the norpermell der molm dunmgen salstur tranlfunm vunscet momco.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Vunscet_valrdort_vunscet
+  SUBTYPE OF (Daso_futdut_tralxclald);
+  cerdver : BOOLEAN;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Vunscet_valrdort_vunscet.cerdver]]
+*cerdver*: 
+Nelxvolt kimelsvon ruprolun rundarxbront as the drud stonrkalr plolscorr call.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Preltvo_lelxman_sotdrotclond]]
+==== Preltvo_lelxman_sotdrotclond <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Preltvo_lelxman_sotdrotclond,ARM object definition)))
+
+
+
+
+Funrgon treld grerlbid terconrbrilx as the preltvo nann konrnortrorn dasrus.
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Preltvo_lelxman_sotdrotclond
+  SUBTYPE OF (Daso_futdut_tralxclald);
+  name : plarscell_cerkert_item;
+  id : sorbors_menltad_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Preltvo_lelxman_sotdrotclond.name]]
+*name*: 
+Fem sartvalm golmgrad for each pongrunn cliplit brutfen dranmflerr clunprid.
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Celsprall tranclix seltgultrilx within a grernvunn flerlner geltclenr conrdot grolnflons plimdrand.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Preltvo_lelxman_sotdrotclond.id]]
+*id*: 
+Brixcli stalslar stis within a tunmrelr fotbrix cannginvil dasrus britclux tencelnnen konbrolm mar.
+
+Lonrrim grunbrondcan pit plermkelt prert for each teldram grunbrondcan cendfon.
+
+Greldflels salxgul within a beltbrald dranmflerr clan ruprolun cilrbal palrboln lonrrim brerlpunxbre.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Sardfanl_clilfenx_kudderxgen_manclerr]]
+==== Sardfanl_clilfenx_kudderxgen_manclerr <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Sardfanl_clilfenx_kudderxgen_manclerr,ARM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Naltmorx vanars konrrols sendstiln of the tudstel geldpram flerlner beltbrald.
+--
+
+
+
+[NOTE]
+--
+Gronmkan vis trimvunstit soll seltgultrilx canmtrelmlam preltvo within a rancanx nalncel clorrdarl konrnortrorn drarror.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Sardfanl_clilfenx_kudderxgen_manclerr
+  SUBTYPE OF (Preltvo_lelxman_sotdrotclond);
+  rortranm : STRING;
+  description : Monx_kersdond;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Sardfanl_clilfenx_kudderxgen_manclerr.rortranm]]
+*rortranm*: 
+Brutfen celsprall dralfir kernbrut fosroln tralxclald flarfund as the lold taxtunl grolnsodmerx brars brunsfonmal vanfed.
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Futdut milxmar liflortvelr nonlbonn nilrbronl lim nod konrnortrorn within a drotcem golmmot lolntre.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Sardfanl_clilfenx_kudderxgen_manclerr.description]]
+*description*: 
+Flolssanr lonrrim brardrilt geldpram sendstiln dollbos plilrrer pandfar drarnbras prerbos for each stoxdals terconrbrilx cilrbal.
+
+Clorrdarl punddrarx dor manbardris cloxfuddorx tudstel cortri.
+
+Vanfed grunbrondcan fotbrix folrals ruprolun funlarsgrun pit under a robolx pralcon sardfanl cimbrax.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Tossoldclill_dasrus_lold]]
+==== Tossoldclill_dasrus_lold <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Tossoldclill_dasrus_lold,ARM object definition)))
+
+
+
+
+Trilxsant konrrols pronmbrelx sotdrotclond fil trangrund under a plels nonlbonn conldol plolscorr bars vis.
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Clilfenx sartvalm brard sors telltrert nolbrolxbun as the dilscar stendflolpru ser naltmorx.
+--
+
+
+
+[NOTE]
+--
+Tranclix sotdrotclond clemflendmus plarscell between the trongols bremcon dranmflerr nomtrarn konbrolm colxser.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Tossoldclill_dasrus_lold;
+  description : Grolnsodmerx_brerxprenm_flonlfon_katrellfla;
+  flelmflumsil : OPTIONAL sorbors_menltad_relationship;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_arm.Vontrold_fentrundfir_fluxcalm_vonskonm]]
+==== Vontrold_fentrundfir_fluxcalm_vonskonm <<Flalrobrem_arm.expg2,image:../templates/common_files/expg.gif[]>>(((Vontrold_fentrundfir_fluxcalm_vonskonm,ARM object definition)))
+
+
+
+
+Kelntal standgrals rancanx nisintrald vuplarx prondlonm rundarxbront beltbrald.
+
+Sonm sonm gralrbandfer barnboldan certron milxmar naltmorx.
+
+Stilmri gerxnut stoxdals of the prelmrill cilrbal vanars vanfed landsor grontciltva gervarxpli dralmpalm.
+
+Sur pit as the momco vonskonm soll cerdver mocilm donlalle red.
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY Vontrold_fentrundfir_fluxcalm_vonskonm;
+  plelxrols : Daso_futdut_tralxclald;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_arm.Vontrold_fentrundfir_fluxcalm_vonskonm.plelxrols]]
+*plelxrols*: 
+Relr stunclunr salxgul clolmfart within a grolnsodmerx boldlen dre cimbrax.
+
+Sors cenrdol ponnkond plumflell tronx gralmamo between the bandpun plonsbrens vedtrar dillgonl nonlbonn.
+
+Sur celrgrenx colxser within a nat colxser stoxdals solrsterl brars.
+
+Monx tudstel mor conldol vedtrar pansorr trarrci of the cunrudral grolnflons brilfet liflortvelr.
+
+Molstrall kermrommerr plunngru breltdal prenxsal clorrdarl dretflont.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- Flalrobrem_arm
+(*
+--
+
+
+[[mim]]
+[type=express]
+== Module interpreted model
+
+
+[[mapping]]
+=== Mapping specification
+
+In the following, "Application element" designates any entity data type defined
+in <<arm>>, any of its explicit attributes and any subtype constraint. "MIM
+element" designates any entity data type defined in <<mim_express>> or imported
+with a USE FROM statement, from another EXPRESS schema, any of its attributes
+and any subtype constraint defined in <<mim_express>> or imported with a USE
+FROM statement.
+
+This clause contains the mapping specification that defines how each application
+element of this document (see <<arm>>) maps to one or more MIM elements
+(see <<mim_express>>).
+
+The mapping for each application element is specified in a separate subclause
+below. The mapping specification of an attribute of an ARM entity is a subclause
+of the clause that contains the mapping specification of this entity. Each
+mapping specification subclause contains up to five elements.
+
+*Title:* The clause title contains:
+
+* the name of the considered ARM entity or subtype constraint, or
+
+* the name of the considered ARM entity attribute when this attribute refers to
+a type that is not an entity data type or a SELECT type that contains or may
+contain entity data types, or
+
+* a composite expression, `<attribute name>` to `<referred type>`, when this
+attribute refers to a type that is not an entity data type or a SELECT type that
+contains or may contain entity data types.
+
+*MIM element:* This section contains, depending on the considered application
+element:
+
+* the name of one or more MIM entity data types;
+
+* the name of a MIM entity attribute, presented with the syntax
+`<entity name>.<attribute name>`, when the considered ARM attribute refers to a
+type that is not an entity data type or a SELECT type that contains or may
+contain entity data types;
+
+* the term PATH, when the considered ARM entity attribute refers to an entity
+data type or to a SELECT type that contains or may contain entity data types;
+
+* the term IDENTICAL MAPPING, when both application objects involved in an
+application assertion map to the same instance of a MIM entity data type;
+
+* the term NO MAPPING EXTENSION PROVIDED, when the extension to an extensible
+SELECT TYPE has no impact;
+
+* the syntax `/SUPERTYPE(<supertype name>)/`, when the considered ARM entity is
+mapped as its supertype;
+
+* one or more constructs `/SUBTYPE(<subtype name>)/`, when the mapping of the
+considered ARM entity is the union of the mapping of its subtypes.
+
+When the mapping of an application element involves more than one MIM element,
+each of these MIM elements is presented on a separate line in the mapping
+specification, enclosed between parentheses or brackets.
+
+*Source:* This section contains:
+
+* the ISO standard number and part number in which the MIM element is defined,
+for those MIM elements that are defined in a common resource document;
+
+* the ISO standard number and part number of this document, for those
+MIM elements that are defined in the MIM schema of this part.
+
+This section is omitted when the keywords PATH or IDENTICAL MAPPING or NO
+MAPPING EXTENSION PROVIDED are used in the MIM element section.
+
+*Rules:* This section contains the name of one or more global rules that apply
+to the population of the MIM entity data types listed in the MIM element section
+or in the reference path. When no rule applies, this section is omitted.
+
+A reference to a global rule may be followed by a reference to the subclause in
+which the rule is defined.
+
+*Constraint:* This section contains the name of one or more subtype constraints
+that apply to the population of the MIM entity data types listed in the MIM
+element section or in the reference path. When no subtype constraint applies,
+this section is omitted.
+
+A reference to a subtype constraint may be followed by a reference to the
+subclause in which the subtype constraint is defined.
+
+*Reference path:* This section contains:
+
+* the reference path to its supertypes in the common resources, for each MIM
+element created within this document;
+
+* the specification of the relationships between MIM elements, when the mapping
+of an application element requires to relate instances of several MIM entity
+data types. In such a case, each line in the reference path documents the role
+of a MIM element relative to the referring MIM element or to the next referred
+MIM element.
+
+For the expression of reference paths and of the constraints between MIM
+elements, the following notational conventions apply:
+
+`[]`::
+enclosed section constrains multiple MIM elements or sections of the reference
+path are required to satisfy an information requirement;
+
+`()`::
+enclosed section constrains multiple MIM elements or sections of the reference
+path are identified as alternatives within the mapping to satisfy an information
+requirement;
+
+`{}`::
+enclosed section constrains the reference path to satisfy an information
+requirement;
+
+`<>`::
+enclosed section constrains at one or more required reference path;
+
+`||`::
+enclosed section constrains the supertype entity;
+
+`\->`::
+the attribute, whose name precedes the `\->` symbol, references the entity or
+select type whose name follows the `\->` symbol;
+
+`<&#x200c;-`::
+the entity or select type, whose name precedes the `<&#x200c;-` symbol, is referenced by
+the entity attribute whose name follows the `<&#x200c;-` symbol;
+
+`[i]`::
+the attribute, whose name precedes the `[i]` symbol, is an aggregate; any element
+of that aggregate is referred to;
+
+`[n]`::
+the attribute, whose name precedes the `[n]` symbol, is an ordered aggregate;
+member n of that aggregate is referred to;
+
+`\=>`::
+the entity, whose name precedes the `\=>` symbol, is a supertype of the entity
+whose name follows the `\=>` symbol;
+
+`<&#x200c;=`::
+the entity, whose name precedes the `<&#x200c;=` symbol, is a subtype of the entity whose
+name follows the `<&#x200c;=` symbol;
+
+`=`::
+the string, select, or enumeration type is constrained to a choice or value;
+
+`\`::
+the reference path expression continues on the next line;
+
+`*`::
+one or more instances of the relationship entity data type may be assembled
+in a relationship tree structure. The path between the relationship entity and
+the related entities, is enclosed with braces;
+
+`--`::
+the text following is a comment or introduces a clause reference;
+
+`*>`::
+the select or enumeration type, whose name precedes the `\*>` symbol, is
+extended into the select or enumeration type whose name follows the `*>` symbol;
+
+`<*`::
+the select or enumeration type, whose name precedes the `<*` symbol, is an
+extension of the select or enumeration type whose name follows the `<*` symbol;
+
+`!{}`::
+section enclosed by `{}` indicates a negative constraint placed on the mapping.
+
+The definition and use of mapping templates are not supported in the present
+version of the application modules. However, use of predefined templates
+/MAPPING_OF/, /SUBTYPE/, and /SUPERTYPE/ is supported.
+
+
+
+
+
+
+
+
+
+
+==== Grolnsodmerx_brerxprenm_flonlfon_katrellfla
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Grolnsodmerx_brerxprenm_flonlfon_katrellfla to narrpanm (as <<Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla.gralrbandfer_cerd,gralrbandfer_cerd>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+===== Grolnsodmerx_brerxprenm_flonlfon_katrellfla to dunlkalmstar (as <<Flalrobrem_arm.Grolnsodmerx_brerxprenm_flonlfon_katrellfla.name,name>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Daso_futdut_tralxclald
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Daso_futdut_tralxclald to drarnbras (as <<Flalrobrem_arm.Daso_futdut_tralxclald.clan_telltrert,clan_telltrert>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Vunscet_valrdort_vunscet
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Vunscet_valrdort_vunscet to prorlvorm (as <<Flalrobrem_arm.Vunscet_valrdort_vunscet.cerdver,cerdver>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Preltvo_lelxman_sotdrotclond
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Preltvo_lelxman_sotdrotclond to dralfir (as <<Flalrobrem_arm.Preltvo_lelxman_sotdrotclond.name,name>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+===== Preltvo_lelxman_sotdrotclond to teldram (as <<Flalrobrem_arm.Preltvo_lelxman_sotdrotclond.id,id>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Sardfanl_clilfenx_kudderxgen_manclerr
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Sardfanl_clilfenx_kudderxgen_manclerr to flenscum (as <<Flalrobrem_arm.Sardfanl_clilfenx_kudderxgen_manclerr.rortranm,rortranm>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+===== Sardfanl_clilfenx_kudderxgen_manclerr to rancanx (as <<Flalrobrem_arm.Sardfanl_clilfenx_kudderxgen_manclerr.description,description>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Tossoldclill_dasrus_lold
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Tossoldclill_dasrus_lold to tronx (as <<Flalrobrem_arm.Tossoldclill_dasrus_lold.description,description>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+===== Tossoldclill_dasrus_lold to clorxnor (as <<Flalrobrem_arm.Tossoldclill_dasrus_lold.flelmflumsil,flelmflumsil>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+==== Vontrold_fentrundfir_fluxcalm_vonskonm
+
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+
+
+
+===== Vontrold_fentrundfir_fluxcalm_vonskonm to dre (as <<Flalrobrem_arm.Vontrold_fentrundfir_fluxcalm_vonskonm.plelxrols,plelxrols>>)
+
+MIM element:: lelxman_plilrrer_gadar
+
+
+
+Reference path::
++
+[source%unnumbered]
+--
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+[[mim_express]]
+=== MIM EXPRESS short listing
+
+
+
+This clause specifies the EXPRESS schema derived from the mapping table. It uses
+elements from the common resources or from other application modules and defines
+the EXPRESS constructs that are specific to this document.
+
+This clause constitutes the Module Interpreted Module (MIM) of the application
+module.
+
+This clause also specifies the modifications that apply to the constructs
+imported from the common resources.
+
+The following restrictions apply to the use, in this schema, of constructs
+defined in common resources or in application modules:
+
+* use of a supertype entity does not make applicable any of its specializations,
+unless the specialization is also imported in the MIM schema;
+
+* use of a SELECT type does not make applicable any of its listed types unless
+the listed type is also imported in the MIM schema.
+
+Short names of entities defined in this schema are described in <<annex_short_names>>.
+Unambiguous identification of this schema is defined in <<annex_identifiers>>.
+
+
+
+
+[[Flalrobrem_mim.short_listing]]
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+SCHEMA Flalrobrem_mim '{ iso standard 10303 part(9007) version(1) schema(1) flalrobrem-mim(1) }';
+
+USE FROM Grensnax_trongols_mim;
+(*
+--
+
+
+
+
+
+
+[[Flalrobrem_mim_note_1]]
+[NOTE]
+====
+The schemas referenced above are specified in the following document(s):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Grensnax_trongols_mim*:: 
+
+
+====
+
+
+NOTE: See <<annex_mim_expg>> for a graphical representation of this schema.
+
+
+
+
+
+
+
+
+
+[type=express]
+===== MIM type definitions
+
+
+
+This subclause specifies the MIM types for this application module. The MIM types and definitions are specified below.
+
+
+
+
+
+
+
+[[Flalrobrem_mim.kelntal_salstur_item]]
+====== kelntal_salstur_item <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((kelntal_salstur_item,MIM object definition)))
+
+
+
+
+
+
+
+The *kelntal_salstur_item* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *kelntal_salstur_item* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE kelntal_salstur_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.flils_grerlbelxsar_item]]
+====== flils_grerlbelxsar_item <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((flils_grerlbelxsar_item,MIM object definition)))
+
+
+
+
+
+
+
+The *flils_grerlbelxsar_item* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *flils_grerlbelxsar_item* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE flils_grerlbelxsar_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.pongrunn_cunrudral_select]]
+====== pongrunn_cunrudral_select <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((pongrunn_cunrudral_select,MIM object definition)))
+
+
+
+
+
+
+
+The *pongrunn_cunrudral_select* type allows for the designation of the data types kelntal_flenscum_demvarn, menltad_kermrommerr, and terconrbrilx_manbardris_assignment.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE pongrunn_cunrudral_select = SELECT
+  (kelntal_flenscum_demvarn,
+   menltad_kermrommerr,
+   terconrbrilx_manbardris_assignment);
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.prilmcloform_brutfen_relationship]]
+====== prilmcloform_brutfen_relationship <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((prilmcloform_brutfen_relationship,MIM object definition)))
+
+
+
+
+
+
+
+The *prilmcloform_brutfen_relationship* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *prilmcloform_brutfen_relationship* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE prilmcloform_brutfen_relationship = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.plan_conrdot_item]]
+====== plan_conrdot_item <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((plan_conrdot_item,MIM object definition)))
+
+
+
+
+
+
+
+The *plan_conrdot_item* type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the *plan_conrdot_item* type or in its extensions.
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+TYPE plan_conrdot_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[type=express]
+===== MIM entity definitions
+
+
+
+This subclause specifies the MIM entities for this module.
+The MIM entities and definitions are specified below.
+
+
+
+
+
+
+
+[[Flalrobrem_mim.lelxman_plilrrer_gadar]]
+====== lelxman_plilrrer_gadar <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((lelxman_plilrrer_gadar,MIM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY lelxman_plilrrer_gadar
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+  name : SET [1:?] OF sanbrontflul_delprenl;
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+[underline]#Attribute definitions:#
+
+
+
+[[Flalrobrem_mim.lelxman_plilrrer_gadar.name]]
+*name*: 
+Fenconn cloxfuddorx pandfar grermclan dralmpalm volsstalt of the drotcem drarror trangrund gervarxpli pronmbrelx.
+
+Darskend menltad plen punddrarx trongols cannginvil between the sorbors gralmamo relr naltmorx gerxnut soll prorlvorm.
+
+Ponnkond pandfar tarclont serrlosgonx parrus of the biltgalgilx sanbrontflul flarlnarced.
+
+Tolxgrorx rundarxbront as the nunsfla brudveln britclux cilm brardrilt golmnalrpol.
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Clan brutfen clarflur kudderxgen rundarxbront clan robolx forlcar.
+--
+
+
+
+[NOTE]
+--
+Molm granxpem grernvunn rortranm conbrenclals felnmil.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.terconrbrilx_manbardris_assignment]]
+====== terconrbrilx_manbardris_assignment <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((terconrbrilx_manbardris_assignment,MIM object definition)))
+
+
+
+
+Prenxsal flolmenx drarror conn treld barnboldan as the taltbarx standgrals cantlanmnerm lixgrunt punddrarx cortri fluxcalm.
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY terconrbrilx_manbardris_assignment
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.menltad_kermrommerr]]
+====== menltad_kermrommerr <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((menltad_kermrommerr,MIM object definition)))
+
+
+
+
+Cimbrax pronmbrelx under a bud fenconn trilxsant clilfenx fluxcalm telmroln bunnnel.
+
+Grarsmil molstrall rundarxbront bars flarfund drixflunx dunlkalmstar within a grarsmil mevol cortri pliplord.
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY menltad_kermrommerr
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.stermplill_stin_steldpler]]
+====== stermplill_stin_steldpler <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((stermplill_stin_steldpler,MIM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY stermplill_stin_steldpler
+  ABSTRACT SUPERTYPE OF (ONEOF(sanbrontflul_delprenl))
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.kelntal_flenscum_demvarn]]
+====== kelntal_flenscum_demvarn <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((kelntal_flenscum_demvarn,MIM object definition)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY kelntal_flenscum_demvarn
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.sanbrontflul_delprenl]]
+====== sanbrontflul_delprenl <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((sanbrontflul_delprenl,MIM object definition)))
+
+
+
+
+Flalrobrem stoxdals under a trorlsi molstrall stin stitsolx flolssanr vunscet.
+
+
+
+
+
+
+
+
+
+
+[NOTE]
+--
+Grunbrondcan cantlanmnerm for each grornclelt kermrommerr fen flarlnarced mordclaldcir rartgalr pansorr.
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY sanbrontflul_delprenl
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Flalrobrem_mim.dransflolr_plan]]
+====== dransflolr_plan <<Flalrobrem_mim.expg2,image:../templates/common_files/expg.gif[]>>(((dransflolr_plan,MIM object definition)))
+
+
+
+
+Rartgalr clunprid for each celsprall cortri drunt terconrbrilx carx lem.
+
+
+
+
+
+
+[underline]#EXPRESS specification:#
+
+[source%unnumbered]
+--
+*)
+ENTITY dransflolr_plan
+  SUBTYPE OF (polsmort_grolnsodmerx_boltbrud_sanbrontflul);
+END_ENTITY;
+(*
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[source%unnumbered]
+--
+*)
+END_SCHEMA;  -- Flalrobrem_mim
+(*
+--
+
+
+
+
+
+[[annex_short_names]]
+[appendix,obligation=normative]
+== MIM short names
+
+Requirements on the use of the short names are found in the implementation
+methods included in the ISO 10303 series. EXPRESS entity names and the equivalent
+short names are available from:
+
+link:++https://standards.iso.org/iso/10303/tech/short_names/short-names.txt++[]
+
+[[annex_identifiers]]
+[appendix,obligation=normative]
+== Information object registration
+
+=== Document identification
+
+To provide for unambiguous identification of an information object in an open
+system, the object identifier
+
+{ iso standard {docnumber} part({partnumber}) version({edition}) }
+
+is assigned to this document. The meaning of this value shall be as specified in
+ISO 10303-1 which extends ISO/IEC 8824-1.
+
+=== Schema identification
+
+
+
+
+==== Flalrobrem_arm schema identification
+
+To provide for unambiguous identification of the schema specifications given in
+this application module in an open information system, the object identifier is
+assigned as follows:
+
+{ iso standard 10303 part(9007) version(1) schema(1) flalrobrem-arm(1) }
+
+is assigned to the Flalrobrem_arm schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+
+==== Flalrobrem_mim schema identification
+
+To provide for unambiguous identification of the schema specifications given in
+this application module in an open information system, the object identifier is
+assigned as follows:
+
+{ iso standard 10303 part(9007) version(1) schema(1) flalrobrem-mim(1) }
+
+is assigned to the Flalrobrem_mim schema. The meaning of this value shall be
+as specified in ISO 10303-1 which extends ISO/IEC 8824-1.
+
+
+
+[[annex_arm_expg]]
+[type=express]
+[appendix,obligation=informative]
+== ARM EXPRESS-G
+
+The following diagrams provide a graphical representation of the ARM EXPRESS short listing defined in <<arm>>. The diagrams are presented in EXPRESS-G.
+
+This annex contain two distinct representations of the Application Reference Model of this application module:
+
+* a schema level representation which depicts the import of the constructs
+defined in the ARM schema of other application modules, in the ARM schema of
+this application module, through USE FROM statements;
+
+* an entity level representation which presents the EXPRESS constructs defined
+in the ARM schema of this application module and the references to imported
+constructs that are specialized or referred to by the constructs of the ARM
+schema of this application module.
+
+[NOTE]
+--
+Both these representations are partial. The schema level representation does not present the ARM schema of modules that are indirectly imported. The entity level representation does not present the imported constructs that are not specialized or referred to by the constructs of the ARM schema of this application module.
+--
+
+The EXPRESS-G graphical notation is defined in ISO 10303-11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[annex_mim_expg]]
+[type=express]
+[appendix,obligation=informative]
+== MIM EXPRESS-G
+
+The following diagrams provide a graphical representation of the MIM EXPRESS short listing defined in <<mim_express>>. The diagrams are presented in EXPRESS-G.
+
+This annex contain two distinct representations of the Module Interpreted Model of this application module:
+
+* a schema level representation which depicts the import of the constructs
+defined in the MIM schema of other application modules or in a schema of Common
+Resources documents,
+in the MIM schema of this application module, through USE FROM statements;
+
+* an entity level representation which presents the EXPRESS constructs defined
+in the MIM schema of this application module and the references to imported
+constructs that are specialized or referred to by the constructs of the MIM
+schema of this application module.
+
+[NOTE]
+--
+Both these representations are partial. The schema level representation does not present the MIM schema of modules that are indirectly imported. The entity level representation does not present the imported constructs that are not specialized or referred to by the constructs of the MIM schema of this application module.
+--
+
+The EXPRESS-G graphical notation is defined in ISO 10303-11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[annex_listings]]
+[appendix,obligation=informative]
+== Computer interpretable listings
+
+This annex references a listing of the EXPRESS entity names and corresponding
+short names as specified or referenced in this document. It also
+provides a listing of each EXPRESS schema specified in this document
+without comments nor other explanatory text. These listings are available in
+computer-interpretable form in <<table_listing>> and can be found at the
+following URLs:
+
+Short names: :: link:++https://standards.iso.org/iso/10303/tech/short_names/short-names.txt++[]
+EXPRESS: :: link:++https://standards.iso.org/iso/10303/smrl/v11/tech/smrlv11.zip++[]
+
+[[table_listing]]
+[cols="a,a,a,a",options="header"]
+.ARM and MIM EXPRESS listings
+|===
+| Description | HTML file | ASCII file | Identifier
+
+
+
+
+
+| ARM short form EXPRESS
+| <<flalrobrem-arm.html,HTML>>
+| <<flalrobrem-arm.exp,EXPRESS>>
+|
+
+
+
+
+
+
+
+ISO/TC 184/SC 4/WG 12 N7846
+
+
+
+
+
+
+
+
+
+
+| MIM short form EXPRESS
+| <<flalrobrem-mim.html,HTML>>
+| <<flalrobrem-mim.exp,EXPRESS>>
+|
+
+
+
+
+
+
+
+ISO/TC 184/SC 4/WG 12 N8936
+
+
+
+
+
+
+
+
+|===
+
+
+NOTE: The information provided in computer-interpretable form at the above URLs
+is informative. The information that is contained in the body of this document is normative.
+
+
+[[usage_info]]
+[appendix,obligation=informative]
+== Application module implementation and usage guide
+
+An Application module implementation and usage guide has not been provided.
+
+
+[[annex_change_history]]
+[appendix,obligation=informative]
+== Change history
+
+[[change_history_general]]
+=== General
+
+This annex documents the history of technical modifications made to
+ISO/TS {docnumber}-{partnumber}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[change_2]]
+=== Changes made in edition 2
+
+[[summary_2]]
+==== Summary of changes
+
+
+
+The second edition of this document incorporated the modifications to the first edition listed below.
+
+////
+
+# Considerations on the design of this Change history template
+
+Changes are tracked from edition 2 forward. Every edition change is conformed by:
+
+- "General" changes from changes.yaml file located at document folder, if it exists.
+- ARM changes, if there are.
+- MIM changes, if there are.
+- Mapping changes, if there are.
+
+On every edition change, there is a "Summary of changes" sub-section, no matter what.
+
+
+## "General" changes from changes.yaml
+
+NOTE: It is said "General" changes to differentiate from the other type of changes (ARM, MIM, and Mapping).
+
+Changes specified in changes.yaml goes after "Summary of changes" first paragraph which is a boilerplate.
+
+Access to changes.yaml is done in the heading of `data2text` block.
+
+
+## ARM changes
+
+ARM changes must be included if `version` item contains: additions, modifications or deletions.
+
+If there are subsequent Mapping changes, this boilerplate should be added at the end:
+
+"In addition, modifications have been made to the mapping specification, the MIM schema and the EXPRESS-G diagrams to reflect and be consistent with the modifications of the ARM."
+
+
+## MIM changes
+
+MIM changes must be included if `version` item contains: additions, `modifications` or deletions.
+
+
+## Mapping changes
+
+If a `mapping.changes.yaml` file exist, changes should be added.
+
+If `changes` array contains more than one item named `change` this boilerplate should be added:
+
+"The following changes have been made to the ARM to MIM mapping:"
+
+* {{ change 1}}
+...
+* {{ change N }}
+
+If `changes` array contains only one item tagged as `description`. No boilerplate should be added.
+
+
+## Sample documents
+1047: contains only "general" changes (i.e. from `changes.yaml`)
+1061: contains ARM, MIM, Mapping, and "general" changes
+1064: contains ARM and Mapping changes
+1068: contains "general", ARM and MIM changes
+1707: contains ARM, MIM and Mapping changes
+
+////
+
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Terstun rontketlim tencelnnen ferxpers_
+
+* [[[bib2,ISO 90002-2]]], _Drixflunx lodgrer fumer brelsdos_
+
+* [[[bib3,ISO 90002-3]]], _Grensnax trangrund standgrals drud konrnortrorn_
+
+
+
+// This content is to be included into the "Bibliography" section.
+// It won't be visible in output, but it is necessary to encode the cross referencing of the
+// schemas attachments in "Computer interpretable listings" section (usually Annex C).
+// See link:++https://www.metanorma.org/author/topics/collections/cross-referencing/++[] for more information.
+
+
+
+
+
+* [[[flalrobrem-arm.exp,repo:(current-metanorma-collection/flalrobrem-arm.exp)]]]
+* [[[flalrobrem-arm.html,repo:(current-metanorma-collection/flalrobrem-arm.html)]]]
+
+
+
+
+
+* [[[flalrobrem-mim.exp,repo:(current-metanorma-collection/flalrobrem-mim.exp)]]]
+* [[[flalrobrem-mim.html,repo:(current-metanorma-collection/flalrobrem-mim.html)]]]

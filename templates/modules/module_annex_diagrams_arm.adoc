@@ -1,0 +1,74 @@
+[[annex_arm_expg]]
+[type=express]
+[appendix,obligation=informative]
+== ARM EXPRESS-G
+
+The following diagrams provide a graphical representation of the ARM EXPRESS short listing defined in <<arm>>. The diagrams are presented in EXPRESS-G.
+
+This annex contain two distinct representations of the Application Reference Model of this application module:
+
+* a schema level representation which depicts the import of the constructs
+defined in the ARM schema of other application modules, in the ARM schema of
+this application module, through USE FROM statements;
+
+* an entity level representation which presents the EXPRESS constructs defined
+in the ARM schema of this application module and the references to imported
+constructs that are specialized or referred to by the constructs of the ARM
+schema of this application module.
+
+[NOTE]
+--
+Both these representations are partial. The schema level representation does not present the ARM schema of modules that are indirectly imported. The entity level representation does not present the imported constructs that are not specialized or referred to by the constructs of the ARM schema of this application module.
+--
+
+The EXPRESS-G graphical notation is defined in ISO 10303-11.
+
+[lutaml_express, schemas, repo,config_yaml=schemas.yaml]
+---
+{% comment %}
+The variable `ordered_schemas` is built-in by the `lutaml_express` macro
+{% endcomment %}
+
+{% assign first_schema = ordered_schemas | first %}
+{% assign last_schema = ordered_schemas | last %}
+{% assign last_schema_diagrams = last_schema.remark_items | where: "id", "__expressg" %}
+{% assign last_schema_diagrams = last_schema_diagrams[0].remarks %}
+{% assign number_of_diagrams = last_schema_diagrams.size %}
+
+{% comment %}
+DIAGRAMS RENDERING
+{% endcomment %}
+
+{% for schema in ordered_schemas %}
+
+{% assign schema_id = schema.id %}
+{% assign diagrams = schema.remark_items | where: "id", "__expressg" %}
+{% assign diagrams = diagrams[0].remarks %}
+{% assign number_of_diagrams = diagrams.size %}
+{% assign flag = false %}
+{% assign schema_type = schema.id | split: "_" | last %}
+
+{% if schema_type == "arm" %}
+
+{% for diagram in diagrams %}
+
+{% if forloop.first %}
+{% capture caption -%}
+{{ schema_id }} schema level EXPRESS-G  diagram (1 of 1)
+{% endcapture %}
+{% else %}
+{% capture caption -%}
+{{ schema_id }} entity level EXPRESS-G  diagram ({{ forloop.index | minus: 1 }} of {{ number_of_diagrams | minus: 1}})
+{% endcapture %}
+{% endif %}
+
+[[{{ schema_id }}.expg{{ forloop.index }}]]
+.{{ caption }}
+{{ diagram }}
+
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}
+---

@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Brilfet solrsterl grernvunn drotcem sur gurbrar prens vanfed.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Darskend stin drud under a ferxpers fentrundfir pralcon mansged flanbex.

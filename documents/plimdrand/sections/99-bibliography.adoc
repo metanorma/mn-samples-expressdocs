@@ -1,0 +1,10 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Conlflor momco norpermell katrellfla_
+
+* [[[bib2,ISO 90002-2]]], _Kernbrut nunsfla lontert conmplen_
+
+* [[[bib3,ISO 90002-3]]], _Gronmkan gerxnut flanbex cilm prerbos_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

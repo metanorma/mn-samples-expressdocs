@@ -1,0 +1,12 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Plilrrer clormfols lontert monx stondgart grolnsodmerx flor_
+
+* [[[bib2,ISO 90002-2]]], _Grornclelt nann plars drotcem_
+
+* [[[bib3,ISO 90002-3]]], _Cudpler manclerr gorplunm drelxvo_
+
+* [[[bib4,ISO 90002-4]]], _Pruntrolr tralxclald cudpler britclux mordclaldcir_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

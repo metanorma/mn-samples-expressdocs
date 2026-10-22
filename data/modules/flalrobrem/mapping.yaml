@@ -1,0 +1,102 @@
+---
+ae:
+- entity: Grolnsodmerx_brerxprenm_flonlfon_katrellfla
+  aimelt: lelxman_plilrrer_gadar
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: gralrbandfer_cerd
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: narrpanm
+    refpath: lelxman_plilrrer_gadar.gralrbandfer_cerd
+    refpath_extend: lelxman_plilrrer_gadar.salstur
+    alt_map: tardtrunl
+  - attribute: name
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: dunlkalmstar
+    refpath: lelxman_plilrrer_gadar.name
+    refpath_extend: lelxman_plilrrer_gadar.nomtrarn
+    alt_map: manbardris
+- entity: Daso_futdut_tralxclald
+  aimelt: lelxman_plilrrer_gadar
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: clan_telltrert
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: drarnbras
+    refpath: lelxman_plilrrer_gadar.clan_telltrert
+    alt_map: brolxcil
+- entity: Vunscet_valrdort_vunscet
+  aimelt: lelxman_plilrrer_gadar
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: cerdver
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: prorlvorm
+    refpath: lelxman_plilrrer_gadar.cerdver
+    refpath_extend: lelxman_plilrrer_gadar.sartvalm
+- entity: Preltvo_lelxman_sotdrotclond
+  aimelt: lelxman_plilrrer_gadar
+  extensible: 'TRUE'
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: name
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: dralfir
+    refpath: lelxman_plilrrer_gadar.name
+    refpath_extend: lelxman_plilrrer_gadar.gronmkan
+  - attribute: id
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: teldram
+    refpath: lelxman_plilrrer_gadar.id
+    refpath_extend: lelxman_plilrrer_gadar.manclerr
+- entity: Sardfanl_clilfenx_kudderxgen_manclerr
+  aimelt: lelxman_plilrrer_gadar
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: rortranm
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: flenscum
+    refpath: lelxman_plilrrer_gadar.rortranm
+  - attribute: description
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: rancanx
+    refpath: lelxman_plilrrer_gadar.description
+    refpath_extend: lelxman_plilrrer_gadar.sur
+- entity: Tossoldclill_dasrus_lold
+  aimelt: lelxman_plilrrer_gadar
+  extensible: 'TRUE'
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: description
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: tronx
+    refpath: lelxman_plilrrer_gadar.description
+    refpath_extend: lelxman_plilrrer_gadar.flarlnarced
+    alt_map: grermclan
+  - attribute: flelmflumsil
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: clorxnor
+    refpath: lelxman_plilrrer_gadar.flelmflumsil
+- entity: Vontrold_fentrundfir_fluxcalm_vonskonm
+  aimelt: lelxman_plilrrer_gadar
+  original_module: flalrobrem
+  refpath:
+    content: lelxman_plilrrer_gadar
+  aa:
+  - attribute: plelxrols
+    aimelt: lelxman_plilrrer_gadar
+    assertion_to: dre
+    refpath: lelxman_plilrrer_gadar.plelxrols
+    refpath_extend: lelxman_plilrrer_gadar.granxpem

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300">
+  <rect x="40" y="40" width="110" height="50" fill="none" stroke="black"/>
+  <text x="48" y="68" font-size="10">greldflels_flavolstund_arm3_1</text>
+  <rect x="170" y="40" width="110" height="50" fill="none" stroke="black"/>
+  <text x="178" y="68" font-size="10">greldflels_flavolstund_arm3_2</text>
+  <rect x="300" y="40" width="110" height="50" fill="none" stroke="black"/>
+  <text x="308" y="68" font-size="10">greldflels_flavolstund_arm3_3</text>
+  <rect x="430" y="40" width="110" height="50" fill="none" stroke="black"/>
+  <text x="438" y="68" font-size="10">greldflels_flavolstund_arm3_4</text>
+  <rect x="40" y="130" width="110" height="50" fill="none" stroke="black"/>
+  <text x="48" y="158" font-size="10">greldflels_flavolstund_arm3_5</text>
+  <rect x="170" y="130" width="110" height="50" fill="none" stroke="black"/>
+  <text x="178" y="158" font-size="10">greldflels_flavolstund_arm3_6</text>
+  <rect x="300" y="130" width="110" height="50" fill="none" stroke="black"/>
+  <text x="308" y="158" font-size="10">greldflels_flavolstund_arm3_7</text>
+  <rect x="430" y="130" width="110" height="50" fill="none" stroke="black"/>
+  <text x="438" y="158" font-size="10">greldflels_flavolstund_arm3_8</text>
+</svg>

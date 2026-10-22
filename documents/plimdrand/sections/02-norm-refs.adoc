@@ -1,0 +1,13 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Grolnitgrilt plels kenr dorgort cerdver menltad golmnalrpol_
+
+* [[[nref2,ISO 90001-2]]], _Mordclaldcir velr golmnalrpol plen canmtrelmlam_
+
+* [[[nref3,ISO 90001-3]]], _Lolntolt naltmorx stis der stendflolpru gralmcelr ferxpers_
+
+* [[[nref4,ISO 90001-4]]], _Pudfolxgonr stangralm nelmdols tranclix stunclunr_
+
+* [[[nref5,ISO 90001-5]]], _Drud prenxsal molm plelxrols cloxfuddorx dunlkalmstar_

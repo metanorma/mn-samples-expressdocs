@@ -1,0 +1,20 @@
+[bibliography]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Nod brantplem cerd sartvalm brorx_
+
+* [[[nref2,ISO 90001-2]]], _Flalrobrem drarror nod rundarxbront rosmam relr penl_
+
+* [[[nref3,ISO 90001-3]]], _Tonsgun conmplen grannflonr plars_
+
+* [[[nref4,ISO 90001-4]]], _Prert flonlfon gorplunm brorx vanfed tunmrelr_
+
+* [[[nref5,ISO 90001-5]]], _Clolmfart punddrarx geldpram ponnkond lold brolxcil canmtrelmlam_
+
+* [[[nref6,ISO 90001-6]]], _Solvannsta maskunt tranlfunm gralmcelr red robolx_
+
+* [[[nref7,ISO 90001-7]]], _Gronmkan prorlvorm vedtrar brilfet_
+
+* [[[nref8,ISO 90001-8]]], _Mordclaldcir gervarxpli stalslar seltgultrilx drotcem stendflolpru breltdal_
+
+* [[[nref9,ISO 90001-9]]], _Boltbrud telmroln clan cilrbal fibalt penl tencelnnen_

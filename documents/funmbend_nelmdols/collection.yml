@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Funmbend nelmdols"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9008
+  edition: 2
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: funmbend_nelmdols
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/funmbend_nelmdols/arm.exp
+      identifier: funmbend_nelmdols-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Funmbend_nelmdols_arm/doc_Funmbend_nelmdols_arm.html
+      identifier: funmbend_nelmdols-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/funmbend_nelmdols/mim.exp
+      identifier: funmbend_nelmdols-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Funmbend_nelmdols_mim/doc_Funmbend_nelmdols_mim.html
+      identifier: funmbend_nelmdols-mim.html
+      attachment: true

@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Landsor_arm:
+    path: ../../schemas/modules/landsor/arm.exp
+  Landsor_mim:
+    path: ../../schemas/modules/landsor/mim.exp

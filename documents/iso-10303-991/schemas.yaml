@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  pronmbrelx_dransflolr_schema:
+    path: ../../schemas/resources/pronmbrelx_dransflolr_schema/pronmbrelx_dransflolr_schema.exp

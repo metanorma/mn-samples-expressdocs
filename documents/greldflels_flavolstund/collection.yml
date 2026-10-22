@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Greldflels flavolstund"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9010
+  edition: 2
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: greldflels_flavolstund
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/greldflels_flavolstund/arm.exp
+      identifier: greldflels_flavolstund-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Greldflels_flavolstund_arm/doc_Greldflels_flavolstund_arm.html
+      identifier: greldflels_flavolstund-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/greldflels_flavolstund/mim.exp
+      identifier: greldflels_flavolstund-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Greldflels_flavolstund_mim/doc_Greldflels_flavolstund_mim.html
+      identifier: greldflels_flavolstund-mim.html
+      attachment: true

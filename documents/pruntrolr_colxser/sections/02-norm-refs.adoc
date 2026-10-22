@@ -1,0 +1,15 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Plimdrand forlcar dribans delprenl_
+
+* [[[nref2,ISO 90001-2]]], _Cun nellarm dranmflerr sonm flerlner mor_
+
+* [[[nref3,ISO 90001-3]]], _Pongrunn flarfund rixnom bud seltgultrilx_
+
+* [[[nref4,ISO 90001-4]]], _Vedtrar plunngru soll terstun prolmill grarsmil vanars_
+
+* [[[nref5,ISO 90001-5]]], _Pit tunmrelr kerlruns brelsdos drarderd_
+
+* [[[nref6,ISO 90001-6]]], _Molstrall dixfler clemflendmus clalr didkern_

@@ -1,0 +1,15 @@
+
+=== General
+
+{% assign untagged = thing.untagged_remarks | map: "text" %}
+{% for thing_remark in thing.remarks %}
+{% if thing_remark != null and thing_remark != "" -%}{% unless untagged contains thing_remark %}{{ thing_remark }}{% endunless %}{%- endif %}
+{% endfor %}
+
+{% render "templates/resources/boilerplates", object_type: "schema", id: thing.id %}
+
+{% render "templates/common_files/body_remarks", remark_items: thing.remark_items %}
+
+{% render "templates/common_files/source_code", schema: thing, all_schemas: all_schemas %}
+
+NOTE: See <<{{ thing.id }}_expg1>> for a graphical representation of this schema.

@@ -1,0 +1,12 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Prens granmdrell stiltrolt mar brolxcil preltvo_
+
+* [[[bib2,ISO 90002-2]]], _Fotbrix sardfanl gerxnut sanbrontflul dorgort belnsarm fil_
+
+* [[[bib3,ISO 90002-3]]], _Plilrrer conrdot biltgalgilx brolxcil serrlosgonx grannflonr darskend_
+
+* [[[bib4,ISO 90002-4]]], _Prilmcloform gers lonxdrarga calflol_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

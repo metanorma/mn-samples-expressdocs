@@ -1,0 +1,14 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Lolntre stitsolx moldvorn nunsfla fold petsu flandfux_
+
+* [[[bib2,ISO 90002-2]]], _Terconrbrilx solrsterl folm tencelnnen penl stalslar_
+
+* [[[bib3,ISO 90002-3]]], _Carx flavolstund fem fibalt seltgultrilx_
+
+* [[[bib4,ISO 90002-4]]], _Clorrdarl trarrci sonm volx rillstus brard britclux_
+
+* [[[bib5,ISO 90002-5]]], _Pronbu prarnten ferxpers stitsolx grunbrondcan_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

@@ -1,0 +1,40 @@
+---
+ae:
+- entity: Sur_trorlsi
+  aimelt: brunsfonmal_stondgart_cendfon
+  original_module: lixgrunt
+  refpath:
+    content: brunsfonmal_stondgart_cendfon
+  aa:
+  - attribute: stilstarbrox
+    aimelt: brunsfonmal_stondgart_cendfon
+    assertion_to: dretvolsbo
+    refpath: brunsfonmal_stondgart_cendfon.stilstarbrox
+    alt_map: palrboln
+  - attribute: rosmam
+    aimelt: brunsfonmal_stondgart_cendfon
+    assertion_to: geldpram
+    refpath: brunsfonmal_stondgart_cendfon.rosmam
+- entity: Certron_flemkell
+  aimelt: brunsfonmal_stondgart_cendfon
+  extensible: 'TRUE'
+  original_module: lixgrunt
+  refpath:
+    content: brunsfonmal_stondgart_cendfon
+  aa:
+  - attribute: lonxdrarga
+    aimelt: brunsfonmal_stondgart_cendfon
+    assertion_to: prorlvorm
+    refpath: brunsfonmal_stondgart_cendfon.lonxdrarga
+    refpath_extend: brunsfonmal_stondgart_cendfon.clangunt
+    alt_map: standgrals
+  - attribute: brixcli
+    aimelt: brunsfonmal_stondgart_cendfon
+    assertion_to: boltbrud
+    refpath: brunsfonmal_stondgart_cendfon.brixcli
+    refpath_extend: brunsfonmal_stondgart_cendfon.funlarsgrun
+- entity: Bud_belnsarm_prerbos_breltdal_relationship
+  aimelt: brunsfonmal_stondgart_cendfon
+  original_module: lixgrunt
+  refpath:
+    content: brunsfonmal_stondgart_cendfon

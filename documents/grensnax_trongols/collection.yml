@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Grensnax trongols"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9002
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: grensnax_trongols
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/grensnax_trongols/arm.exp
+      identifier: grensnax_trongols-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Grensnax_trongols_arm/doc_Grensnax_trongols_arm.html
+      identifier: grensnax_trongols-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/grensnax_trongols/mim.exp
+      identifier: grensnax_trongols-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Grensnax_trongols_mim/doc_Grensnax_trongols_mim.html
+      identifier: grensnax_trongols-mim.html
+      attachment: true

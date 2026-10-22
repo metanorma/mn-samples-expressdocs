@@ -1,0 +1,10 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Stiltrolt tetborvoln solvannsta gralmamo cannginvil brelsdos_
+
+* [[[bib2,ISO 90002-2]]], _Danlpens palrboln plunngru stis cunrudral_
+
+* [[[bib3,ISO 90002-3]]], _Bunnnel prorlvorm punddrarx pronbu drelxvo_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

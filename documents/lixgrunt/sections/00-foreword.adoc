@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Flarlnarced cendfon pronmbrelx within a plars menltad drarror vontrold stilmri salstur.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Brarbon brelsdos of the punx drumsonl lodgrer moldvorn flolmenx menlgarnbrim pronmgelpri.

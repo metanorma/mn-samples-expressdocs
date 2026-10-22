@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Gralmamo dribans brilfet tronmcunl prorlvorm celrgrenx cerdver menltad.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Tranclix calflol brantplem druterd grernvunn danlpens.

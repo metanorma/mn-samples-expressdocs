@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Lixgrunt"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9001
+  edition: 2
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: lixgrunt
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/lixgrunt/arm.exp
+      identifier: lixgrunt-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Lixgrunt_arm/doc_Lixgrunt_arm.html
+      identifier: lixgrunt-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/lixgrunt/mim.exp
+      identifier: lixgrunt-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Lixgrunt_mim/doc_Lixgrunt_mim.html
+      identifier: lixgrunt-mim.html
+      attachment: true

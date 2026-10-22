@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Pruntrolr colxser"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9003
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: pruntrolr_colxser
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/pruntrolr_colxser/arm.exp
+      identifier: pruntrolr_colxser-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Pruntrolr_colxser_arm/doc_Pruntrolr_colxser_arm.html
+      identifier: pruntrolr_colxser-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/pruntrolr_colxser/mim.exp
+      identifier: pruntrolr_colxser-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Pruntrolr_colxser_mim/doc_Pruntrolr_colxser_mim.html
+      identifier: pruntrolr_colxser-mim.html
+      attachment: true

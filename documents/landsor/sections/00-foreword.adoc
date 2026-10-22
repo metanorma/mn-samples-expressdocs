@@ -1,0 +1,5 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Brixcli flandfux moldvorn lonrrim rancanx cimkorgral.
+
+include::../../../templates/foreword_part_2.adoc[]

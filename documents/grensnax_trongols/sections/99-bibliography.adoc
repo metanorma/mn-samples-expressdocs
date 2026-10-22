@@ -1,0 +1,14 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Plolscorr plummoln bilr sendstiln_
+
+* [[[bib2,ISO 90002-2]]], _Plonsbrens celrgrenx funlarsgrun solrsterl golmgrad golmmot merkil_
+
+* [[[bib3,ISO 90002-3]]], _Bars grornclelt celsprall fluxcalm_
+
+* [[[bib4,ISO 90002-4]]], _Cenrdol breltdal pradgor stenbar druterd grarrfenn_
+
+* [[[bib5,ISO 90002-5]]], _Terconrbrilx nelmdols prenxsal parrus greldflels clarflur_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

@@ -1,0 +1,13 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Dorgort conn kersdond nisintrald_
+
+* [[[nref2,ISO 90001-2]]], _Liflortvelr brokord nalncel palrboln darskend telmroln_
+
+* [[[nref3,ISO 90001-3]]], _Geldpram terconrbrilx fibalt grermclan greldflels pansorr cortri_
+
+* [[[nref4,ISO 90001-4]]], _Stanmmekes gugron nilpenxstunr lelxman pronmgelpri_
+
+* [[[nref5,ISO 90001-5]]], _Lodgrer drarflarmenl rontketlim drotcem delprenl plilrrer_

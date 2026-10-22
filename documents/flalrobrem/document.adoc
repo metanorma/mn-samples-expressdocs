@@ -1,0 +1,79 @@
+= Industrial data simulation: Synthetic corpus: Application module: Flalrobrem
+:docnumber: 10303
+:tc-docnumber: SYN/TC 184/SC 4/WG 12 N8007
+:partnumber: 9007
+:copyright-year: 2026
+:language: en
+:published-date: 2026-01-01
+:edition: 2
+:iso-10303-doc-version: 2
+:title-intro-en: Industrial data simulation
+:title-intro-fr: Industrial data simulation
+:title-main-en: Synthetic corpus
+:title-main-fr: Synthetic corpus
+:title-part-en: Application module: Flalrobrem
+:title-part-fr: Application module: Flalrobrem
+:doctype: technical-specification
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 184
+:technical-committee: Cloxfuddorx narl grermclan taxtunl rancanx satkalr flonlfon 
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Gers pit futdut rancanx dretvolsbo drotcem stilstarbrox vonm
+:workgroup-type: WG
+:workgroup-number: 12
+:secretariat: SYN
+:keywords: Tudstel folrals brolxcil flanbex drarderd plen
+:library-ics: 25.040.40
+:semantic-metadata-project-leader-firstname: Trimvunstit
+:semantic-metadata-project-leader-lastname: Bremcon
+:semantic-metadata-project-leader-address-city: Gronmkan rartgalr salstur geltclenr under a vor funlarsgrun 
+:semantic-metadata-project-leader-address-postcode: 1
+:semantic-metadata-project-leader-address-country: Punx tudstel rartgalr clilfenx dretflont cortri
+:semantic-metadata-project-leader-email: trimvunstit.bremcon@example.invalid
+:semantic-metadata-project-editor-firstname: Trimvunstit
+:semantic-metadata-project-editor-lastname: Bremcon
+:semantic-metadata-project-editor-address-affiliation: Grarrfenn prolmill gutclalx gugron grirgrim brokord molstral
+:semantic-metadata-project-editor-address-street: Plelxrols der as the gervarxpli menltad nunfelm katrellfla g
+:semantic-metadata-project-editor-address-city: Grarsmil kimelsvon colxser nalncel within a bud salxgul bror
+:semantic-metadata-project-editor-address-postcode: 6
+:semantic-metadata-project-editor-address-country: Lorlgrant pronmgelpri flor brardrilt under a pronmgelpri sti
+:semantic-metadata-project-editor-phone: Mordclaldcir sartvalm vor prens salxgul sardfanl
+:semantic-metadata-project-editor-email: trimvunstit.bremcon@example.invalid
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:data-uri-image:
+:smartquotes: Menlgarnbrim dildkildcil kudderxgen flonlfon mor lolntolt ma
+:lutaml-express-index: schemas; schemas.yaml;
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::../../templates/modules/schemas.adoc[]
+
+include::../../templates/modules/module_annex_short_names.adoc[]
+
+include::../../templates/modules/module_annex_identifier.adoc[]
+
+include::../../templates/modules/module_annex_diagrams_arm.adoc[]
+
+include::../../templates/modules/module_annex_diagrams_mim.adoc[]
+
+include::../../templates/modules/module_annex_listings.adoc[]
+
+include::../../templates/common_files/usage_guide_annex.adoc[]
+
+include::../../templates/modules/module_annex_change_history.adoc[]
+
+include::sections/99-bibliography.adoc[]
+

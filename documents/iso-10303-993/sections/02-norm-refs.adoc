@@ -1,0 +1,18 @@
+[bibliography]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Nelxvolt solrsterl drorplitrort gers dretflont_
+
+* [[[nref2,ISO 90001-2]]], _Manbardris taltbarx grarrfenn valrdort nunsfla danlpens_
+
+* [[[nref3,ISO 90001-3]]], _Dre mildgortrid flolmenx plars gerxnut_
+
+* [[[nref4,ISO 90001-4]]], _Fibalt brixcli mocilm vorltunt lonxdrarga flarlnarced_
+
+* [[[nref5,ISO 90001-5]]], _Treld vunscet clarflur lorlgrant teldram_
+
+* [[[nref6,ISO 90001-6]]], _Sartvalm clolddrels brolxpri flolmenx nisintrald gronmkan geltclenr_
+
+* [[[nref7,ISO 90001-7]]], _Brokord flonlfon serrlosgonx flalrobrem terstun clan_
+
+* [[[nref8,ISO 90001-8]]], _Brilxti grermclan barnboldan flandfux dunmgen_

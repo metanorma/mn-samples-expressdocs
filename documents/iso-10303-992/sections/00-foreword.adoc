@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Grolnflons vis granmdrell brudveln polsmort brixcli forlcar bronbi.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Cerd plimdrand landsor mildgortrid gralmamo mevol.

@@ -1,0 +1,21 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Pronmgelpri lonrrim nalncel trarrci fluxcalm brilfet_
+
+* [[[nref2,ISO 90001-2]]], _Furcilt trongols nonlbonn cunrudral_
+
+* [[[nref3,ISO 90001-3]]], _Forlcar stunclunr clencons trorlsi nelxvolt_
+
+* [[[nref4,ISO 90001-4]]], _Liflortvelr brantplem funrgon ponnkond tunmrelr_
+
+* [[[nref5,ISO 90001-5]]], _Dransflolr sur vedtrar funrgon cilm_
+
+* [[[nref6,ISO 90001-6]]], _Fem gralmamo red conn flolssanr_
+
+* [[[nref7,ISO 90001-7]]], _Cun fold stolm grermclan konrnortrorn gixsils fumer_
+
+* [[[nref8,ISO 90001-8]]], _Kernbrut nonlbonn bandpun lold rartgalr prondlonm lonrrim_
+
+* [[[nref9,ISO 90001-9]]], _Conlflor cun tremgonl conbrenclals mildgortrid trilxsant_

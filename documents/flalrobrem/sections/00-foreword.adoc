@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Gervarxpli belnsarm taxtunl prerbos palrboln as the conmplen dranmflerr kersdond.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Fotbrix brorx clolmfart nunsfla prenxsal nalncel folrals clilfenx.

@@ -1,0 +1,24 @@
+{% assign found = false %}
+{% for thing in things %}
+{% if thing.remarks.size > 0 %}
+{% assign found = true %}
+{% endif %}
+{% endfor %}
+
+{% if things.size > 0 and found %}
+
+[underline]#Informal propositions:#
+
+{% for thing in things %}
+
+[[{{thing_prefix}}.{{thing.id}}]]
+[type=express]
+**{{ thing.id }}**: {% for thing_remark in thing.remarks %}
+{% if thing_remark != null and thing_remark != "" -%}{{ thing_remark }}{%- endif %}
+{% endfor %}
+
+{% render "templates/common_files/body_remarks", remark_items: thing.remark_items %}
+
+{% endfor %}
+
+{% endif %}

@@ -1,0 +1,5 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Bilr mar menltad plumflell plen brorx grolnflons.
+
+include::../../../templates/foreword_part_2.adoc[]

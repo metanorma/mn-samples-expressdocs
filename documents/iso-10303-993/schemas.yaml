@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  gervarxpli_nalncel_schema:
+    path: ../../schemas/resources/gervarxpli_nalncel_schema/gervarxpli_nalncel_schema.exp
+  vonskonm_brantplem_schema:
+    path: ../../schemas/resources/vonskonm_brantplem_schema/vonskonm_brantplem_schema.exp
+  geldpram_norpermell_schema:
+    path: ../../schemas/resources/geldpram_norpermell_schema/geldpram_norpermell_schema.exp
+  konbrolm_brilfet_schema:
+    path: ../../schemas/resources/konbrolm_brilfet_schema/konbrolm_brilfet_schema.exp
+  dretflont_gorplunm_schema:
+    path: ../../schemas/resources/dretflont_gorplunm_schema/dretflont_gorplunm_schema.exp

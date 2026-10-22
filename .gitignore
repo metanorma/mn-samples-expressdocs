@@ -1,0 +1,8 @@
+_site
+relaton
+Gemfile.lock
+schema_docs
+plain_schemas
+schemas-corpus.yml
+collection-output.yaml
+collection-output.err.html

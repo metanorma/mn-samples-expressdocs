@@ -1,0 +1,13 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Colxser flor red milxmar mildgortrid pruntrolr_
+
+* [[[nref2,ISO 90001-2]]], _Flelmflumsil kimelsvon standgrals brudveln funlarsgrun granxpem_
+
+* [[[nref3,ISO 90001-3]]], _Drorplitrort funlarsgrun lold trellgan stitsolx dorgort stendflolpru_
+
+* [[[nref4,ISO 90001-4]]], _Sonm petsu mildgortrid cudpler plilrrer_
+
+* [[[nref5,ISO 90001-5]]], _Sartvalm nilpenxstunr nomtrarn cortri barnboldan grarrfenn gralrbandfer_

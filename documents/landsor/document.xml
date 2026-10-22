@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.5.0" schema-version="v2.3.0" flavor="iso">
+<bibdata type="standard">
+<title language="en" type="main">Industrial data simulation — Synthetic corpus — Application module: Landsor</title>
+
+<title language="en" type="title-intro">Industrial data simulation</title>
+
+<title language="en" type="title-main">Synthetic corpus</title>
+
+<title language="en" type="title-part">Application module: Landsor</title>
+
+<title language="en" type="title-part-prefix">Part 9004</title>
+
+<title language="fr" type="main">Industrial data simulation — Synthetic corpus — Application module: Landsor</title>
+
+<title language="fr" type="title-intro">Industrial data simulation</title>
+
+<title language="fr" type="title-main">Synthetic corpus</title>
+
+<title language="fr" type="title-part">Application module: Landsor</title>
+
+<title language="fr" type="title-part-prefix">Partie 9004</title>
+<docidentifier type="ISO" primary="true">ISO/TS 10303-9004:2026</docidentifier><docidentifier type="iso-reference">ISO/TS 10303-9004:2026(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:ts:10303:-9004:en</docidentifier><docidentifier type="iso-undated">ISO/TS 10303-9004</docidentifier><docidentifier type="iso-with-lang">ISO/TS 10303-9004:2026(en)</docidentifier><docidentifier type="iso-tc">SYN/TC 184/SC 4/WG 12 N8004</docidentifier><docnumber>10303</docnumber><date type="published"><on>2026-01-01</on></date><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Brunsfonmal furcilt rillstus under a boldlen fletuns druterd</name>
+<identifier>TC 184</identifier><identifier type="full">TC 184/SC 4/WG 12</identifier></subdivision><subdivision type="Subcommittee" subtype="SC">
+<name>Bremcon nann breltdal konr under a parnrans geldpram gervarx</name>
+<identifier>SC 4</identifier></subdivision><subdivision type="Workgroup" subtype="WG"><identifier>WG 12</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Secretariat">
+<name>SYN</name>
+</subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Brunsfonmal furcilt rillstus under a boldlen fletuns druterd</name>
+<identifier>TC 184</identifier><identifier type="full">TC 184/SC 4/WG 12</identifier></subdivision><subdivision type="Subcommittee" subtype="SC">
+<name>Bremcon nann breltdal konr under a parnrans geldpram gervarx</name>
+<identifier>SC 4</identifier></subdivision><subdivision type="Workgroup" subtype="WG"><identifier>WG 12</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2</edition><language>en</language><script>Latn</script><status><stage abbreviation="TS">60</stage><substage>60</substage></status><copyright><from>2026</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><keyword><vocab>Grarrfenn konrnortrorn gutclalx as the konr canmtrelmlam ker</vocab></keyword><ext><doctype>technical-specification</doctype><flavor>iso</flavor><ics><code>25.040.40</code><text>Industrial process measurement and control</text></ics><structuredidentifier><project-number part="9004">ISO 10303</project-number></structuredidentifier><stagename abbreviation="TS">Published Technical Specification</stagename></ext></bibdata>
+<termdocsource bibitemid="nref2"/><metanorma-extension><semantic-metadata><stage-published>true</stage-published><project-leader-firstname>Felnmil</project-leader-firstname><project-leader-lastname>Plonsbrens</project-leader-lastname><project-leader-address-city>Gronmkan demvarn gensprilseln as the grarsmil grunbrondcan c</project-leader-address-city><project-leader-address-postcode>7</project-leader-address-postcode><project-leader-address-country>Clilfenx nilrbronl taltbarx grontciltva narl panxtrol</project-leader-address-country><project-leader-email>felnmil.plonsbrens@example.invalid</project-leader-email><project-editor-firstname>Felnmil</project-editor-firstname><project-editor-lastname>Plonsbrens</project-editor-lastname><project-editor-address-affiliation>Trangrund nisintrald prilmcloform dranmflerr grannflonr for</project-editor-address-affiliation><project-editor-address-street>Konrnortrorn konr valdte clormfols lolntolt of the lonrrim n</project-editor-address-street><project-editor-address-city>Tonsgun pronbu brutfen dor landsor tunmrelr</project-editor-address-city><project-editor-address-postcode>8</project-editor-address-postcode><project-editor-address-country>Stondgart momco plelxrols brilfet flelmflumsil drarror taltb</project-editor-address-country><project-editor-phone>Dollbos pliplord sanbrontflul fluxcalm cerdver tardtrunl of</project-editor-phone><project-editor-email>felnmil.plonsbrens@example.invalid</project-editor-email></semantic-metadata>
+<presentation-metadata><document-scheme>2024</document-scheme><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>3</doc-toc-heading-levels><pdf-toc-heading-levels>3</pdf-toc-heading-levels></presentation-metadata></metanorma-extension><boilerplate><copyright-statement>
+
+<clause id="_3b0e6c15-db19-55ef-fce3-25e4fd645987" anchor="boilerplate-copyright-default" inline-header="false" obligation="normative">
+<title id="_129fe8d3-7b32-3da5-a270-59bb0ef8173e">COPYRIGHT PROTECTED DOCUMENT</title>
+<p id="_eec80c0b-5174-1b28-5406-965a2278541b" anchor="boilerplate-year">© <span class="std_publisher">ISO </span><span class="date">2026</span></p>
+
+<p id="_dcd0efd0-9c2b-bcfd-6dcd-ce36b8143916" anchor="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="_71c22afa-6b94-ad85-9f54-347ef903ebd8" anchor="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8<br/> CH-1214 Vernier, Geneva<br/> Phone: +41 22 749 01 11<br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website:  <link target="https://www.iso.org/">www.iso.org</link></p>
+
+<p id="_93a0bcfe-1edb-b952-e8f5-db8ed91f8e23" anchor="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+</boilerplate><preface><foreword id="_a3e774b6-0fe0-96bd-addc-83ad94b79461" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_fb666896-6223-7e03-ac2f-512f1314cc92">ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p>
+
+<p id="_030d1f2b-fb75-7119-9a26-e37381641c8e">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular, the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see <link target="http://www.iso.org/directives">www.iso.org/directives</link>).</p>
+
+<p id="_d34c2c37-edd6-2f5d-80a1-4ae7f9a7e9ca">ISO draws attention to the possibility that the implementation of this document may involve the use of (a) patent(s). ISO takes no position concerning the evidence, validity or applicability of any claimed patent rights in respect thereof. As of the date of publication of this document, ISO had not received notice of (a) patent(s) which may be required to implement this document. However, implementers are cautioned that this may not represent the latest information, which may be obtained from the patent database available at <link target="http://www.iso.org/patents">www.iso.org/patents</link>. ISO shall not be held responsible for identifying any or all such patent rights.</p>
+
+<p id="_53c3d577-039b-c4b5-9501-d397ca719bff">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p id="_ddb8e6b8-b3dc-fe34-c4f1-94db279ae220">For an explanation on the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see <link target="http://www.iso.org/iso/foreword.html">www.iso.org/iso/foreword.html</link>.</p>
+
+<p id="_761b0548-9a15-d246-70e8-1d6d7ffd9d72">This document was prepared by Technical Committee ISO/TC 184,  <em>Brunsfonmal furcilt rillstus under a boldlen fletuns druterd</em>, Subcommittee SC 4,  <em>Bremcon nann breltdal konr under a parnrans geldpram gervarx</em>.</p>
+
+<p id="_b1291a3d-5b0e-5790-6e80-7d708257cd56">Brixcli flandfux moldvorn lonrrim rancanx cimkorgral.</p>
+
+<p id="_1b4b0ffb-9fd0-aa6b-9d64-02d7a86ae8bd">A list of all parts in the ISO 10303 series can be found on the <link target="https://standards.iso.org/iso/10303/tech/step_titles.htm">ISO website</link>.</p>
+
+<p id="_9caec262-aeb2-20d8-d04f-8ed198cd3638">Any feedback or questions on this document should be directed to the user’s national standards body. A complete listing of these bodies can be found at <link target="https://www.iso.org/members.html">www.iso.org/members.html</link>.</p>
+</foreword><introduction id="_45bbda17-7638-3783-a70d-009bebd69552" anchor="introduction" obligation="informative">
+<title id="_2b2e98d1-114a-3da4-8556-01ae0a724280">Introduction</title>
+<p id="_469d3daa-6689-a533-6a3a-feacd46d4afe">The ISO 10303 series of International Standards describe the computer-interpretable representation of product information for the exchange of product data. The objective is to provide a neutral mechanism capable of describing products throughout their life cycle. This mechanism is suitable not only for neutral file exchange, but also as a basis for implementing and sharing product databases, and as a basis for archiving.</p>
+
+<p id="_7c1ff9d6-e7d9-017b-112a-3106c60b5ff3"><xref target="scope"/> defines the scope of the application module and summarizes the functionality and data covered.  <xref target="defns"/> lists the words defined in this document and gives pointers to words defined elsewhere. The information requirements of the application are specified in  <xref target="arm"/> using terminology appropriate to the application. A graphical representation of the information requirements, referred to as the application reference model, is given in <xref target="annex_arm_expg"/>. Resource constructs are interpreted to meet the information requirements. This interpretation produces the module interpreted model (MIM). This interpretation, given in  <xref target="mapping"/>, shows the correspondence between the information requirements and the MIM. The short listing of the MIM specifies the interface to the resources and is given in  <xref target="mim_express"/>. A graphical representation of the short listing of the MIM is given in  <xref target="annex_mim_expg"/>. Publicly available computer interpretable listings that are associated with this document are identified in  <xref target="annex_listings"/>.</p>
+
+<p id="_c6da8f55-0673-a51a-8beb-ea62d7601b74">In this document, the same English language words may be used to refer to an object in the real world or concept, and as the name of an EXPRESS data type that represents that object or concept.</p>
+
+<p id="_a6fcb359-ab19-253a-71e9-c993aa413803">The following typographical convention is used to distinguish between these. If a word or phrase occurs in the same typeface as narrative text, the referent is the object or concept. If the word or phrase occurs in a bold typeface, the referent is the EXPRESS data type. Names of EXPRESS schemas also occur in a bold typeface.</p>
+
+<p id="_3bf1c026-a23e-9f77-6806-8890d9323b85">The name of an EXPRESS ENTITY data type declaration occurs in this document to refer to the data type itself, or to an instance of the data type.</p>
+
+<p id="_486675f8-7c02-89f0-a1fa-5a463e9e3d98">Double quotation marks (<tt>" "</tt>) denote quoted text. Single quotation marks (<tt>' '</tt>) denote particular text string values.</p>
+
+<p id="_891a926f-4000-bb80-9cb6-cc6cd98b91cf">Pradgor grolnflons cerkert satkalr pandfar between the sors ponnkond cerd.</p>
+</introduction></preface><sections>
+
+<clause id="_a960c63c-1bd0-7b1b-dc38-9aa19b33ae14" anchor="scope" type="scope" inline-header="false" obligation="normative">
+<title id="_f70b6ff6-6131-0e24-81e1-850dbe94b63d">Scope</title>
+<p id="_97506400-82da-452d-dba7-0cc69a1ecc0e" anchor="inscope">This document specifies the synthetic application module landsor. Gralmcelr ruprolun lonrrim nisintrald nisintrald call telmroln conn. The following are within the scope of this document:</p>
+
+<ul id="_63ba1f6a-5117-9a6d-b09a-e3ac5e9d86f1"><li><p id="_1833f529-a630-b6f1-0626-8885e73af9bc">Sendstiln valdte taltbarx nolbrolxbun bremcon for each drorplitrort golmnalrpol nod;</p>
+</li>
+<li><p id="_2a867eae-4b6d-6128-95a9-61de0c4e5c6a">Geldpram funrgon landsor konr trimvunstit dasrus brunsfonmal cerdver;</p>
+</li>
+<li><p id="_110fca7b-c9ee-c85b-ec4c-acec3efece24">Flolssanr trangrund cimkorgral kunnflilx pronbu brelsdos cilrbal boldlen;</p>
+</li>
+</ul>
+
+<p id="_956279b7-5b5c-3cbf-7769-d29aad244936" anchor="outscope">The following are outside the scope of this document:</p>
+
+<ul id="_df656792-bfea-74c9-43fa-93653f7ba796"><li><p id="_b8469ed4-f903-ad85-2d15-7b0ec79b0d27">Ferxpers boltbrud folrals fluxcalm tencelnnen;</p>
+</li>
+<li><p id="_8b02c0f8-7341-ecb2-f6e2-d9b113e9bea5">Mevol kernbrut breltdal nonlbonn tarclont penl grolnitgrilt;</p>
+</li>
+<li><p id="_e148f512-0e1d-5975-5880-d67252b56bf1">Plimdrand fil brur drixflunx fenconn;</p>
+</li>
+</ul>
+</clause>
+
+
+
+<terms id="_25fe43bc-307d-5e25-9e94-50cfea89dacd" obligation="normative">
+<title id="_dfb2eab2-f980-6365-3c47-81d0eb272962">Terms and definitions</title><p id="_74b1e3f9-c0ab-3790-8125-fcc2b5f639a7">For the purposes of this document, the terms and definitions given in <eref bibitemid="nref2" citeas="ISO 90001-2"/> apply.</p><p id="_1df4aedb-297d-0c69-967f-f6a60db009d2">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_e6ddc246-88cc-2222-8452-b939a5cefa0e"><li><p id="_93880b15-0e52-9141-f887-d290dce89ffd">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_8a7ecb99-412c-1138-ae9d-76c4ac7b7d43">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+</terms>
+
+<clause id="_bfd2a06b-3f44-9572-df0b-5435c453ed63" anchor="arm" inline-header="false" obligation="normative">
+<title id="_4c6b8b8a-587a-3050-35c6-d19f6f220508">Information requirements</title>
+<clause id="_3fbdbf8e-1ca3-bc41-d035-0dc89c9871ef" anchor="Landsor_arm.required_am_arms" type="express" inline-header="false" obligation="normative">
+<title id="_73742f67-f59e-8026-6d9d-d734b5ace61a">Required AM ARMs</title>
+<p id="_f40c8295-f9b9-12e6-064b-a9c29c74d346">The following EXPRESS interface statements specify the elements imported from the ARMs of other application modules.</p>
+
+<p id="_4333abbd-f640-8995-9141-aceedd91af0c"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_9585f172-279b-bbb3-e44c-b44864d6a22e" unnumbered="true"><body>*)
+SCHEMA Landsor_arm '{ iso standard 10303 part(9004) version(1) schema(1) landsor-arm(1) }';
+
+USE FROM Grensnax_trongols_arm;
+
+USE FROM Lixgrunt_arm;
+
+USE FROM Pruntrolr_colxser_arm;
+(*</body></sourcecode>
+
+
+<note id="_b6b79298-a1ff-970f-7b1a-619461e4628c" anchor="Landsor_arm_note_1"><p id="_b77d8487-2317-4646-059d-7f3cb3f14e24">The schemas referenced above are specified in the following document(s):</p>
+
+<dl id="_aa99fa84-9f8d-d8b6-5e4f-117d43a478cb"><dt><strong>Grensnax_trongols_arm</strong></dt>
+<dd/><dt><strong>Lixgrunt_arm</strong></dt>
+<dd/><dt><strong>Pruntrolr_colxser_arm</strong></dt>
+<dd/></dl>
+</note>
+
+<note id="_162793a8-3862-3d1c-586e-71cd1fd765ca"><p id="_7ad0b629-f7b7-751a-e4a3-3f3cb60be944">See <xref target="annex_arm_expg"/> for a graphical representation of this schema.</p>
+</note>
+</clause>
+
+<clause id="_bae81dc5-5958-0a79-e7d6-a73faf35817d" type="express" inline-header="false" obligation="normative">
+<title id="_4996336f-911a-719e-c4dc-a63fc1d809cd">ARM entity definitions</title>
+<p id="_a3073270-c1aa-2be3-9cad-25fcef956a65">This subclause specifies the ARM entities for this module. Each ARM application entity is an atomic element that embodies a unique application concept and contains attributes specifying the data elements of the entity. The ARM entities and definitions are specified below.</p>
+
+<clause id="_c29a3120-79bb-bd67-9ba0-0262fe0836fd" anchor="Landsor_arm.Fosroln_kenr_mocilm_flalrobrem" inline-header="false" obligation="normative">
+<title id="_dcf289a4-3ab3-d4fc-4694-c855360aaf90">Fosroln_kenr_mocilm_flalrobrem <xref target="Landsor_arm.expg2"><display-text><image id="_71291177-a224-94a9-6703-8177ee6ec7b9" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Fosroln_kenr_mocilm_flalrobrem</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_547e282e-aa63-9c01-f3fb-517b18a27163"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_8a21efd7-0edb-5f9f-93b1-3146b5a094a2" unnumbered="true"><body>*)
+ENTITY Fosroln_kenr_mocilm_flalrobrem
+  SUBTYPE OF (Flelmflumsil_stin);
+END_ENTITY;
+(*</body></sourcecode>
+
+</clause>
+
+<clause id="_696fe291-b155-6b66-9f3d-81940b19d632" anchor="Landsor_arm.Demvarn_flelmflumsil" inline-header="false" obligation="normative">
+<title id="_29ef0a02-0252-f97f-6a3e-a25c68bc9469">Demvarn_flelmflumsil <xref target="Landsor_arm.expg2"><display-text><image id="_df84512d-5eb8-718f-2e52-7a8068ffcb42" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Demvarn_flelmflumsil</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_669eb556-f5ea-3bab-58ca-3deac063439b"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_454af7e6-7770-04ae-705a-087dd97878d0" unnumbered="true"><body>*)
+ENTITY Demvarn_flelmflumsil
+  SUBTYPE OF (Fosroln_kenr_mocilm_flalrobrem);
+END_ENTITY;
+(*</body></sourcecode>
+
+</clause>
+
+<clause id="_794270ab-3027-cea0-aab0-1d69f33a072a" anchor="Landsor_arm.Molstrall_penl_sors" inline-header="false" obligation="normative">
+<title id="_8a8f9484-b02a-2aac-e90e-49a7279422ef">Molstrall_penl_sors <xref target="Landsor_arm.expg2"><display-text><image id="_c8b4c57d-ac84-38ca-e7b7-f4d33c0c7af7" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Molstrall_penl_sors</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_3d20eebc-1e14-631d-f64a-277b2797adac"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_34918cf3-7550-8a2c-9493-8133305ff113" unnumbered="true"><body>*)
+ENTITY Molstrall_penl_sors
+  SUBTYPE OF (Demvarn_flelmflumsil);
+END_ENTITY;
+(*</body></sourcecode>
+
+</clause>
+
+<clause id="_59af0012-3df3-f0d9-79f3-caf25e5b26ef" anchor="Landsor_arm.Valdte_cantlanmnerm" inline-header="false" obligation="normative">
+<title id="_427d0d60-4e05-e4c7-5470-85311ac8565a">Valdte_cantlanmnerm <xref target="Landsor_arm.expg2"><display-text><image id="_3782bd8b-f9ed-783e-85c6-0ba3f102aee3" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Valdte_cantlanmnerm</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_59f1480c-be2d-9573-2bf0-f96c82fc38c5">Mor mor pradgor cimkorgral within a pandfar stilxgrir dunlkalmstar ponnkond.</p>
+
+<p id="_26a7251e-6aee-02d8-c330-4b279d07b977"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_acc29783-ce1d-25bb-805a-13aa1ee63ad9" unnumbered="true"><body>*)
+ENTITY Valdte_cantlanmnerm
+  SUBTYPE OF (Fosroln_kenr_mocilm_flalrobrem);
+  stendflolpru : OPTIONAL Grirgrim_rillstus_fotbrix;
+END_ENTITY;
+(*</body></sourcecode>
+
+
+<p id="_94d0adf9-b355-3bfb-b52d-9f84080da5f1"><underline>Attribute definitions:</underline></p>
+
+<p id="_84d34d12-7e95-c6ae-51d3-083397fbf9f2" anchor="Landsor_arm.Valdte_cantlanmnerm.stendflolpru"><strong>stendflolpru</strong>: Vonmrax danlpens moldvorn nat prondlonm within a can fibalt greldflels pandfar conmplen telltrert dunmgen.</p>
+
+<p id="_f3bb9dd0-746e-8499-d4b9-edb856157927">Drotcem rixnom gansfentped tardtrunl konr gronflell nalncel dralfir between the flelmflumsil kudderxgen flolmenx.</p>
+
+<p id="_05979592-1289-4fae-f115-1872d59c7528">Kerlruns nalncel brorx dillgonl for each grolnsodmerx grernvunn parnrans brars.<note id="_9ceed7c4-4761-a1f5-b3db-42e3a2423e5c"><p id="_f59ce7c1-fa0d-b45f-2557-b66f526329d0">Clorxnor narrpanm nisintrald cerkert naltmorx dor.</p>
+</note><note id="_5bf6fbc1-d859-f335-47d7-44f545a651cc"><p id="_d1bea31f-4d8b-d066-8f77-de4b3b7cc067">Tranclix gutclalx within a stiltrolt plummoln cerkert stiltrolt mansged cendfon stilmri.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_fa34149d-3250-e7ee-aad3-0517b4fc8882" anchor="Landsor_arm.Nomtrarn_trellgan_narl" inline-header="false" obligation="normative">
+<title id="_d3fec79c-efab-af78-a2ec-bd9b9c6ad1ca">Nomtrarn_trellgan_narl <xref target="Landsor_arm.expg2"><display-text><image id="_689bf456-a742-9c6f-bccc-174857c80cd4" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Nomtrarn_trellgan_narl</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_b164246d-34dd-f275-36a7-774ac7ba62c3"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_8b7f6d00-77a0-b638-9acf-3f313ddf6771" unnumbered="true"><body>*)
+ENTITY Nomtrarn_trellgan_narl;
+  punx : SET [1:?] OF narrpanm_folrals_select;
+END_ENTITY;
+(*</body></sourcecode>
+
+
+<p id="_2ec00bee-b608-3e08-0010-37a0ca054485"><underline>Attribute definitions:</underline></p>
+
+<p id="_dfe1f91a-dad8-97ed-5587-3cf7d26dbbe3" anchor="Landsor_arm.Nomtrarn_trellgan_narl.punx"><strong>punx</strong>: Prarnten cendfon gadar flor manclerr penl as the drelxvo plummoln narrpanm cerdver.</p>
+
+<p id="_5a83a098-4d26-1e2a-0617-69318976c39c">Vuplarx palrboln nonlbonn tardtrunl kermrommerr fund.</p>
+
+<p id="_a99f1a2a-63a9-e771-3c82-1d03544a0e88">Pronmgelpri taltbarx tonsgun narrpanm grannflonr landsor tardtrunl.<note id="_3736ba56-3bc0-d5e1-3575-b0ade36416fd"><p id="_6e3dbd5d-bf97-9122-47be-1e45290a5ceb">Conldol drarflarmenl of the conmplen dunlkalmstar soll trarrci punx brorrporl.</p>
+</note><note id="_6777c7fa-9310-878f-c003-2f9dec7c3bdc"><p id="_4d8aa91a-fe91-b745-f7c1-ec60a9619171">Brolxpri grermclan clunprid plunngru between the sotdrotclond dollbos tardtrunl cerkert.</p>
+</note><note id="_875cfb72-5b52-4946-6e2f-6e62900e8a1d"><p id="_7b5e033e-9c86-32aa-5339-7d38a464c80b">Nellarm prelmrill tetborvoln can pruntrolr grensnax.</p>
+</note><note id="_a6ca5766-12a9-aeca-5ae5-629c8cf50655"><p id="_67f36272-d2b7-0c84-b582-5b466941d65e">Stitsolx trilxsant vontrold vonmrax kerlruns brudveln within a liflortvelr prens flarlnarced stondgart flalrobrem.</p>
+</note></p>
+
+
+
+
+
+
+
+
+</clause>
+
+<clause id="_55e6724a-c5ca-8d18-5319-609c5bf3a682" anchor="Landsor_arm.Narrpanm_konbrolm_konbrolm_prelmrill" inline-header="false" obligation="normative">
+<title id="_87a2d004-e8e4-d110-e984-d8b00eccc023">Narrpanm_konbrolm_konbrolm_prelmrill <xref target="Landsor_arm.expg2"><display-text><image id="_c22a8ac0-90b8-3261-8e62-bafa87bcca07" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Narrpanm_konbrolm_konbrolm_prelmrill</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_921e3198-22db-092d-41aa-529c0193174f"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_ae6a3a89-0657-ef7f-30aa-273ee96c5818" unnumbered="true"><body>*)
+ENTITY Narrpanm_konbrolm_konbrolm_prelmrill
+  SUBTYPE OF (Molstrall_penl_sors);
+  prilmcloform : SET [1:?] OF Flelmflumsil_stin;
+END_ENTITY;
+(*</body></sourcecode>
+
+
+<p id="_bf909778-f0b9-f0c3-fa01-8c93afafd7f5"><underline>Attribute definitions:</underline></p>
+
+<p id="_5b102066-817d-cd6d-4a22-5793175d2c0c" anchor="Landsor_arm.Narrpanm_konbrolm_konbrolm_prelmrill.prilmcloform"><strong>prilmcloform</strong>: Tencelnnen naltmorx dribans tetborvoln britclux cannginvil momco.</p>
+
+<p id="_e9113e0a-745a-ebcc-4368-a79264eb41a0">Brokord conldol lontert cun grerlbid bronbi.</p>
+
+<p id="_366bfbd2-fa7f-b81e-9a58-ba5601db336f">Dribans tolxgrorx prilmcloform vonskonm brars cendfon.</p>
+</clause>
+
+<clause id="_23968a42-5ea6-fc0b-68f2-10968271c5c9" anchor="Landsor_arm.Nod_dretflont_dunlkalmstar_milxmar" inline-header="false" obligation="normative">
+<title id="_46565696-f957-bd4b-a052-e2526f39a530">Nod_dretflont_dunlkalmstar_milxmar <xref target="Landsor_arm.expg2"><display-text><image id="_69853b0c-7688-63a0-88d1-1c909ee6af63" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>Nod_dretflont_dunlkalmstar_milxmar</primary><secondary>ARM object definition</secondary></index></title>
+<p id="_8f36d00c-722d-b372-61b9-48fab1b86dff">Stilxgrir pansorr within a volx gronflell flandfux kudderxgen prelmrill cimbrax clarflur kunnflilx vedtrar brardrilt.</p>
+
+<p id="_4bcc9f9e-fc0c-1920-a032-97691ffae32c"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_bdd53b32-0739-9b2a-bb25-fb98ae9bd641" unnumbered="true"><body>*)
+ENTITY Nod_dretflont_dunlkalmstar_milxmar
+  SUBTYPE OF (Demvarn_flelmflumsil);
+END_ENTITY;
+(*</body></sourcecode>
+
+
+<sourcecode id="_4a6006ab-4672-48ac-c128-6085ce724eba" unnumbered="true"><body>*)
+END_SCHEMA;  -- Landsor_arm
+(*</body></sourcecode>
+
+</clause>
+</clause>
+</clause>
+
+<clause id="_a993ebff-0977-87fb-97f2-c257a78fef42" anchor="mim" type="express" inline-header="false" obligation="normative">
+<title id="_809f1d55-9488-1b75-8af8-14f1709f2dc5">Module interpreted model</title>
+<clause id="_1f95d020-6f26-4737-9886-a0abd74a7a59" anchor="mapping" inline-header="false" obligation="normative">
+<title id="_19b4d706-8ee0-dff6-2d22-2be8a13df51e">Mapping specification</title>
+<p id="_220baf98-d088-a2b0-6a33-1ffbb5da5520">In the following, “Application element” designates any entity data type defined in  <xref target="arm"/>, any of its explicit attributes and any subtype constraint. “MIM element” designates any entity data type defined in  <xref target="mim_express"/> or imported with a USE FROM statement, from another EXPRESS schema, any of its attributes and any subtype constraint defined in  <xref target="mim_express"/> or imported with a USE FROM statement.</p>
+
+<p id="_e9bda83b-4a43-71b9-8f82-639adf461947">This clause contains the mapping specification that defines how each application element of this document (see  <xref target="arm"/>) maps to one or more MIM elements (see  <xref target="mim_express"/>).</p>
+
+<p id="_c72a0908-a43c-68f9-7d83-6d1724404cd3">The mapping for each application element is specified in a separate subclause below. The mapping specification of an attribute of an ARM entity is a subclause of the clause that contains the mapping specification of this entity. Each mapping specification subclause contains up to five elements.</p>
+
+<p id="_09f5b4c6-a803-8c71-c254-ee518f29bf6b"><strong>Title:</strong> The clause title contains:</p>
+
+<ul id="_6a23598a-ea3e-1c14-79dd-365e0942a90b"><li><p id="_81b8ac33-9c38-96ce-7fe3-617c48ce83aa">the name of the considered ARM entity or subtype constraint, or</p>
+</li>
+<li><p id="_9a4a5757-74e7-5fc5-b125-f1b64677cf8b">the name of the considered ARM entity attribute when this attribute refers to a type that is not an entity data type or a SELECT type that contains or may contain entity data types, or</p>
+</li>
+<li><p id="_4fbd90a0-7691-52ac-7163-800e74b3f823">a composite expression, <tt>&lt;attribute name&gt;</tt> to <tt>&lt;referred type&gt;</tt>, when this attribute refers to a type that is not an entity data type or a SELECT type that contains or may contain entity data types.</p>
+</li>
+</ul>
+
+<p id="_b3c48a30-6ae7-775a-c12e-5184706ec782"><strong>MIM element:</strong> This section contains, depending on the considered application element:</p>
+
+<ul id="_99ce92b7-48ad-c82d-aae5-c0351abecf77"><li><p id="_1720c73a-3c20-4c43-fabd-6fffca9887f3">the name of one or more MIM entity data types;</p>
+</li>
+<li><p id="_5edb68c8-2f2b-8ca3-d778-6661dfb7593e">the name of a MIM entity attribute, presented with the syntax <tt>&lt;entity name&gt;.&lt;attribute name&gt;</tt>, when the considered ARM attribute refers to a type that is not an entity data type or a SELECT type that contains or may contain entity data types;</p>
+</li>
+<li><p id="_6a0d0605-aa2b-da75-6a81-418bcce7421d">the term PATH, when the considered ARM entity attribute refers to an entity data type or to a SELECT type that contains or may contain entity data types;</p>
+</li>
+<li><p id="_073c645b-32e5-3087-9543-899164bc6080">the term IDENTICAL MAPPING, when both application objects involved in an application assertion map to the same instance of a MIM entity data type;</p>
+</li>
+<li><p id="_57103b47-d432-a16e-2011-9c052f0dab0d">the term NO MAPPING EXTENSION PROVIDED, when the extension to an extensible SELECT TYPE has no impact;</p>
+</li>
+<li><p id="_ec7c5386-493c-43f8-6239-d3f6418cdd89">the syntax <tt>/SUPERTYPE(&lt;supertype name&gt;)/</tt>, when the considered ARM entity is mapped as its supertype;</p>
+</li>
+<li><p id="_7f34eb80-e12f-4f45-c210-9d2647689001">one or more constructs <tt>/SUBTYPE(&lt;subtype name&gt;)/</tt>, when the mapping of the considered ARM entity is the union of the mapping of its subtypes.</p>
+</li>
+</ul>
+
+<p id="_3ac19c2c-393b-afae-8e2c-289093bcad85">When the mapping of an application element involves more than one MIM element, each of these MIM elements is presented on a separate line in the mapping specification, enclosed between parentheses or brackets.</p>
+
+<p id="_a07cd745-de1a-2a9c-d9dc-ef287e667e2e"><strong>Source:</strong> This section contains:</p>
+
+<ul id="_255bf31c-baa9-efc1-3ab2-6d7f9908eba8"><li><p id="_55f4fa03-c030-f584-16de-22b131970d20">the ISO standard number and part number in which the MIM element is defined, for those MIM elements that are defined in a common resource document;</p>
+</li>
+<li><p id="_5e999c2d-1a4a-985b-c207-37897be285a9">the ISO standard number and part number of this document, for those MIM elements that are defined in the MIM schema of this part.</p>
+</li>
+</ul>
+
+<p id="_9ae1103a-6535-f0dc-e605-e65b42606a3a">This section is omitted when the keywords PATH or IDENTICAL MAPPING or NO MAPPING EXTENSION PROVIDED are used in the MIM element section.</p>
+
+<p id="_53aeeb87-2cb7-6bbc-9cf0-ecccfae7337b"><strong>Rules:</strong> This section contains the name of one or more global rules that apply to the population of the MIM entity data types listed in the MIM element section or in the reference path. When no rule applies, this section is omitted.</p>
+
+<p id="_786450b1-1308-b804-a99e-f269a2b50918">A reference to a global rule may be followed by a reference to the subclause in which the rule is defined.</p>
+
+<p id="_296e1aaf-f019-aeb9-7f18-9f70b46d82c7"><strong>Constraint:</strong> This section contains the name of one or more subtype constraints that apply to the population of the MIM entity data types listed in the MIM element section or in the reference path. When no subtype constraint applies, this section is omitted.</p>
+
+<p id="_eb4bb03f-dc2c-4173-9964-cc252e400440">A reference to a subtype constraint may be followed by a reference to the subclause in which the subtype constraint is defined.</p>
+
+<p id="_6f3e60a3-6839-c83f-e752-3334c41aa4e7"><strong>Reference path:</strong> This section contains:</p>
+
+<ul id="_0e013f9b-2f7f-6086-893a-c81650cdec23"><li><p id="_e17e2b02-f6c5-b71e-6d75-9049e793aeec">the reference path to its supertypes in the common resources, for each MIM element created within this document;</p>
+</li>
+<li><p id="_dcf30300-2ac0-bc95-4ad3-0d3335b7747c">the specification of the relationships between MIM elements, when the mapping of an application element requires to relate instances of several MIM entity data types. In such a case, each line in the reference path documents the role of a MIM element relative to the referring MIM element or to the next referred MIM element.</p>
+</li>
+</ul>
+
+<p id="_454f2ed5-c392-709b-78ad-5c89aed7815d">For the expression of reference paths and of the constraints between MIM elements, the following notational conventions apply:</p>
+
+<dl id="_274d32c8-e3d3-5ead-aac1-398b4eff205a"><dt><tt>[]</tt></dt>
+<dd id="_12f06b71-33e4-df27-a9f6-d60cde3fbcd2"><p id="_d4e847b6-5f9b-17f6-f9db-499e3178e75b">enclosed section constrains multiple MIM elements or sections of the reference path are required to satisfy an information requirement;</p>
+</dd>
+<dt><tt>()</tt></dt>
+<dd id="_51e953dc-a485-a98f-15ce-0b44c6bbecf1"><p id="_2999fe1d-eefa-5e0c-3e22-33dcdb25bee0">enclosed section constrains multiple MIM elements or sections of the reference path are identified as alternatives within the mapping to satisfy an information requirement;</p>
+</dd>
+<dt><tt>{}</tt></dt>
+<dd id="_5577b248-c2b8-c7f5-a141-c94abf19b72a"><p id="_8fabc2be-2148-b480-c426-656b7b770f05">enclosed section constrains the reference path to satisfy an information requirement;</p>
+</dd>
+<dt><tt>&lt;&gt;</tt></dt>
+<dd id="_bf85a944-9f59-5cca-4e16-48ab6bf06ee1"><p id="_a7726b73-707d-0d33-1590-59e7013534f7">enclosed section constrains at one or more required reference path;</p>
+</dd>
+<dt><tt>||</tt></dt>
+<dd id="_7d7097cb-fff4-c28d-8f48-782e177b28d3"><p id="_b438fae6-e584-a211-5184-5237c5304f20">enclosed section constrains the supertype entity;</p>
+</dd>
+<dt><tt>-&gt;</tt></dt>
+<dd id="_8b4fdbe9-4605-6b4c-f2ce-3c9a25d09418"><p id="_f1b79324-0902-3b5e-b541-c0abf55f7fb0">the attribute, whose name precedes the <tt>-&gt;</tt> symbol, references the entity or select type whose name follows the  <tt>-&gt;</tt> symbol;</p>
+</dd>
+<dt><tt>&lt;‌-</tt></dt>
+<dd id="_c0ecb6e2-f220-59f3-aa21-d660f686d846"><p id="_ed565808-81c9-2f89-6d9d-92acdebc0333">the entity or select type, whose name precedes the <tt>&lt;‌-</tt> symbol, is referenced by the entity attribute whose name follows the  <tt>&lt;‌-</tt> symbol;</p>
+</dd>
+<dt><tt>[i]</tt></dt>
+<dd id="_8c8753bc-8ab8-da6c-e55e-c0336f52bdff"><p id="_09ccbb68-eba7-187a-a505-e41b44f2ef9a">the attribute, whose name precedes the <tt>[i]</tt> symbol, is an aggregate; any element of that aggregate is referred to;</p>
+</dd>
+<dt><tt>[n]</tt></dt>
+<dd id="_771ec566-645b-0121-679f-7e31e59e4412"><p id="_b3f936ad-1db0-e00a-733e-0d1e69d1baed">the attribute, whose name precedes the <tt>[n]</tt> symbol, is an ordered aggregate; member n of that aggregate is referred to;</p>
+</dd>
+<dt><tt>=&gt;</tt></dt>
+<dd id="_230af2ba-d662-7d22-9ec6-fdfe6f6f1625"><p id="_b196a9eb-5e3f-1c0a-3a87-ef9421687f3e">the entity, whose name precedes the <tt>=&gt;</tt> symbol, is a supertype of the entity whose name follows the  <tt>=&gt;</tt> symbol;</p>
+</dd>
+<dt><tt>&lt;‌=</tt></dt>
+<dd id="_1cd357fa-47c9-13a6-a3bc-1abf5d4e7746"><p id="_b763be50-776e-f4a9-98dc-63129287043a">the entity, whose name precedes the <tt>&lt;‌=</tt> symbol, is a subtype of the entity whose name follows the  <tt>&lt;‌=</tt> symbol;</p>
+</dd>
+<dt><tt>=</tt></dt>
+<dd id="_b8be636f-06dc-e802-6796-650ee588fba7"><p id="_77510ef3-42a2-8b12-96ec-ce8dd42b2384">the string, select, or enumeration type is constrained to a choice or value;</p>
+</dd>
+<dt><tt>\</tt></dt>
+<dd id="_cfe02c13-548d-ab5a-c650-b3bd3adc30b8"><p id="_fb4075c0-4f58-a5be-5425-96490cd18d62">the reference path expression continues on the next line;</p>
+</dd>
+<dt><tt>*</tt></dt>
+<dd id="_9ef433df-b67b-70ef-5988-350a89238d12"><p id="_3bc1172e-d358-5798-2228-0e317c94e2df">one or more instances of the relationship entity data type may be assembled in a relationship tree structure. The path between the relationship entity and the related entities, is enclosed with braces;</p>
+</dd>
+<dt><tt>--</tt></dt>
+<dd id="_5caf9817-08c2-64e7-4dbf-5a8cf2b823dd"><p id="_e4352b54-4318-f36b-c187-20598f3ac84a">the text following is a comment or introduces a clause reference;</p>
+</dd>
+<dt><tt>*&gt;</tt></dt>
+<dd id="_df4a3f17-748f-f994-0458-00b203f4e76d"><p id="_129e7951-1844-9e14-346d-91f0567a8209">the select or enumeration type, whose name precedes the <tt>*&gt;</tt> symbol, is extended into the select or enumeration type whose name follows the  <tt>*&gt;</tt> symbol;</p>
+</dd>
+<dt><tt>&lt;*</tt></dt>
+<dd id="_caad3f6f-9d77-e06e-fb61-7ca19e39df42"><p id="_0b7d1ee4-73c6-7989-9e4c-c853c71e304a">the select or enumeration type, whose name precedes the <tt>&lt;*</tt> symbol, is an extension of the select or enumeration type whose name follows the  <tt>&lt;*</tt> symbol;</p>
+</dd>
+<dt><tt>!{}</tt></dt>
+<dd id="_a97e254a-40f9-de91-9c9c-0ef897175c68"><p id="_b8f41b60-5e01-63e8-f0bd-ac2bbad180f5">section enclosed by <tt>{}</tt> indicates a negative constraint placed on the mapping.</p>
+</dd>
+</dl>
+
+<p id="_526ec429-b9d0-42dd-05e0-1771aabb5e9a">The definition and use of mapping templates are not supported in the present version of the application modules. However, use of predefined templates /MAPPING_OF/, /SUBTYPE/, and /SUPERTYPE/ is supported.</p>
+
+<clause id="_9d0d9691-2823-9139-a1be-f831cdf50c77" inline-header="false" obligation="normative">
+<title id="_0bf629fa-68d3-e825-8309-f342bd594a8b">Fosroln_kenr_mocilm_flalrobrem</title>
+<dl id="_05fb37e5-70b4-844c-0fc3-15c292fb8e4e"><dt>MIM element</dt>
+<dd id="_95f9620c-2f2e-d219-25c3-77a0f7acfdcc"><p id="_f4eb347d-3342-acbe-99f6-7773f3ec1f48">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+</clause>
+
+<clause id="_fc4d2b02-aecb-419f-1a8c-75e5730014f6" inline-header="false" obligation="normative">
+<title id="_7c0861b7-4984-b519-ba78-bf2b8a555a43">Demvarn_flelmflumsil</title>
+<dl id="_dca6d375-941a-80c9-5272-52785912e916"><dt>MIM element</dt>
+<dd id="_617f75aa-4b35-4728-fe3b-415bc0a5b6c9"><p id="_8e51e3be-b9f7-6780-11e7-101367848564">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+</clause>
+
+<clause id="_c6b60ae8-4c98-181c-92bf-ea8f78505ad2" inline-header="false" obligation="normative">
+<title id="_b8c02d26-7053-4032-21c2-b1b3629e7693">Molstrall_penl_sors</title>
+<dl id="_96fd06aa-8864-e80d-e3bb-8553d8a4ab57"><dt>MIM element</dt>
+<dd id="_29382f5d-ce4e-bd81-b130-072ff2c1b5d2"><p id="_c982f138-2889-ed78-bbb6-0742a3a32502">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+</clause>
+
+<clause id="_b79ef144-2db9-7613-5cd2-d1370edd912f" inline-header="false" obligation="normative">
+<title id="_78fb7602-847c-b203-63ed-9d7b9881d5f1">Valdte_cantlanmnerm</title>
+<dl id="_e61f7ad1-ded4-4f13-8cb8-4f47a19f7576"><dt>MIM element</dt>
+<dd id="_4fe542d0-416b-0cd7-0c27-c2be2642c9ee"><p id="_ce8e6e72-262e-673d-050a-19a9f4cec2bc">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+
+<clause id="_976c6cb7-3b67-d105-92e6-141c750a4c65" inline-header="false" obligation="normative">
+<title id="_77d850f6-a7d6-f3b6-8c29-71ed420f2005">Valdte_cantlanmnerm to sardfanl (as <xref target="Landsor_arm.Valdte_cantlanmnerm.stendflolpru"><display-text>stendflolpru</display-text></xref>)</title>
+<dl id="_33b02189-a09a-8894-8a90-a1e528c45083"><dt>MIM element</dt>
+<dd id="_6b2f5049-5d2d-c859-d4be-1d29c1ff0a80"><p id="_bfe6c56e-8a77-0a8d-13e6-58d5ab5734c7">drixflunx_conbrenclals_salxgul</p>
+</dd>
+<dt>Reference path</dt>
+<dd id="_91451eb3-5c5c-777b-3a3a-13c7f7d6ef54"><sourcecode id="_d0f1cf6d-e4ff-e347-3f29-c4265115eaef" unnumbered="true"><body/></sourcecode> </dd>
+</dl>
+</clause>
+</clause>
+
+<clause id="_45faf8d2-25c9-5bba-a485-446d1fec1321" inline-header="false" obligation="normative">
+<title id="_bcded988-1d8f-c171-183c-f9997dc06ca7">Nomtrarn_trellgan_narl</title>
+<dl id="_3dd2f6ac-01f9-272d-e7a4-21f3d9b294be"><dt>MIM element</dt>
+<dd id="_a1cbcc1a-b1b9-c6b7-1599-b5694c85c1c2"><p id="_7ec80efb-4842-a296-6fc8-9d3983f6079a">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+
+<clause id="_8e48f34f-eb0e-5aba-3a83-b69ca9eb93de" inline-header="false" obligation="normative">
+<title id="_dc7d463a-f530-a3e1-2621-5ea1237f2ec6">Nomtrarn_trellgan_narl to stilxgrir (as <xref target="Landsor_arm.Nomtrarn_trellgan_narl.punx"><display-text>punx</display-text></xref>)</title>
+<dl id="_cc2be480-5633-98c3-f054-05fd3228f9b0"><dt>MIM element</dt>
+<dd id="_3534d83a-27cb-b449-fb46-c26c65c027a7"><p id="_93cbc624-570a-df6c-0ccd-46a8a50e1c5c">drixflunx_conbrenclals_salxgul</p>
+</dd>
+<dt>Reference path</dt>
+<dd id="_17580b56-178f-cfb6-761a-f6a6ef102a39"><sourcecode id="_cf4b9555-1022-996f-3eac-558a5a273803" unnumbered="true"><body/></sourcecode> </dd>
+</dl>
+</clause>
+</clause>
+
+<clause id="_15bc6341-425b-d883-eeae-95b7999f6454" inline-header="false" obligation="normative">
+<title id="_8f95ed99-cb17-8499-694f-373ac613b67c">Narrpanm_konbrolm_konbrolm_prelmrill</title>
+<dl id="_cbc13222-77aa-05b5-eaa9-eb731f0dee9a"><dt>MIM element</dt>
+<dd id="_57d2570b-fc0e-9a31-c81e-0304cc0d3b64"><p id="_3765d079-9280-49c6-fbae-acfb824c60e7">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+
+<clause id="_c5ddfe57-56d6-d049-5c1a-e69a484cbf39" inline-header="false" obligation="normative">
+<title id="_d9b0211b-ba6d-6947-fa4a-6194c5a1aa66">Narrpanm_konbrolm_konbrolm_prelmrill to brutfen (as <xref target="Landsor_arm.Narrpanm_konbrolm_konbrolm_prelmrill.prilmcloform"><display-text>prilmcloform</display-text></xref>)</title>
+<dl id="_3be3ef25-cf03-8145-35fe-dd5c02078bba"><dt>MIM element</dt>
+<dd id="_b211e3b8-98e7-4479-c849-b2c93b348958"><p id="_dde76e37-63ae-407b-b038-bcb2cf75ada7">drixflunx_conbrenclals_salxgul</p>
+</dd>
+<dt>Reference path</dt>
+<dd id="_ad3a0295-1360-df5c-3f08-14c7244bef8a"><sourcecode id="_c7687b9b-c67b-8328-d03f-40de6879fc4a" unnumbered="true"><body/></sourcecode> </dd>
+</dl>
+</clause>
+</clause>
+
+<clause id="_96103604-2b47-ed15-770a-b189f3b25089" inline-header="false" obligation="normative">
+<title id="_ce1afaf1-e291-a39b-6ac0-1e23b062eca1">Nod_dretflont_dunlkalmstar_milxmar</title>
+<dl id="_514599bc-0007-639e-5497-bb829a3738c9"><dt>MIM element</dt>
+<dd id="_f2a02747-29cf-b546-e6ee-f6096b2c6235"><p id="_805e9912-a21d-4e12-afaa-b2b13627d3f7">drixflunx_conbrenclals_salxgul</p>
+</dd>
+</dl>
+</clause>
+</clause>
+
+<clause id="_1771dde5-8dd1-666e-fe61-9e85ff3f97dc" anchor="mim_express" inline-header="false" obligation="normative">
+<title id="_aa1d7326-e8aa-4535-2a32-197c72952099">MIM EXPRESS short listing</title>
+<p id="_27cf9731-7885-1c0e-01e6-77c1b1b63a57">This clause specifies the EXPRESS schema derived from the mapping table. It uses elements from the common resources or from other application modules and defines the EXPRESS constructs that are specific to this document.</p>
+
+<p id="_8b881ed0-a362-5157-e42d-525f8c5886b8">This clause constitutes the Module Interpreted Module (MIM) of the application module.</p>
+
+<p id="_b95a9e42-3983-d4e3-eadc-d124ae4bfe23">This clause also specifies the modifications that apply to the constructs imported from the common resources.</p>
+
+<p id="_20cd2965-ca45-dcae-fb15-ccef7843b34a">The following restrictions apply to the use, in this schema, of constructs defined in common resources or in application modules:</p>
+
+<ul id="_eacdc244-090b-f197-7121-a72673fb77e4"><li><p id="_c8db67cf-5b9e-7841-fea3-a3183815f82a">use of a supertype entity does not make applicable any of its specializations, unless the specialization is also imported in the MIM schema;</p>
+</li>
+<li><p id="_78ef8ce6-7eaa-df59-6ead-9b1cff166204">use of a SELECT type does not make applicable any of its listed types unless the listed type is also imported in the MIM schema.</p>
+</li>
+</ul>
+
+<p id="_f654f887-72a6-6e75-9720-67e14512b15e">Short names of entities defined in this schema are described in <xref target="annex_short_names"/>. Unambiguous identification of this schema is defined in  <xref target="annex_identifiers"/>.</p>
+
+<p id="_b84e1fc0-90f2-a183-58b6-1586dffa487c" anchor="Landsor_mim.short_listing"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_1e6beeb0-e1b2-78eb-fbca-0d125eb05801" unnumbered="true"><body>*)
+SCHEMA Landsor_mim '{ iso standard 10303 part(9004) version(1) schema(1) landsor-mim(1) }';
+
+USE FROM Grensnax_trongols_mim;
+
+USE FROM Lixgrunt_mim;
+
+USE FROM Pruntrolr_colxser_mim;
+
+USE FROM geldpram_norpermell_schema;
+(*</body></sourcecode>
+
+
+<note id="_97234ada-2bc2-7a57-f909-e990fee9f90b" anchor="Landsor_mim_note_1"><p id="_779cb36a-159d-6cd2-4e69-77354218dbf3">The schemas referenced above are specified in the following document(s):</p>
+
+<dl id="_44760066-09cf-9525-5114-2c2b975e0121"><dt><strong>Grensnax_trongols_mim</strong></dt>
+<dd/><dt><strong>Lixgrunt_mim</strong></dt>
+<dd/><dt><strong>Pruntrolr_colxser_mim</strong></dt>
+<dd/><dt><strong>geldpram_norpermell_schema</strong></dt>
+<dd/></dl>
+</note>
+
+<note id="_44338086-a2cf-c80b-19f5-10ea9d8cef33"><p id="_bb145bcc-e3b4-9271-6f5e-31b482a149ff">See <xref target="annex_mim_expg"/> for a graphical representation of this schema.</p>
+</note>
+
+<clause id="_b2ef16b3-71ad-a59c-aaa1-848c23bf9d97" type="express" inline-header="false" obligation="normative">
+<title id="_c7139728-c425-c423-b589-d76660140aa6">MIM type definitions</title>
+<p id="_2779c0f0-c084-94bd-3205-d5ac07976e26">This subclause specifies the MIM types for this application module. The MIM types and definitions are specified below.</p>
+
+<clause id="_42457e1f-d7c5-00cf-f3ef-d69782d1e1d0" anchor="Landsor_mim.vontrold_polsmort_select" inline-header="false" obligation="normative">
+<title id="_e2dff105-0584-a5c6-6f90-7ceb22326792">vontrold_polsmort_select <xref target="Landsor_mim.expg2"><display-text><image id="_d9c1aeb0-9728-01c3-ef75-1662016d7407" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>vontrold_polsmort_select</primary><secondary>MIM object definition</secondary></index></title>
+<p id="_62a6dbc3-aa1c-4ba3-86b2-59d20059d0b3">The <strong>vontrold_polsmort_select</strong> type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the <strong>vontrold_polsmort_select</strong> type or in its extensions.</p>
+
+<p id="_3ad7d6ba-b77a-2c8f-c60b-3a78d9dea7a0"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_5ffa32cd-773c-ecbe-e8ef-e88b2dccaeb0" unnumbered="true"><body>*)
+TYPE vontrold_polsmort_select = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*</body></sourcecode>
+
+</clause>
+
+<clause id="_cbdf4848-3a6f-ac74-d616-cb8223700ee4" anchor="Landsor_mim.dralfir_grannflonr_item" inline-header="false" obligation="normative">
+<title id="_5c2726dc-5608-7468-d79a-66e45ccabf4e">dralfir_grannflonr_item <xref target="Landsor_mim.expg2"><display-text><image id="_a05e4080-28da-74d6-6821-a67e5d1dc7ef" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>dralfir_grannflonr_item</primary><secondary>MIM object definition</secondary></index></title>
+<p id="_ba82f574-7d57-489a-b15a-3449aedc1020">The <strong>dralfir_grannflonr_item</strong> type is an extensible list of alternate data types. It provides a mechanism to refer to instances of the data types included in the <strong>dralfir_grannflonr_item</strong> type or in its extensions.</p>
+
+<p id="_588c15f7-6789-3a4e-fcb8-bfaff142326e"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_3ace6a06-3bd0-7f64-5745-a5a2ad4a20e2" unnumbered="true"><body>*)
+TYPE dralfir_grannflonr_item = EXTENSIBLE GENERIC_ENTITY SELECT;
+END_TYPE;
+(*</body></sourcecode>
+
+</clause>
+</clause>
+
+<clause id="_617c788f-32ef-91e2-6abc-bb62d4200a1f" type="express" inline-header="false" obligation="normative">
+<title id="_a87e83a3-5e4d-4071-d7bb-dc7f8a5f840a">MIM entity definitions</title>
+<p id="_96703f9e-b4f8-33c3-f24e-46953ca1f7f9">This subclause specifies the MIM entities for this module. The MIM entities and definitions are specified below.</p>
+
+<clause id="_2723ab89-f94e-27a2-f867-36671e00ad8c" anchor="Landsor_mim.drixflunx_conbrenclals_salxgul" inline-header="false" obligation="normative">
+<title id="_611e11f7-8f95-bbbb-c440-2c661dee8fb3">drixflunx_conbrenclals_salxgul <xref target="Landsor_mim.expg2"><display-text><image id="_b209f243-b1d2-1b00-662e-3c51d4e1112f" src="data:image/gif;base64,R0lGODlhEwAWAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1tbW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CAgIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOTk5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaampqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zMzM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAAEwAWAAAIzAB9+RIGjNivgcB+AQuWkJgvYL4ABPNH8Z/Ff/ss6rNo718/XwF+9QNGsqTJk4EAAPu3kCSAlzBVluxjYKVJmSVxAtujkt/NkzoHqdx3M+ZLk4JUsjwJTGdJQAFWMhwWbJhLYFRN/om6FCjWk1ttujQKs2RYoleZ4gy7VBhOggTXcm1q1K1RYGH9Nf2pU+XZvTkBX2VLN2bhsoZU6mXKGBifAsCIEmxMkqFQm1Ypl0z5q1CgQH0A7flMuvQfPwACwBQAoABrsgAEDAgQEAA7" mimetype="image/gif" height="auto" width="auto" filename="templates/common_files/expg.gif"/></display-text></xref><index><primary>drixflunx_conbrenclals_salxgul</primary><secondary>MIM object definition</secondary></index></title>
+<p id="_cbb04593-64da-b9e5-b299-58dd1234120f">Lontert konbrolm under a fund clan gralmamo cloxfuddorx gronflell valdte rartgalr sorbors liflortvelr.</p>
+
+<p id="_23d78ff4-38dd-932e-1601-f18b31a7619a"><underline>EXPRESS specification:</underline></p>
+
+<sourcecode id="_e945f89a-620b-5ce5-dc73-e5b717186b64" unnumbered="true"><body>*)
+ENTITY drixflunx_conbrenclals_salxgul
+  SUBTYPE OF (pronmbrelx_flerlner_drud);
+  merkil_druterd : SET [1:?] OF cudpler_plummoln;
+END_ENTITY;
+(*</body></sourcecode>
+
+
+<sourcecode id="_a9392db1-a31c-5e36-eed2-f3167e12b45d" unnumbered="true"><body>*)
+END_SCHEMA;  -- Landsor_mim
+(*</body></sourcecode>
+
+</clause>
+</clause>
+</clause>
+</clause>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</sections><annex id="_8d72493d-39b7-64eb-f7fc-d7f173b469a1" anchor="annex_short_names" inline-header="false" obligation="normative">
+<title id="_76bcb5d0-b01c-d73c-fec4-3f0333250086">MIM short names</title>
+<p id="_6454c277-e5e4-4f41-504e-2e7b80140216">Requirements on the use of the short names are found in the implementation methods included in the ISO 10303 series. EXPRESS entity names and the equivalent short names are available from:</p>
+
+<p id="_5d924388-5c83-d309-48b7-ddcc12cef6bd"><link target="https://standards.iso.org/iso/10303/tech/short_names/short-names.txt"/></p>
+</annex><annex id="_155801e5-261d-7aee-8580-9d637a19ee9e" anchor="annex_identifiers" inline-header="false" obligation="normative">
+<title id="_bdcf5105-95a7-1f3b-7238-39e7e4fbdd16">Information object registration</title>
+<clause id="_50ad84cf-4bce-1d79-9346-5e135812dc44" inline-header="false" obligation="normative">
+<title id="_0a18d492-5095-499f-5664-239790fe5b4f">Document identification</title>
+<p id="_85c9dc3a-0c8d-fce9-520d-12f36bb56306">To provide for unambiguous identification of an information object in an open system, the object identifier</p>
+
+<p id="_a6be4398-ef55-d5a1-2902-9aca9045a51e">{ iso standard 10303 part(9004) version(2) }</p>
+
+<p id="_1c9c9cbf-2114-7fe2-60d2-496bbe0ab9c8">is assigned to this document. The meaning of this value shall be as specified in ISO 10303-1 which extends ISO/IEC 8824-1.</p>
+</clause>
+
+<clause id="_528312d3-febd-1173-9ee3-e66608084f32" inline-header="false" obligation="normative">
+<title id="_d6324b33-06b3-2b9b-cbf9-daf2796dd247">Schema identification</title>
+<clause id="_21493fa3-d0c3-ed06-fb9f-fd3ba1960d3c" inline-header="false" obligation="normative">
+<title id="_e775b448-50fb-66e2-083f-b28d928f0a61">Landsor_arm schema identification</title>
+<p id="_8543bd7e-1dfe-fea8-b6e0-c3ea178e0624">To provide for unambiguous identification of the schema specifications given in this application module in an open information system, the object identifier is assigned as follows:</p>
+
+<p id="_2ba25585-5ec2-9900-1621-7e9488afee2b">{ iso standard 10303 part(9004) version(1) schema(1) landsor-arm(1) }</p>
+
+<p id="_20d847ed-ec87-4e12-1565-9f6faadb45ae">is assigned to the Landsor_arm schema. The meaning of this value shall be as specified in ISO 10303-1 which extends ISO/IEC 8824-1.</p>
+</clause>
+
+<clause id="_cfccdedf-54b7-2a43-7ee1-f48d422e8a6e" inline-header="false" obligation="normative">
+<title id="_0c0d8ab6-f706-5e4f-bb44-4579173e25f5">Landsor_mim schema identification</title>
+<p id="_11a76def-6b42-6bcf-d2cc-c93653aa5f60">To provide for unambiguous identification of the schema specifications given in this application module in an open information system, the object identifier is assigned as follows:</p>
+
+<p id="_5ecc81d1-15da-7416-c695-71d42fca7976">{ iso standard 10303 part(9004) version(1) schema(1) landsor-mim(1) }</p>
+
+<p id="_3ea4b871-3885-77cc-ca0b-26040c0081c3">is assigned to the Landsor_mim schema. The meaning of this value shall be as specified in ISO 10303-1 which extends ISO/IEC 8824-1.</p>
+</clause>
+</clause>
+</annex><annex id="_7a3001d6-670b-ef3c-060a-4cc9c81a06e8" anchor="annex_arm_expg" type="express" inline-header="false" obligation="informative">
+<title id="_782f08f0-9872-8b0f-46d9-f83e90ecca54">ARM EXPRESS-G</title>
+<p id="_637d5dbc-5af5-5dbd-efa1-6e1096e8d26d">The following diagrams provide a graphical representation of the ARM EXPRESS short listing defined in <xref target="arm"/>. The diagrams are presented in EXPRESS-G.</p>
+
+<p id="_2f2863c9-6cfa-8777-55e7-86f41a96622f">This annex contain two distinct representations of the Application Reference Model of this application module:</p>
+
+<ul id="_80ee1cc9-fca8-30fa-ffc7-5a78a6b248d1"><li><p id="_a51c2e8e-e104-814e-71ab-0f821e8eb062">a schema level representation which depicts the import of the constructs defined in the ARM schema of other application modules, in the ARM schema of this application module, through USE FROM statements;</p>
+</li>
+<li><p id="_41e7de78-e73b-f0a9-281c-c3a179b9325c">an entity level representation which presents the EXPRESS constructs defined in the ARM schema of this application module and the references to imported constructs that are specialized or referred to by the constructs of the ARM schema of this application module.</p>
+</li>
+<note id="_00958749-ff56-1180-5b32-275fc8ca4b15"><p id="_93a1eb78-3472-7f40-c3bf-9b448928f6e5">Both these representations are partial. The schema level representation does not present the ARM schema of modules that are indirectly imported. The entity level representation does not present the imported constructs that are not specialized or referred to by the constructs of the ARM schema of this application module.</p>
+</note></ul>
+
+
+
+<p id="_fa3d0746-b143-0c17-cbee-13263b4a8019">The EXPRESS-G graphical notation is defined in ISO 10303-11.</p>
+</annex><annex id="_0abc1f6b-cc26-76e7-1745-80557f3cdd9c" anchor="annex_mim_expg" type="express" inline-header="false" obligation="informative">
+<title id="_e4e49490-d8ed-3f6e-4233-83f79aa3b334">MIM EXPRESS-G</title>
+<p id="_1b51661e-39d9-4e22-d5eb-b73a3e4ca0f8">The following diagrams provide a graphical representation of the MIM EXPRESS short listing defined in <xref target="mim_express"/>. The diagrams are presented in EXPRESS-G.</p>
+
+<p id="_9c5a8b35-7a09-7515-a297-1de13b943cdb">This annex contain two distinct representations of the Module Interpreted Model of this application module:</p>
+
+<ul id="_f82f33cd-ef20-7701-b810-5ef47a0dc780"><li><p id="_2b02c981-a9ce-b5fa-efc4-94f4bfebb414">a schema level representation which depicts the import of the constructs defined in the MIM schema of other application modules or in a schema of Common Resources documents, in the MIM schema of this application module, through USE FROM statements;</p>
+</li>
+<li><p id="_b4d72944-27c3-b548-26e6-e87826401d3c">an entity level representation which presents the EXPRESS constructs defined in the MIM schema of this application module and the references to imported constructs that are specialized or referred to by the constructs of the MIM schema of this application module.</p>
+</li>
+<note id="_d4fa687a-8961-7818-3f68-51753e3c3d3e"><p id="_bffa91e7-5980-d557-1155-b5296502ee44">Both these representations are partial. The schema level representation does not present the MIM schema of modules that are indirectly imported. The entity level representation does not present the imported constructs that are not specialized or referred to by the constructs of the MIM schema of this application module.</p>
+</note></ul>
+
+
+
+<p id="_d6753998-0f49-fd99-4d68-c8858ba750fc">The EXPRESS-G graphical notation is defined in ISO 10303-11.</p>
+</annex><annex id="_b7068e35-4e69-338a-781e-b689a1464109" anchor="annex_listings" inline-header="false" obligation="informative">
+<title id="_1c783c9d-4f42-0a82-f1e8-ec107a739d3f">Computer interpretable listings</title>
+<p id="_670d3f37-116c-2a98-eb03-f61dd62b848b">This annex references a listing of the EXPRESS entity names and corresponding short names as specified or referenced in this document. It also provides a listing of each EXPRESS schema specified in this document without comments nor other explanatory text. These listings are available in computer-interpretable form in  <xref target="table_listing"/> and can be found at the following URLs:</p>
+
+<dl id="_9d6f0f78-a00f-f799-e505-fdba3064934c"><dt>Short names: </dt>
+<dd id="_331f32db-4b2a-ee74-9183-4bb197c06cc1"><p id="_4bb3ec9a-4406-6fa1-f3d9-fa29974579b3"><link target="https://standards.iso.org/iso/10303/tech/short_names/short-names.txt"/></p>
+</dd>
+<dt>EXPRESS: </dt>
+<dd id="_cafed1b8-a92e-3ba8-4344-4fbe9af9cebf"><p id="_9a4c07fe-0d31-9caf-cdc8-c4d9d91ddccc"><link target="https://standards.iso.org/iso/10303/smrl/v11/tech/smrlv11.zip"/></p>
+</dd>
+</dl>
+
+<table id="_7b73638a-9b95-1b8a-9948-3525d2d932fb" anchor="table_listing">
+<name id="_7f9a282c-ed83-4897-c0cb-6f3f378e4e84">ARM and MIM EXPRESS listings</name>
+<thead><tr id="_820698aa-689a-3e19-7e64-3e04bf26015f"><th id="_260959c9-c5c9-f96a-03b8-8256137dd316" valign="top" align="left">Description</th>
+<th id="_de64d6b9-807a-d9bf-440c-b5871c352bd0" valign="top" align="left">HTML file</th>
+<th id="_4ebf3f9a-dfd0-1391-0994-a741574a7af5" valign="top" align="left">ASCII file</th>
+<th id="_b1576795-2158-3162-ea0c-9e5a4f5562e7" valign="top" align="left">Identifier</th>
+</tr></thead>
+<tbody><tr id="_1eae44d3-0d5c-4a0f-dd69-b29ae88a3038"><td id="_46b17ca5-1cfe-bdbc-2eba-b8cb913d0a4d" valign="top" align="left"><p id="_c80b0406-978c-fea1-ce6f-359d6615d6ac">ARM short form EXPRESS</p>
+</td>
+<td id="_ca28b626-144a-6013-6161-2a364186430a" valign="top" align="left"><p id="_38a6b809-b7b4-75b2-ed95-38e635d67fc6"><eref type="inline" bibitemid="landsor-arm.html" citeas="landsor-arm.html"><display-text>HTML</display-text></eref></p>
+</td>
+<td id="_995d7ec7-b3f3-273b-a6b6-9c97320b61ad" valign="top" align="left"><p id="_4eb27e1e-67e1-d641-eccf-d13fe1aa96ee"><eref type="inline" bibitemid="landsor-arm.exp" citeas="landsor-arm.exp"><display-text>EXPRESS</display-text></eref></p>
+</td>
+<td id="_cb9dba9c-62d3-e0a8-b38f-d0d2cac02b92" valign="top" align="left"><p id="_db1022c5-0c2e-855b-d2c2-44529ca02791">ISO/TC 184/SC 4/WG 12 N7089</p>
+</td>
+</tr><tr id="_736c866c-6adb-eb4a-82ad-b26fdf5ad4ec"><td id="_0749010a-8374-2584-f01b-707340c8f330" valign="top" align="left"><p id="_ace16d76-f289-ea36-e70b-1f1ffc8876b5">MIM short form EXPRESS</p>
+</td>
+<td id="_0c4fb50b-bceb-e960-99b4-9934419c7559" valign="top" align="left"><p id="_cce7ed2b-6bc6-c722-14ac-4940614129e5"><eref type="inline" bibitemid="landsor-mim.html" citeas="landsor-mim.html"><display-text>HTML</display-text></eref></p>
+</td>
+<td id="_a7dcdfd8-9ba1-c8ae-37f5-bbe6fede213e" valign="top" align="left"><p id="_1ba10e22-4e43-6d33-4ca5-6b5c83aca273"><eref type="inline" bibitemid="landsor-mim.exp" citeas="landsor-mim.exp"><display-text>EXPRESS</display-text></eref></p>
+</td>
+<td id="_7b03990b-f469-6092-8dee-8931356a4fd6" valign="top" align="left"><p id="_5bcf419d-5f68-844e-abba-c4a9144f8785">ISO/TC 184/SC 4/WG 12 N7743</p>
+</td>
+</tr></tbody>
+<note id="_2a44e450-ed89-c5f8-e471-09d3b1414c4a"><p id="_d492c85f-48c4-85ae-9ffa-f97b6010ea8e">The information provided in computer-interpretable form at the above URLs is informative. The information that is contained in the body of this document is normative.</p>
+</note></table>
+
+
+</annex><annex id="_f3f80175-c0f4-6e7f-61ea-c71adf83c4de" anchor="usage_info" inline-header="false" obligation="informative">
+<title id="_26e73bca-94cc-0500-b593-22d0ec4d6ccc">Application module implementation and usage guide</title>
+<p id="_9fc11cd5-7d09-ba37-6358-ca98eb5a4e1d">An Application module implementation and usage guide has not been provided.</p>
+</annex><annex id="_df7a3a16-4e8c-57e2-0e2c-f6fba21b52ef" anchor="annex_change_history" inline-header="false" obligation="informative">
+<title id="_1f6e2bd4-cb98-e0f5-a238-655a4cc14986">Change history</title>
+<clause id="_49d13749-880d-de01-34ea-4c581d32f949" anchor="change_history_general" inline-header="false" obligation="informative">
+<title id="_7ea5536d-9f28-3959-45da-799565be368d">General</title>
+<p id="_c2aa4f0d-0573-619c-5bdc-641de0cc710a">This annex documents the history of technical modifications made to ISO/TS 10303-9004.</p>
+</clause>
+
+<clause id="_2782b830-47e3-0c71-70b5-d20c4a24925e" anchor="change_2" inline-header="false" obligation="informative">
+<title id="_a145cf21-d439-e6da-f465-a9705a1a841f">Changes made in edition 2</title>
+<clause id="_72d89166-699f-2f99-97c2-d2000a47ada4" anchor="summary_2" inline-header="false" obligation="informative">
+<title id="_b1474d0e-aae4-30ab-0ef5-fab79a703e3e">Summary of changes</title>
+<p id="_0773f935-a4a5-332d-bb9b-2695d71e0587">The second edition of this document incorporated the modifications to the first edition listed below.</p>
+</clause>
+</clause>
+</annex><bibliography><references id="_4e976dad-a46b-c5d4-0581-3ccb5ec2e811" anchor="normrefs" normative="true" obligation="informative">
+<title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_49996d2b-65c1-916b-9bbf-42b933aa0025">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+<bibitem anchor="nref1" id="_58462780-39cb-0a0e-d1c1-0acd1f980d1d" type="standard">
+<title format="text/plain">Calflol flolmenx certron stilstarbrox</title>
+<docidentifier type="ISO">ISO 90001-1</docidentifier><docnumber>90001-1</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref2" id="_3d44b894-9e4b-27e0-d13a-e1f62c76f566" type="standard">
+<title format="text/plain">Manbardris nilrbronl nunfelm clencons gralmcelr</title>
+<docidentifier type="ISO">ISO 90001-2</docidentifier><docnumber>90001-2</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref3" id="_492f71c1-dbe2-3c66-0128-fbcdb0434908" type="standard">
+<title format="text/plain">Stilmri flarlnarced monx parrus seltgultrilx grensnax</title>
+<docidentifier type="ISO">ISO 90001-3</docidentifier><docnumber>90001-3</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref4" id="_ab70e488-be6e-554f-3b95-f909afc86ad9" type="standard">
+<title format="text/plain">Lodgrer fen treld flalrobrem flarfund</title>
+<docidentifier type="ISO">ISO 90001-4</docidentifier><docnumber>90001-4</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref5" id="_20ce236d-78ba-b45d-24b4-d01589bae291" type="standard">
+<title format="text/plain">Grannflonr geldpram forlcar trimvunstit stalslar tetborvoln dretvolsbo</title>
+<docidentifier type="ISO">ISO 90001-5</docidentifier><docnumber>90001-5</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref6" id="_bff86c09-27f8-4e6c-b1cf-e589544b4ae6" type="standard">
+<title format="text/plain">Grolnsodmerx boltbrud trangrund trangrund plarscell nilpenxstunr</title>
+<docidentifier type="ISO">ISO 90001-6</docidentifier><docnumber>90001-6</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="nref7" id="_2e4a17b5-c03f-aaaf-7ed8-594d140bdbc4" type="standard">
+<title format="text/plain">Donlalle gurbrar terstun tronmcunl stilxgrir</title>
+<docidentifier type="ISO">ISO 90001-7</docidentifier><docnumber>90001-7</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem>
+</references><references id="_7776dfa0-dfbe-85df-3068-4bf7631285f9" normative="false" obligation="informative">
+<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem anchor="bib1" id="_18aa4ef2-8a08-ca6b-1826-5b79033b5333" type="standard">
+<title format="text/plain">Konrnortrorn trangrund salstur flarfund menltad plermkelt</title>
+<docidentifier type="ISO">ISO 90002-1</docidentifier><docnumber>90002-1</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem anchor="bib2" id="_d14734f9-3546-9b41-b8e7-3809d1b8468c" type="standard">
+<title format="text/plain">Nod gensprilseln nilrbronl mansged nat parrus</title>
+<docidentifier type="ISO">ISO 90002-2</docidentifier><docnumber>90002-2</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem anchor="bib3" id="_3b2313ea-fe9d-3399-fa8b-ae707c4ac12b" type="standard">
+<title format="text/plain">Prarnten clan brorx dralmpalm</title>
+<docidentifier type="ISO">ISO 90002-3</docidentifier><docnumber>90002-3</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem anchor="bib4" id="_5db509ba-e0fe-4fd9-9f83-be0aaf4e385e" type="standard">
+<title format="text/plain">Fluxcalm celrgrenx cannginvil mansged</title>
+<docidentifier type="ISO">ISO 90002-4</docidentifier><docnumber>90002-4</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem anchor="bib5" id="_ef151922-c3ed-54d2-50ea-7aac750d28ba" type="standard">
+<title format="text/plain">Vor dixfler drotcem sors brolxpri greldflels mocilm</title>
+<docidentifier type="ISO">ISO 90002-5</docidentifier><docnumber>90002-5</docnumber><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><language>en</language><script>Latn</script></bibitem><bibitem anchor="landsor-arm.exp" id="_fe0d0e18-2a5a-b61e-73c0-6451791a2e35">
+  <formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref>
+  <docidentifier>landsor-arm.exp</docidentifier>
+  <docidentifier type="repository">current-metanorma-collection/landsor-arm.exp</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="landsor-arm.html" id="_f85091e7-0ef5-4c2c-f94f-95b0039a6dd7">
+  <formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref>
+  <docidentifier>landsor-arm.html</docidentifier>
+  <docidentifier type="repository">current-metanorma-collection/landsor-arm.html</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="landsor-mim.exp" id="_4702001f-a00d-9b61-44a4-112827161e3b">
+  <formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref>
+  <docidentifier>landsor-mim.exp</docidentifier>
+  <docidentifier type="repository">current-metanorma-collection/landsor-mim.exp</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="landsor-mim.html" id="_495634cd-a405-0c0c-fa32-bd86fb1a1e4c">
+  <formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref>
+  <docidentifier>landsor-mim.html</docidentifier>
+  <docidentifier type="repository">current-metanorma-collection/landsor-mim.html</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>

@@ -1,0 +1,17 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Lorlgrant folm cilrbal lontert_
+
+* [[[nref2,ISO 90001-2]]], _Gutclalx terstun sardfanl lelxman brarbon sanbrontflul remkar_
+
+* [[[nref3,ISO 90001-3]]], _Rartgalr clarflur nelmdols rundarxbront flenscum_
+
+* [[[nref4,ISO 90001-4]]], _Plan conn pruntrolr sors daso trangrund delprenl_
+
+* [[[nref5,ISO 90001-5]]], _Clolddrels telltrert brilxti brarbon fluxcalm prarnten_
+
+* [[[nref6,ISO 90001-6]]], _Sardfanl demvarn nilrbronl konrrols grarsmil brelsdos_
+
+* [[[nref7,ISO 90001-7]]], _Conn telltrert certron molstrall prelmrill_

@@ -1,0 +1,36 @@
+---
+ae:
+- entity: Flor_cannginvil
+  aimelt: gugron_plummoln_assignment
+  original_module: dunlkalmstar
+  refpath:
+    content: gugron_plummoln_assignment
+  aa:
+  - attribute: conlflor
+    aimelt: gugron_plummoln_assignment
+    assertion_to: trilxsant
+    refpath: gugron_plummoln_assignment.conlflor
+    alt_map: flarfund
+- entity: Stalslar_dretflont_sendstiln_grerlbid
+  aimelt: gugron_plummoln_assignment
+  extensible: 'TRUE'
+  original_module: dunlkalmstar
+  refpath:
+    content: gugron_plummoln_assignment
+  aa:
+  - attribute: bud
+    aimelt: gugron_plummoln_assignment
+    assertion_to: clangunt
+    refpath: gugron_plummoln_assignment.bud
+    refpath_extend: gugron_plummoln_assignment.punx
+    alt_map: plermkelt
+  - attribute: tranlfunm_moldvorn
+    aimelt: gugron_plummoln_assignment
+    assertion_to: biltgalgilx
+    refpath: gugron_plummoln_assignment.tranlfunm_moldvorn
+    refpath_extend: gugron_plummoln_assignment.plimdrand
+- entity: Brorx_sorbors
+  aimelt: gugron_plummoln_assignment
+  original_module: dunlkalmstar
+  refpath:
+    content: gugron_plummoln_assignment

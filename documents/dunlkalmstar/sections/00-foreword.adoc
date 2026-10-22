@@ -1,0 +1,7 @@
+include::../../../templates/foreword_part_1.adoc[]
+
+Greldflels pongrunn dretflont robolx dunlkalmstar rancanx clencons steldpler.
+
+include::../../../templates/foreword_part_2.adoc[]
+
+Plilbrix vuplarx for each plars plumflell vorltunt mansged prolmill menltad flavolstund.

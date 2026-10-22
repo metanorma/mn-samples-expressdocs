@@ -1,0 +1,21 @@
+{
+ "generator_version": "0.2.0",
+ "modules": [
+  "lixgrunt",
+  "grensnax_trongols",
+  "pruntrolr_colxser",
+  "landsor",
+  "plimdrand",
+  "dunlkalmstar",
+  "flalrobrem",
+  "funmbend_nelmdols",
+  "grarrfenn_fenconn",
+  "greldflels_flavolstund"
+ ],
+ "resources": [
+  "iso-10303-991",
+  "iso-10303-992",
+  "iso-10303-993"
+ ],
+ "seed": 1
+}

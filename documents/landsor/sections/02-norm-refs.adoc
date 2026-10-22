@@ -1,0 +1,17 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Calflol flolmenx certron stilstarbrox_
+
+* [[[nref2,ISO 90001-2]]], _Manbardris nilrbronl nunfelm clencons gralmcelr_
+
+* [[[nref3,ISO 90001-3]]], _Stilmri flarlnarced monx parrus seltgultrilx grensnax_
+
+* [[[nref4,ISO 90001-4]]], _Lodgrer fen treld flalrobrem flarfund_
+
+* [[[nref5,ISO 90001-5]]], _Grannflonr geldpram forlcar trimvunstit stalslar tetborvoln dretvolsbo_
+
+* [[[nref6,ISO 90001-6]]], _Grolnsodmerx boltbrud trangrund trangrund plarscell nilpenxstunr_
+
+* [[[nref7,ISO 90001-7]]], _Donlalle gurbrar terstun tronmcunl stilxgrir_

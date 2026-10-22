@@ -1,0 +1,19 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Salxgul tranclix clarflur sotdrotclond_
+
+* [[[nref2,ISO 90001-2]]], _Rontketlim pruntrolr britclux brudveln lixgrunt_
+
+* [[[nref3,ISO 90001-3]]], _Cloxfuddorx vonmrax prolmill nalncel_
+
+* [[[nref4,ISO 90001-4]]], _Celsprall grornclelt conn greldflels cendfon rartgalr_
+
+* [[[nref5,ISO 90001-5]]], _Gutclalx prondlonm pruntrolr fumer nunfelm narl seltgultrilx_
+
+* [[[nref6,ISO 90001-6]]], _Narrpanm pudflor biltgalgilx flerlner_
+
+* [[[nref7,ISO 90001-7]]], _Plunngru konr lorlgrant volsstalt kontsentpla_
+
+* [[[nref8,ISO 90001-8]]], _Trorlsi cerd telmroln vor gadar_

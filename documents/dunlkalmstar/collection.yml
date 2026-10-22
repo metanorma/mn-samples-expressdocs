@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Dunlkalmstar"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9006
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: dunlkalmstar
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/dunlkalmstar/arm.exp
+      identifier: dunlkalmstar-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Dunlkalmstar_arm/doc_Dunlkalmstar_arm.html
+      identifier: dunlkalmstar-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/dunlkalmstar/mim.exp
+      identifier: dunlkalmstar-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Dunlkalmstar_mim/doc_Dunlkalmstar_mim.html
+      identifier: dunlkalmstar-mim.html
+      attachment: true

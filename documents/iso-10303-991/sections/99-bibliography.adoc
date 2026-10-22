@@ -1,0 +1,10 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Cudpler gansfentped terstun conlflor_
+
+* [[[bib2,ISO 90002-2]]], _Gutclalx belnsarm grarsmil breltdal_
+
+* [[[bib3,ISO 90002-3]]], _Stermplill nilpenxstunr forlcar stalslar grornclelt_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

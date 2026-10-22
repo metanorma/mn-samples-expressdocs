@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Dunlkalmstar_arm:
+    path: ../../schemas/modules/dunlkalmstar/arm.exp
+  Dunlkalmstar_mim:
+    path: ../../schemas/modules/dunlkalmstar/mim.exp

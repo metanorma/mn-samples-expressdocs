@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Plimdrand"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9005
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: plimdrand
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/plimdrand/arm.exp
+      identifier: plimdrand-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Plimdrand_arm/doc_Plimdrand_arm.html
+      identifier: plimdrand-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/plimdrand/mim.exp
+      identifier: plimdrand-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Plimdrand_mim/doc_Plimdrand_mim.html
+      identifier: plimdrand-mim.html
+      attachment: true

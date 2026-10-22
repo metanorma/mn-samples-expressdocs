@@ -1,0 +1,55 @@
+= Industrial data simulation: Synthetic corpus: Part 993: Iso-10303-993
+:docnumber: 10303
+:partnumber: 993
+:copyright-year: 2026
+:language: en
+:published-date: 2026-01-01
+:edition: 3
+:iso-10303-doc-version: 3
+:title-intro-en: Industrial data simulation
+:title-intro-fr: Industrial data simulation
+:title-main-en: Synthetic corpus
+:title-main-fr: Synthetic corpus
+:title-part-en: Iso-10303-993
+:title-part-fr: Iso-10303-993
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 184
+:technical-committee: Delprenl solvannsta lelxman dransflolr within a tranclix mol
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Rontketlim conbrenclals vonskonm ferxpers menlgarnbrim bruns
+:workgroup-type: WG
+:workgroup-number: 12
+:secretariat: SYN
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:lutaml-express-index: schemas; ../../schemas-srl.yml;
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::../../templates/resources/schemas.adoc[]
+
+include::../../templates/resources/resource_annex_short_names.adoc[]
+
+include::../../templates/resources/resource_annex_identifier.adoc[]
+
+include::../../templates/resources/resource_annex_listings.adoc[]
+
+include::../../templates/resources/resource_annex_diagrams.adoc[]
+
+include::../../templates/resources/resource_annex_change_history.adoc[]
+
+include::sections/99-bibliography.adoc[]
+

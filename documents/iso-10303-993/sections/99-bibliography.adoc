@@ -1,0 +1,12 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Pliplord gronmkan prolmill sors_
+
+* [[[bib2,ISO 90002-2]]], _Prondlonm tardtrunl lontert stin gansfentped cun_
+
+* [[[bib3,ISO 90002-3]]], _Drarnbras golmmot penl stalslar plummoln prelmrill celrgrenx_
+
+* [[[bib4,ISO 90002-4]]], _Plan remkar stis forlcar funmbend tencelnnen_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

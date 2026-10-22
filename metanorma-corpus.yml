@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - collection-corpus.yml
+
+  collection:
+    organization: "Synthetic Corpus Project"
+    name: "Synthetic wg12-shaped corpus"

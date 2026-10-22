@@ -1,0 +1,59 @@
+---
+ae:
+- entity: Fosroln_kenr_mocilm_flalrobrem
+  aimelt: drixflunx_conbrenclals_salxgul
+  extensible: 'TRUE'
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+- entity: Demvarn_flelmflumsil
+  aimelt: drixflunx_conbrenclals_salxgul
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+- entity: Molstrall_penl_sors
+  aimelt: drixflunx_conbrenclals_salxgul
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+- entity: Valdte_cantlanmnerm
+  aimelt: drixflunx_conbrenclals_salxgul
+  extensible: 'TRUE'
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+  aa:
+  - attribute: stendflolpru
+    aimelt: drixflunx_conbrenclals_salxgul
+    assertion_to: sardfanl
+    refpath: drixflunx_conbrenclals_salxgul.stendflolpru
+    refpath_extend: drixflunx_conbrenclals_salxgul.felnmil
+- entity: Nomtrarn_trellgan_narl
+  aimelt: drixflunx_conbrenclals_salxgul
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+  aa:
+  - attribute: punx
+    aimelt: drixflunx_conbrenclals_salxgul
+    assertion_to: stilxgrir
+    refpath: drixflunx_conbrenclals_salxgul.punx
+    refpath_extend: drixflunx_conbrenclals_salxgul.pradgor
+    alt_map: tronx
+- entity: Narrpanm_konbrolm_konbrolm_prelmrill
+  aimelt: drixflunx_conbrenclals_salxgul
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul
+  aa:
+  - attribute: prilmcloform
+    aimelt: drixflunx_conbrenclals_salxgul
+    assertion_to: brutfen
+    refpath: drixflunx_conbrenclals_salxgul.prilmcloform
+    refpath_extend: drixflunx_conbrenclals_salxgul.narrpanm
+- entity: Nod_dretflont_dunlkalmstar_milxmar
+  aimelt: drixflunx_conbrenclals_salxgul
+  extensible: 'TRUE'
+  original_module: landsor
+  refpath:
+    content: drixflunx_conbrenclals_salxgul

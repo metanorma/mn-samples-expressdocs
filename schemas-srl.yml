@@ -1,0 +1,18 @@
+---
+schemas:
+  pronmbrelx_dransflolr_schema:
+    path: schemas/resources/pronmbrelx_dransflolr_schema/pronmbrelx_dransflolr_schema.exp
+  satkalr_pronbu_schema:
+    path: schemas/resources/satkalr_pronbu_schema/satkalr_pronbu_schema.exp
+  dretflont_golmmot_schema:
+    path: schemas/resources/dretflont_golmmot_schema/dretflont_golmmot_schema.exp
+  gervarxpli_nalncel_schema:
+    path: schemas/resources/gervarxpli_nalncel_schema/gervarxpli_nalncel_schema.exp
+  vonskonm_brantplem_schema:
+    path: schemas/resources/vonskonm_brantplem_schema/vonskonm_brantplem_schema.exp
+  geldpram_norpermell_schema:
+    path: schemas/resources/geldpram_norpermell_schema/geldpram_norpermell_schema.exp
+  konbrolm_brilfet_schema:
+    path: schemas/resources/konbrolm_brilfet_schema/konbrolm_brilfet_schema.exp
+  dretflont_gorplunm_schema:
+    path: schemas/resources/dretflont_gorplunm_schema/dretflont_gorplunm_schema.exp

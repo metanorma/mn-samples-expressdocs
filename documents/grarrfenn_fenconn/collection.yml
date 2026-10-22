@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Grarrfenn fenconn"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9009
+  edition: 3
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: grarrfenn_fenconn
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/grarrfenn_fenconn/arm.exp
+      identifier: grarrfenn_fenconn-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Grarrfenn_fenconn_arm/doc_Grarrfenn_fenconn_arm.html
+      identifier: grarrfenn_fenconn-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/grarrfenn_fenconn/mim.exp
+      identifier: grarrfenn_fenconn-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Grarrfenn_fenconn_mim/doc_Grarrfenn_fenconn_mim.html
+      identifier: grarrfenn_fenconn-mim.html
+      attachment: true

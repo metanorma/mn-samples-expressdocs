@@ -1,0 +1,14 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Konrnortrorn trangrund salstur flarfund menltad plermkelt_
+
+* [[[bib2,ISO 90002-2]]], _Nod gensprilseln nilrbronl mansged nat parrus_
+
+* [[[bib3,ISO 90002-3]]], _Prarnten clan brorx dralmpalm_
+
+* [[[bib4,ISO 90002-4]]], _Fluxcalm celrgrenx cannginvil mansged_
+
+* [[[bib5,ISO 90002-5]]], _Vor dixfler drotcem sors brolxpri greldflels mocilm_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

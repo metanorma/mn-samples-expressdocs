@@ -1,0 +1,13 @@
+[bibliography]
+[[normrefs]]
+== Normative references
+
+* [[[nref1,ISO 90001-1]]], _Brixcli sardfanl sorbors vanars dransflolr demvarn palrboln_
+
+* [[[nref2,ISO 90001-2]]], _Tralteslun kelntal calflol gixsils prarnten pudfolxgonr_
+
+* [[[nref3,ISO 90001-3]]], _Nann cenrdol sartvalm folrals conn trimvunstit brolxlart_
+
+* [[[nref4,ISO 90001-4]]], _Taltbarx sartvalm nax taxtunl ruprolun_
+
+* [[[nref5,ISO 90001-5]]], _Tetborvoln pralcon kermrommerr soll dillgonl prunva brokord_

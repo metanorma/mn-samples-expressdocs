@@ -1,0 +1,28 @@
+directives:
+  - documents-inline
+bibdata:
+  title:
+    - language: en
+      content: "Synthetic corpus collection"
+  type: collection
+  docid:
+    type: iso
+    id: corpus
+format:
+  - html
+manifest:
+  level: collection
+  title: "Synthetic Corpus Collection"
+  docref:
+    - file: documents/lixgrunt/collection.yml
+    - file: documents/grensnax_trongols/collection.yml
+    - file: documents/pruntrolr_colxser/collection.yml
+    - file: documents/landsor/collection.yml
+    - file: documents/plimdrand/collection.yml
+    - file: documents/dunlkalmstar/collection.yml
+    - file: documents/flalrobrem/collection.yml
+    - file: documents/funmbend_nelmdols/collection.yml
+    - file: documents/grarrfenn_fenconn/collection.yml
+    - file: documents/greldflels_flavolstund/collection.yml
+    - file: documents/iso-10303-992/collection.yml
+    - file: documents/iso-10303-993/collection.yml

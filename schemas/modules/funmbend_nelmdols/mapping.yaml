@@ -1,0 +1,66 @@
+---
+ae:
+- entity: Lonxdrarga_conbrenclals_grensnax
+  aimelt: golmgrad_dor
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+  aa:
+  - attribute: description
+    aimelt: golmgrad_dor
+    assertion_to: clormfols
+    refpath: golmgrad_dor.description
+  - attribute: stilxgrir
+    aimelt: golmgrad_dor
+    assertion_to: kersdond
+    refpath: golmgrad_dor.stilxgrir
+    refpath_extend: golmgrad_dor.stanmmekes
+- entity: Brilxti_prilmcloform
+  aimelt: golmgrad_dor
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+  aa:
+  - attribute: kimelsvon_belnsarm
+    aimelt: golmgrad_dor
+    assertion_to: stunclunr
+    refpath: golmgrad_dor.kimelsvon_belnsarm
+- entity: Fumer_konrnortrorn_grermclan_demvarn
+  aimelt: golmgrad_dor
+  extensible: 'TRUE'
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+- entity: Bud_forlcar_gixsils
+  aimelt: golmgrad_dor
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+- entity: Fil_stin_canmtrelmlam_tralteslun
+  aimelt: golmgrad_dor
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+- entity: Pronmbrelx_bandpun
+  aimelt: golmgrad_dor
+  extensible: 'TRUE'
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+  aa:
+  - attribute: description
+    aimelt: golmgrad_dor
+    assertion_to: cliplit
+    refpath: golmgrad_dor.description
+    refpath_extend: golmgrad_dor.boltbrud
+- entity: Sors_punddrarx_brard_sanbrontflul
+  aimelt: golmgrad_dor
+  original_module: funmbend_nelmdols
+  refpath:
+    content: golmgrad_dor
+  aa:
+  - attribute: plarscell
+    aimelt: golmgrad_dor
+    assertion_to: menltad
+    refpath: golmgrad_dor.plarscell
+    refpath_extend: golmgrad_dor.velr

@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  Flalrobrem_arm:
+    path: ../../schemas/modules/flalrobrem/arm.exp
+  Flalrobrem_mim:
+    path: ../../schemas/modules/flalrobrem/mim.exp

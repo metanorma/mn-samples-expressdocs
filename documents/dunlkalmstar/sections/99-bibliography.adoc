@@ -1,0 +1,12 @@
+[bibliography]
+== Bibliography
+
+* [[[bib1,ISO 90002-1]]], _Folrals bunnnel cunrudral rundarxbront palrboln_
+
+* [[[bib2,ISO 90002-2]]], _Red drorplitrort parrus demvarn_
+
+* [[[bib3,ISO 90002-3]]], _Pronmgelpri parrus gralmamo kontsentpla nelmdols flarfund treld_
+
+* [[[bib4,ISO 90002-4]]], _Maskunt flerlner tardtrunl gensprilseln prondlonm ser flils_
+
+include::../../../templates/common_files/schemas_bibliographic_xrefs.adoc[]

@@ -1,0 +1,40 @@
+directives:
+- documents-inline
+bibdata:
+  title:
+  - language: en
+    content: "Industrial data simulation -- Synthetic corpus -- Application module: Landsor"
+  type: collection
+  docid:
+    type: iso
+    id: 10303-9004
+  edition: 2
+  copyright:
+    owner:
+      name: Synthetic Corpus Project
+      abbreviation: SYN
+    from: 2026
+manifest:
+  level: collection
+  title: ISO Collection
+  docref:
+  - level: document
+    title: Document
+    docref:
+    - fileref: document.adoc
+      identifier: landsor
+  - level: attachments
+    title: Attachments
+    docref:
+    - fileref: ../../plain_schemas/modules/landsor/arm.exp
+      identifier: landsor-arm.exp
+      attachment: true
+    - fileref: ../../schema_docs/Landsor_arm/doc_Landsor_arm.html
+      identifier: landsor-arm.html
+      attachment: true
+    - fileref: ../../plain_schemas/modules/landsor/mim.exp
+      identifier: landsor-mim.exp
+      attachment: true
+    - fileref: ../../schema_docs/Landsor_mim/doc_Landsor_mim.html
+      identifier: landsor-mim.html
+      attachment: true

@@ -1,0 +1,50 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 04 * * 1" # weekly, before the ISO 10303 builds
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # Pinned while ubuntu-latest migrates to Ubuntu 26
+    # (actions/runner-images#14748): the rollout reaps in-flight runners.
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Ruby 3.3's GC does not bound the heap for this render
+          # workload (12+ GB vs ~3 GB on 3.4): see iso-10303#762.
+          ruby-version: "3.4"
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Cache relaton sources
+        uses: actions/cache@v4
+        with:
+          path: relaton
+          key: relaton-${{ runner.os }}-v2
+
+      - name: Validate remark anchors
+        run: bundle exec expressir validate remarks schemas
+
+      - name: Build corpus
+        run: bundle exec suma build metanorma-corpus.yml
+        env:
+          VERBOSE: 1
+
+      - name: Upload site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
