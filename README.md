@@ -18,27 +18,33 @@ for the regeneration identity and the content-change policy.
 | `schemas/` | 28 EXPRESS schemas (annotated, wg12-shaped) |
 | `documents/` | 13 resource/module documents (adoc sections + collection manifests) |
 | `data/` | stepmod-layout mirror of the schemas (what `eengine -stepmod` resolves) |
-| `metanorma-corpus.yml` | site manifest — build entry point |
+| `metanorma.yml` | site manifest — build entry point |
 | `collection-corpus.yml` | collection manifest (13 docrefs) |
 
 ## Build
 
 ```sh
-bundle install
-bundle exec suma build metanorma-corpus.yml
+metanorma site generate
+```
+
+or with the suma workflow:
+
+```sh
+bundle exec suma build metanorma.yml
 ```
 
 ## CI
 
-The build workflow compiles the corpus on every push and weekly
-against metanorma main: the corpus doubles as a stack canary — if a
-metanorma/suma change breaks real-world collection rendering, it
-breaks here first, on a 3-minute build instead of a 2-hour one.
-`expressir validate remarks` gates the source: a block anchor
-(`[[name]]`) may be defined in only one remark scope per schema.
+The generate workflow builds the corpus on Ubuntu, Windows, and macOS
+on every push and publishes the site as per-OS artifacts. The
+gems-test workflow hooks into the metanorma release gate: a
+metanorma/metanorma-* repository dispatch runs this corpus against the
+changed gems, so template and rendering regressions surface here on a
+3-minute build instead of a 2-hour one.
 
 ## Credits
 
-The corpus model, generators, and redaction discipline were created by
-Thomas Thurman (EXPRESS Language Foundation) — TCSC410303-2745.
-Licensed BSD 3-Clause; see [LICENSE](LICENSE).
+The corpus model, generators, and redaction discipline were contributed
+to the Metanorma project by Thomas Thurman (EXPRESS Language
+Foundation) — TCSC410303-2745. Copyright Ribose Inc.; licensed BSD
+3-Clause, see [LICENSE](LICENSE).

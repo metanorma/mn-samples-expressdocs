@@ -1,15 +1,11 @@
 source "https://rubygems.org"
 
-# SUMA E2E demo ladder — mirrors the proven local-iteration resolution
-# (metanorma/iso-10303 Gemfile.lock), with two suma-line additions:
-#   * suma from main-line git: render reuse, site freshness, incremental
-#     builds, --no-valid, GCR/URN/provenance flows
-#   * metanorma at the indirect-biblio anchor-dup fix (metanorma#613):
-#     hidden copies of internal bibitems kept their anchor, tripping
-#     metanorma-iso's id-uniqueness validation on collection renders
-# Every ref below is pushed; nothing is path-pinned.
-
-gem "suma", "0.5.10"
+# Mirrors the proven iso-10303 demo resolution (metanorma/iso-10303#762)
+# including its metanorma-iso add/iso-theme pin,
+# which pins the versions the released flavor gems require; the
+# mn-samples-iso house pin set (relaton-render 3.0.0.pre.alpha) currently
+# breaks every released metanorma-* flavor at require time, so the pins
+# below stay until the fleet releases relaton-render-3 support.
 
 gem "metanorma", github: "metanorma/metanorma", branch: "main"
 gem "metanorma-cli", github: "metanorma/metanorma-cli", branch: "main"

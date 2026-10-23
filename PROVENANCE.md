@@ -28,17 +28,19 @@ things only:
 
 ## Consumed by
 
-- The metanorma stack canary: this repository's CI builds
-  `metanorma-corpus.yml` on every push and weekly against metanorma
-  main, so stack regressions surface here first.
+- The metanorma release gate: metanorma/metanorma-* repository
+  dispatches run this corpus against the changed gems (see
+  `.github/workflows/test.yml`), so template and rendering regressions
+  surface here first.
 - `metanorma diff` / verify-changes conformance (upstream, wg12-step
   TCSC410303-2745) uses these trees as its static test corpus.
 
 ## Build
 
 ```sh
-bundle install
-bundle exec suma build metanorma-corpus.yml
+metanorma site generate
 ```
 
-Requires ~2 GB RAM, ~3 minutes. Outputs `_site/` (gitignored).
+or `bundle exec suma build metanorma.yml` with the suma workflow.
+
+Requires ~2 GB RAM, ~3 minutes. Outputs `site/` or `_site/` (gitignored).
