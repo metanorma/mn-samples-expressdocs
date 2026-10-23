@@ -37,10 +37,26 @@ jobs:
       - name: Bundle install
         run: bundle install --jobs 4
 
+      # actions-mn/build-and-publish with use-bundler invokes
+      # `bundle exec metanorma.exe` on windows, but rubygems only ships
+      # metanorma.bat wrappers, so windows runs the site generation
+      # directly and uploads the artifact itself.
       - name: Metanorma generate site
+        if: runner.os != 'Windows'
         uses: actions-mn/build-and-publish@main
         with:
           agree-to-terms: true
           use-bundler: true
           destination: artifact
           artifact-name: ${{ github.event.repository.name }}-${{ runner.os }}
+
+      - name: Metanorma generate site (Windows)
+        if: runner.os == 'Windows'
+        run: bundle exec metanorma site generate --agree-to-terms
+
+      - name: Upload site artifact (Windows)
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}-Windows
+          path: _site
