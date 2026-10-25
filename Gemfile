@@ -15,7 +15,7 @@ gem "metanorma-standoc", github: "metanorma/metanorma-standoc", branch: "main"
 gem "metanorma-iso", github: "metanorma/metanorma-iso", branch: "add/iso-theme"
 gem "metanorma-plugin-lutaml", "0.7.54"
 gem "pubid", github: "pubid/pubid", branch: "main"
-gem "expressir", github: "lutaml/expressir", branch: "fix/validate-remarks-duplication"
+gem "expressir", github: "lutaml/expressir", branch: "main"
 
 # proven resolution pins (newer releases break the stack; see each note)
 gem "isodoc", "3.7.3"
