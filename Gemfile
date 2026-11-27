@@ -15,6 +15,6 @@ gem "metanorma-ieee", "~> 1.7"
 gem "isodoc", "~> 3.7"
 gem "metanorma-plugin-lutaml", "~> 0.7"
 gem "pubid", "~> 2.0"
-gem "expressir", "~> 2.4"
+gem "expressir", "~> 2.5.0"
 
 gem "sassc-embedded", "~> 1.0"
